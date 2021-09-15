@@ -3328,4 +3328,23 @@
         <tag>电信光猫</tag>
       </tags>
   </entry>
+  <entry>
+    <title>Node.Js运行AES RSA加密缺少window的解决方法</title>
+    <url>/posts/c34f/</url>
+    <content><![CDATA[<p>Js逆向中，会遇到很多环境问题，比如navigator、document、window这些只有浏览器才有的，然后代码扣下来浏览器可以运行，在一些调试工具也可以运行，但是nodejs就是运行不了。</p>
+<p><img src="https://img.xpctf.cn/img/202109151737709.png" alt=""></p>
+<p>问过很多大佬， 他们说缺什么补什么，document和navigator就给一个空对象，window就给this，这样很多调试工具都可以用了，但是nodejs就是运行不了，报上面的错误。</p>
+<p>在我不经意中居然解决了该问题，测试过nodejs和execjs都可以执行，就是window使用global变量</p>
+<p><img src="https://img.xpctf.cn/img/202109151804026.png" alt=""></p>
+<p>但是在js调试工具中报错：</p>
+<p><img src="https://img.xpctf.cn/img/202109151751061.png" alt=""></p>
+<p>总结如下：在调试工具中，window=this，在nodejs中，window=global。</p>
+]]></content>
+      <categories>
+        <category>js逆向</category>
+      </categories>
+      <tags>
+        <tag>nodejs</tag>
+      </tags>
+  </entry>
 </search>
