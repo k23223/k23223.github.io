@@ -3355,14 +3355,13 @@
 <p>Python 3.8.5<br>node v16.11.1<br>npm 8.0.0<br>Google Chrome 95.0.4638.54<br>PyCharm 2021.2.2</p>
 </blockquote>
 <p>本示例以评论为例，其他接口一样可以使用</p>
-<p><img src="https://img.xpctf.cn/img/202110260343574.png" alt=""></p>
 <p>使用了ajax技术请求，所以可以使用跟栈的方式找到加密点，但使用全局搜索的方式更快</p>
-<p><img src="C:%5CUsers%5CAdministrator%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211026025013894.png" alt="image-20211026025013894"></p>
+<p><img src="https://img.xpctf.cn/img/202110260351040.png" alt=""></p>
 <p>点进去下断点，确定是我们加密参数，因为params和encSecKey都来自bUM9D，所以我们在bUM9D的位置下断点</p>
 <p><img src="https://img.xpctf.cn/img/202110260344118.png" alt=""></p>
 <p><img src="https://img.xpctf.cn/img/202110260345323.png" alt=""></p>
 <p>点击下一页断点确实断住了，而且是我们要的数据</p>
-<p><img src="C:%5CUsers%5CAdministrator%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211026025306017.png" alt="image-20211026025306017"></p>
+<p><img src="https://img.xpctf.cn/img/202110260351122.png" alt=""></p>
 <p>看到了一个asrsea方法，但这个方法不熟悉，应该是js给加到window了，先看看参数</p>
 <p><img src="https://img.xpctf.cn/img/202110260345462.png" alt=""></p>
 <p>通过控制台输出，i8a可能就是要加密的数据；</p>
