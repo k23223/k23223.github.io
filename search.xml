@@ -3341,10 +3341,11 @@
 <p>总结如下：在调试工具中，window=this，在nodejs中，window=global。</p>
 ]]></content>
       <categories>
-        <category>js逆向</category>
+        <category>Python</category>
+        <category>爬虫</category>
       </categories>
       <tags>
-        <tag>nodejs</tag>
+        <tag>js逆向</tag>
       </tags>
   </entry>
   <entry>
@@ -3389,7 +3390,7 @@
 <p>到此CryptoJS 的问题终于解决了。</p>
 <p>运行后发现setMaxDigits未定义，现在就是缺啥补啥，结果补了半天发现越补越多（woc）</p>
 <p><img src="https://img.xpctf.cn/img/202110260346949.png" alt=""></p>
-<p>红线以上的网站的CryptoJS 和其他代码，网站一下的加密用到的函数和其他代码</p>
+<p>红线以上的网站的CryptoJS 和其他代码，红线以下的加密用到的函数和其他代码</p>
 <p><img src="https://img.xpctf.cn/img/202110260346483.png" alt=""></p>
 <p>两根红线中间的就是加密用到的代码（不要管多余的代码，我不管他用不用到，偏要全部复制），红线下的就是调用代码，其实我们可以一并复制，但我之前已经复制了</p>
 <p><img src="https://img.xpctf.cn/img/202110260346289.png" alt=""></p>
