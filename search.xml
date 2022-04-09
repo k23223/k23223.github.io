@@ -3424,4 +3424,49 @@
         <tag>js逆向</tag>
       </tags>
   </entry>
+  <entry>
+    <title>【原创】掌上高考专业分数线js逆向</title>
+    <url>/posts/ca3c/</url>
+    <content><![CDATA[<p>需求分析：爬取掌上高考每一年的专业录取分数</p>
+<p>声明：本文章只用于学习研究，禁止用于但不限于商业用途、批量爬取<img src="https://img.xpctf.cn/img/202204092310211.png" alt=""></p>
+<p><strong>抓包</strong></p>
+<p>因为换页要求登录，所以我们打开开发者工具以后点下一年就会重新发数据包</p>
+<p><img src="https://img.xpctf.cn/img/202204092311468.png" alt=""></p>
+<p>分析后发现这个数据包就是请求的数据，返回数据和请求包都有加密，请求包里有个signsafe参数</p>
+<p><img src="https://img.xpctf.cn/img/202204092311437.png" alt=""></p>
+<p><strong>分析请求包</strong></p>
+<p>ctrl+shift+f全局搜索signsafe，发现有两个js文件包含signsafe</p>
+<p><img src="https://img.xpctf.cn/img/202204092311407.png" alt=""></p>
+<p>先点开最后一个看，格式化以后继续搜索signsafe，发现uri是sendsmscode的，继续看看另外一个包（猜测：算法应该一样的，直接扣这个应该也可以）</p>
+<p><img src="https://img.xpctf.cn/img/202204092311804.png" alt=""></p>
+<p>发现只要带有signsafe的都是p赋值的，直接在p赋值的地方打上断点，然后继续发送请求包分析</p>
+<p><img src="https://img.xpctf.cn/img/202204092311347.png" alt=""></p>
+<p>认真看一下js代码，发现是url进行了HmacSHA1加密，密钥是常量D23ABC@#56，直接使用python改写</p>
+<p><img src="https://img.xpctf.cn/img/202204092311667.png" alt=""></p>
+<p><strong>signsafe加密代码</strong></p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> base64</span><br><span class="line"><span class="keyword">import</span> hmac</span><br><span class="line"><span class="keyword">from</span> hashlib <span class="keyword">import</span> sha1</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">hash_hmac</span>(<span class="params">key, code</span>):</span></span><br><span class="line">    hmac_code = hmac.new(key.encode(), code.encode(), sha1).digest()</span><br><span class="line">    <span class="keyword">return</span> base64.b64encode(hmac_code).decode()</span><br><span class="line"></span><br><span class="line">t = <span class="string">&#x27;api.eol.cn/web/api/?local_batch_id=7&amp;local_province_id=53&amp;local_type_id=1&amp;page=1&amp;school_id=263&amp;size=10&amp;special_group=&amp;uri=apidata/api/gk/score/special&amp;year=2020&#x27;</span></span><br><span class="line">k = <span class="string">&#x27;D23ABC@#56&#x27;</span></span><br><span class="line"><span class="built_in">print</span>(hash_hmac(k, t))</span><br></pre></td></tr></table></figure>
+
+<p>结果和网站js加密的一致，还有一个c()(g)，盲猜md5，结果猜对了</p>
+<p><img src="https://img.xpctf.cn/img/202204092311298.png" alt=""></p>
+<p><img src="https://img.xpctf.cn/img/202204092311749.png" alt=""></p>
+<p>加了md5以后结果和网站一致，signsafe参数逆向结束，这里不提供爬虫完整代码</p>
+<p><img src="https://img.xpctf.cn/img/202204092311101.png" alt=""></p>
+<p><strong>返回数据分析</strong></p>
+<p>看响应包应该是aes加密，我们先搜搜aes解密的特征（如果有混淆就无效）：AES.encrypt、aes.encrypt、AES.decrypt、aes.decrypt</p>
+<p><img src="https://img.xpctf.cn/img/202204092311447.png" alt=""></p>
+<p>很荣幸我们搜到了，进去看看是不是解密的地方，decrypt是解密，encrypt是加密， 別搞混了</p>
+<p><img src="https://img.xpctf.cn/img/202204092312374.png" alt=""></p>
+<p>看到这代码，熟悉的味道，这肯定是webpack，之前看过一篇自动扣webpack的文章里面有工具，我忘记收藏了，度娘一波</p>
+<p>找到一篇文章：<a href="https://blog.csdn.net/zjq592767809/article/details/122355530，花了30秒看完文章以后开始实操，研究了一下，不太方便，要安装很多依赖，而且不是通用的，还不如自己扣，e和n是可以写死的，a就是text加密字符串；完结撒花！！！！">https://blog.csdn.net/zjq592767809/article/details/122355530，花了30秒看完文章以后开始实操，研究了一下，不太方便，要安装很多依赖，而且不是通用的，还不如自己扣，e和n是可以写死的，a就是text加密字符串；完结撒花！！！！</a></p>
+<p><img src="https://img.xpctf.cn/img/202204092312324.png" alt=""></p>
+<p>由于js解密代码6万多行，就不贴代码出来了，需要的可以留言，仅供学习研究！！！</p>
+]]></content>
+      <categories>
+        <category>Python</category>
+        <category>爬虫</category>
+      </categories>
+      <tags>
+        <tag>js逆向</tag>
+      </tags>
+  </entry>
 </search>
