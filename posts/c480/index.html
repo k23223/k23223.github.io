@@ -1,144 +1,220 @@
-<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>电信光猫TEWA-708G超级管理密码破解 | 一只小白</title><meta name="description" content="先把U盘插到光猫USB接口，然后登录普通账号，账号密码在光猫后面有写，网址：http:&#x2F;&#x2F;192.168.1.1:8080&#x2F;login.html  登录成功以后按键盘的F12打开开发者工具，然后输入&#96;http:&#x2F;&#x2F;192.168.1.1:8080&#x2F;usbbackup.cmd?action&#x3D;backupeble&amp;sessionKey&#x3D;$&amp;#123;sessionKey&amp;#125;&#96;  点击链"><meta name="keywords" content="超级管理密码,电信光猫"><meta name="author" content="XiaoPu"><meta name="copyright" content="XiaoPu"><meta name="format-detection" content="telephone=no"><link rel="shortcut icon" href="/img/favicon.ico"><meta http-equiv="Cache-Control" content="no-transform"><meta http-equiv="Cache-Control" content="no-siteapp"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="dns-prefetch" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="https://fonts.googleapis.com" crossorigin="crossorigin"/><link rel="dns-prefetch" href="https://fonts.googleapis.com"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="dns-prefetch" href="//busuanzi.ibruce.info"/><meta name="twitter:card" content="summary"><meta name="twitter:title" content="电信光猫TEWA-708G超级管理密码破解"><meta name="twitter:description" content="先把U盘插到光猫USB接口，然后登录普通账号，账号密码在光猫后面有写，网址：http:&#x2F;&#x2F;192.168.1.1:8080&#x2F;login.html  登录成功以后按键盘的F12打开开发者工具，然后输入&#96;http:&#x2F;&#x2F;192.168.1.1:8080&#x2F;usbbackup.cmd?action&#x3D;backupeble&amp;sessionKey&#x3D;$&amp;#123;sessionKey&amp;#125;&#96;  点击链"><meta name="twitter:image" content="https://img.xpctf.cn/img/202109021456764.png"><meta property="og:type" content="article"><meta property="og:title" content="电信光猫TEWA-708G超级管理密码破解"><meta property="og:url" content="https://www.xpctf.cn/posts/c480/"><meta property="og:site_name" content="一只小白"><meta property="og:description" content="先把U盘插到光猫USB接口，然后登录普通账号，账号密码在光猫后面有写，网址：http:&#x2F;&#x2F;192.168.1.1:8080&#x2F;login.html  登录成功以后按键盘的F12打开开发者工具，然后输入&#96;http:&#x2F;&#x2F;192.168.1.1:8080&#x2F;usbbackup.cmd?action&#x3D;backupeble&amp;sessionKey&#x3D;$&amp;#123;sessionKey&amp;#125;&#96;  点击链"><meta property="og:image" content="https://img.xpctf.cn/img/202109021456764.png"><meta property="article:published_time" content="2021-09-02T06:52:30.000Z"><meta property="article:modified_time" content="2021-09-02T14:55:11.004Z"><script src="https://cdn.jsdelivr.net/npm/js-cookie/dist/js.cookie.min.js"></script><script>var autoChangeMode = 'false'
-var t = Cookies.get("theme")
-if (autoChangeMode == '1'){
-  var isDarkMode = window.matchMedia("(prefers-color-scheme: dark)").matches
-  var isLightMode = window.matchMedia("(prefers-color-scheme: light)").matches
-  var isNotSpecified = window.matchMedia("(prefers-color-scheme: no-preference)").matches
-  var hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified
-
-  if (t === undefined){
-    if (isLightMode) activateLightMode()
-    else if (isDarkMode) activateDarkMode()
-    else if (isNotSpecified || hasNoSupport){
-      console.log('You specified no preference for a color scheme or your browser does not support it. I Schedule dark mode during night time.')
-      var now = new Date()
-      var hour = now.getHours()
-      var isNight = hour < 6 || hour >= 18
-      isNight ? activateDarkMode() : activateLightMode()
-  }
-  } else if (t == 'light') activateLightMode()
-  else activateDarkMode()
-
-} else if (autoChangeMode == '2'){
-  now = new Date();
-  hour = now.getHours();
-  isNight = hour < 6 || hour >= 18
-  if(t === undefined) isNight? activateDarkMode() : activateLightMode()
-  else if (t === 'light') activateLightMode()
-  else activateDarkMode() 
-} else {
-  if ( t == 'dark' ) activateDarkMode()
-  else if ( t == 'light') activateLightMode()
-}
-
-function activateDarkMode(){
-  document.documentElement.setAttribute('data-theme', 'dark')
-  if (document.querySelector('meta[name="theme-color"]') !== null){
-    document.querySelector('meta[name="theme-color"]').setAttribute('content','#000')
-  }
-}
-function activateLightMode(){
-  document.documentElement.setAttribute('data-theme', 'light')
-  if (document.querySelector('meta[name="theme-color"]') !== null){
-  document.querySelector('meta[name="theme-color"]').setAttribute('content','#fff')
-  }
-}</script><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@latest/css/font-awesome.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css"><link rel="canonical" href="https://www.xpctf.cn/posts/c480/"><link rel="prev" title="Node.Js运行AES RSA加密缺少window的解决方法" href="https://www.xpctf.cn/posts/c34f/"><link rel="next" title="Django会话学习" href="https://www.xpctf.cn/posts/7490/"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web"><script>var GLOBAL_CONFIG = { 
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>电信光猫TEWA-708G超级管理密码破解 | 一直小白</title><meta name="author" content="XiaoPu"><meta name="copyright" content="XiaoPu"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="先把U盘插到光猫USB接口，然后登录普通账号，账号密码在光猫后面有写，网址：http:&#x2F;&#x2F;192.168.1.1:8080&#x2F;login.html  登录成功以后按键盘的F12打开开发者工具，然后输入&#96;http:&#x2F;&#x2F;192.168.1.1:8080&#x2F;usbbackup.cmd?action&#x3D;backupeble&amp;sessionKey&#x3D;$&amp;#123;sessionKey&amp;#125;&#96;  点击链">
+<meta property="og:type" content="article">
+<meta property="og:title" content="电信光猫TEWA-708G超级管理密码破解">
+<meta property="og:url" content="https://www.xpctf.cn/posts/c480/index.html">
+<meta property="og:site_name" content="一直小白">
+<meta property="og:description" content="先把U盘插到光猫USB接口，然后登录普通账号，账号密码在光猫后面有写，网址：http:&#x2F;&#x2F;192.168.1.1:8080&#x2F;login.html  登录成功以后按键盘的F12打开开发者工具，然后输入&#96;http:&#x2F;&#x2F;192.168.1.1:8080&#x2F;usbbackup.cmd?action&#x3D;backupeble&amp;sessionKey&#x3D;$&amp;#123;sessionKey&amp;#125;&#96;  点击链">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://img.xpctf.cn/img/202109021456764.png">
+<meta property="article:published_time" content="2021-09-02T06:52:30.000Z">
+<meta property="article:modified_time" content="2023-09-15T15:22:39.662Z">
+<meta property="article:author" content="XiaoPu">
+<meta property="article:tag" content="超级管理密码">
+<meta property="article:tag" content="电信光猫">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://img.xpctf.cn/img/202109021456764.png"><link rel="shortcut icon" href="/img/favicon.ico"><link rel="canonical" href="https://www.xpctf.cn/posts/c480/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = {
   root: '/',
   algolia: undefined,
-  localSearch: {"path":"search.xml","languages":{"hits_empty":"找不到您查询的内容:${query}"}},
-  translate: {"defaultEncoding":2,"translateDelay":0,"cookieDomain":"https://www.xpctf.cn/","msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"簡"},
+  localSearch: {"path":"/search.xml","preload":false,"top_n_per_article":1,"unescape":false,"languages":{"hits_empty":"找不到您查询的内容：${query}","hits_stats":"共找到 ${hits} 篇文章"}},
+  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"简"},
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
   copy: {
     success: '复制成功',
     error: '复制错误',
     noSupport: '浏览器不支持'
   },
-  bookmark: {
-    message_prev: '按',
-    message_next: '键将本页加入书签'
+  relativeDate: {
+    homepage: false,
+    post: false
   },
-  runtime_unit: '天',
-  runtime: true,
+  runtime: '天',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
   copyright: undefined,
-  ClickShowText: undefined,
-  medium_zoom: false,
-  fancybox: true,
+  lightbox: 'fancybox',
   Snackbar: undefined,
-  baiduPush: true,
-  highlightCopy: true,
-  highlightLang: true,
-  highlightShrink: 'false',
-  isFontAwesomeV5: false,
-  isPhotoFigcaption: true,
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
   islazyload: false,
-  isanchor: true
-  
-}</script><script>var GLOBAL_CONFIG_SITE = { 
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '电信光猫TEWA-708G超级管理密码破解',
   isPost: true,
   isHome: false,
-  isSidebar: false  
-  }</script><noscript><style>
-#page-header {
-  opacity: 1
-}
-.justified-gallery img{
-  opacity: 1
-}
-</style></noscript><meta name="generator" content="Hexo 5.4.0"></head><body><div id="mobile-sidebar"><div id="menu_mask"></div><div id="mobile-sidebar-menus"><div class="mobile_author_icon"><img class="avatar-img" src="/img/avatar.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="mobile_post_data"><div class="mobile_data_item is-center"><div class="mobile_data_link"><a href="/archives/"><div class="headline">文章</div><div class="length_num">51</div></a></div></div><div class="mobile_data_item is-center">      <div class="mobile_data_link"><a href="/tags/"><div class="headline">标签</div><div class="length_num">38</div></a></div></div><div class="mobile_data_item is-center">     <div class="mobile_data_link"><a href="/categories/"><div class="headline">分类</div><div class="length_num">11</div></a></div></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fa fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fa fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fa fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fa fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fa fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fa fa-heart"></i><span> 关于</span></a></div></div></div></div><div id="body-wrap"><div class="post-bg" id="nav" style="background-image: url(https://img.xpctf.cn/img/202109021456764.png)"><div id="page-header"><span class="pull_left" id="blog_name"><a class="blog_title" id="site-name" href="/">一只小白</a></span><span class="pull_right menus"><div id="search_button"><a class="site-page social-icon search"><i class="fa fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fa fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fa fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fa fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fa fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fa fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fa fa-heart"></i><span> 关于</span></a></div></div><span class="toggle-menu close"><a class="site-page"><i class="fa fa-bars fa-fw" aria-hidden="true"></i></a></span></span></div><div id="post-info"><div id="post-title"><div class="posttitle">电信光猫TEWA-708G超级管理密码破解</div></div><div id="post-meta"><div class="meta-firstline"><time class="post-meta__date"><span class="post-meta__date-created" title="发表于 2021-09-02 14:52:30"><i class="fa fa-calendar" aria-hidden="true"></i> 发表于 2021-09-02</span><span class="post-meta__separator">|</span><span class="post-meta__date-updated" title="更新于 2021-09-02 22:55:11"><i class="fa fa-history" aria-hidden="true"></i> 更新于 2021-09-02</span></time><span class="post-meta__categories"><span class="post-meta__separator">|</span><i class="fa fa-inbox post-meta__icon" aria-hidden="true"></i><a class="post-meta__categories" href="/categories/%E5%88%86%E4%BA%AB/">分享</a></span></div><div class="meta-secondline"> <span class="post-meta-wordcount"><i class="post-meta__icon fa fa-file-word-o" aria-hidden="true"></i><span>字数总计:</span><span class="word-count">876</span><span class="post-meta__separator">|</span><i class="post-meta__icon fa fa-clock-o" aria-hidden="true"></i><span>阅读时长: 3 分钟</span></span></div><div class="meta-thirdline"><span class="post-meta-pv-cv"><span class="post-meta__separator">|</span><i class="fa fa-eye post-meta__icon" aria-hidden="true"> </i><span>阅读量:</span><span id="busuanzi_value_page_pv"></span></span><span class="post-meta-commentcount"></span></div></div></div></div><main class="layout_post" id="content-inner"><article id="post"><div class="post-content" id="article-container"><p>先把U盘插到光猫USB接口，然后登录普通账号，账号密码在光猫后面有写，网址：<a target="_blank" rel="noopener" href="http://192.168.1.1:8080/login.html">http://192.168.1.1:8080/login.html</a></p>
-<p><img src="https://img.xpctf.cn/img/202109021510632.png" alt=""></p>
+  isHighlightShrink: false,
+  isToc: false,
+  postUpdate: '2023-09-15 23:22:39'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+    win.getCSS = (url,id = false) => new Promise((resolve, reject) => {
+      const link = document.createElement('link')
+      link.rel = 'stylesheet'
+      link.href = url
+      if (id) link.id = id
+      link.onerror = reject
+      link.onload = link.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        link.onload = link.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(link)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="一直小白" type="application/atom+xml">
+</head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/img/avatar.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">51</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">38</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">11</div></a></div><hr class="custom-hr"/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fa fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fa fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fa fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fa fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fa fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fa fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('https://img.xpctf.cn/img/202109021456764.png')"><nav id="nav"><span id="blog-info"><a href="/" title="一直小白"><span class="site-name">一直小白</span></a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search" href="javascript:void(0);"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fa fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fa fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fa fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fa fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fa fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fa fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">电信光猫TEWA-708G超级管理密码破解</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2021-09-02T06:52:30.000Z" title="发表于 2021-09-02 14:52:30">2021-09-02</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2023-09-15T15:22:39.662Z" title="更新于 2023-09-15 23:22:39">2023-09-15</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E5%88%86%E4%BA%AB/">分享</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">字数总计:</span><span class="word-count">876</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>3分钟</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="电信光猫TEWA-708G超级管理密码破解"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span><span class="post-meta-separator">|</span><span class="post-meta-commentcount"><i class="far fa-comments fa-fw post-meta-icon"></i><span class="post-meta-label">评论数:</span><a href="/posts/c480/#post-comment" itemprop="discussionUrl"><span class="valine-comment-count" data-xid="/posts/c480/" itemprop="commentCount"><i class="fa-solid fa-spinner fa-spin"></i></span></a></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><p>先把U盘插到光猫USB接口，然后登录普通账号，账号密码在光猫后面有写，网址：<a target="_blank" rel="noopener" href="http://192.168.1.1:8080/login.html">http://192.168.1.1:8080/login.html</a></p>
+<p><img src="https://img.xpctf.cn/img/202109021510632.png"></p>
 <p>登录成功以后按键盘的F12打开开发者工具，然后输入`<code>http://192.168.1.1:8080/usbbackup.cmd?action=backupeble&amp;sessionKey=$&#123;sessionKey&#125;</code>`</p>
-<p><img src="https://img.xpctf.cn/img/202109021528703.png" alt=""></p>
+<p><img src="https://img.xpctf.cn/img/202109021528703.png"></p>
 <p>点击链接打开，不要管我的前后sessionKey不一样</p>
-<p><img src="https://img.xpctf.cn/img/202109021515498.png" alt=""></p>
+<p><img src="https://img.xpctf.cn/img/202109021515498.png"></p>
 <p>如果 备份配置 按钮点击不了，把鼠标放在 备份配置 上右键检查</p>
-<p><img src="https://img.xpctf.cn/img/202109021516893.png" alt=""></p>
+<p><img src="https://img.xpctf.cn/img/202109021516893.png"></p>
 <p>然后双击 disabled 点删除键就行(回车上面第二个键)，打错字删除那个键，不是delete键</p>
-<p><img src="https://img.xpctf.cn/img/202109021516738.png" alt=""></p>
-<p>这时候可以点击 备份配置 了，点了以后直接会跳转到一个空白页面，url是这样的：<a target="_blank" rel="noopener" href="http://192.168.1.1:8080/usbbackup.cmd?action=backup&amp;subarea=usb1_1&amp;set1_sessionKey=set1_sessionKey_214">http://192.168.1.1:8080/usbbackup.cmd?action=backup&amp;subarea=usb1_1&amp;set1_sessionKey=set1_sessionKey_214</a></p>
+<p><img src="https://img.xpctf.cn/img/202109021516738.png"></p>
+<p>这时候可以点击 备份配置 了，点了以后直接会跳转到一个空白页面，url是这样的：<a target="_blank" rel="noopener" href="http://192.168.1.1:8080/usbbackup.cmd?action=backup&subarea=usb1_1&set1_sessionKey=set1_sessionKey_214">http://192.168.1.1:8080/usbbackup.cmd?action=backup&amp;subarea=usb1_1&amp;set1_sessionKey=set1_sessionKey_214</a></p>
 <p>这时候不要管，直接把U盘拔下来插上电脑，然后u盘里多了一个叫 e8_Config_Backup 的文件夹</p>
-<p><img src="https://img.xpctf.cn/img/202109021522604.png" alt="">、</p>
+<p><img src="https://img.xpctf.cn/img/202109021522604.png">、</p>
 <p>此时的ctce8_TEWA-708G.cfg是加密文件，我们看不了，使用xor工具破解一下，命令看截图</p>
-<p><img src="https://img.xpctf.cn/img/202109021524872.png" alt=""></p>
+<p><img src="https://img.xpctf.cn/img/202109021524872.png"></p>
 <p>xor下载地址：<a target="_blank" rel="noopener" href="https://github.com/jonirrings/xor">https://github.com/jonirrings/xor</a></p>
 <p>最后用记事本打开生成的xml文件，搜索password就可以看到密码</p>
-<p><img src="https://img.xpctf.cn/img/202109021525524.png" alt=""></p>
+<p><img src="https://img.xpctf.cn/img/202109021525524.png"></p>
 <p>使用telecomadmin和上面获取到的密码登录就可以看到更多设置，可以自己做拨号，关闭光猫拨号</p>
-<p><img src="https://img.xpctf.cn/img/202109022126782.png" alt=""></p>
+<p><img src="https://img.xpctf.cn/img/202109022126782.png"></p>
 <p>宽带账号密码：</p>
 <p>搜索2_INTERNET_R_VID_41，下面的Username和Password就是宽带密码</p>
-<p><img src="https://img.xpctf.cn/img/202109021527334.png" alt=""></p>
+<p><img src="https://img.xpctf.cn/img/202109021527334.png"></p>
 <p>密码经过了base64编码，使用在线工具就可以解码，百度：base64解码</p>
 <p>下面是Python一键脚本，输出超级管理员密码和宽带账号密码：</p>
 <p>复制脚本保存成py文件，下载xor.exe工具和py文件放在一起，修改好账号密码运行脚本</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> os</span><br><span class="line"><span class="keyword">from</span> glob <span class="keyword">import</span> glob</span><br><span class="line"><span class="keyword">import</span> requests</span><br><span class="line"><span class="keyword">import</span> re</span><br><span class="line"><span class="keyword">import</span> base64</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">GuanMao</span>:</span></span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">__init__</span>(<span class="params">self, api, user, password</span>):</span></span><br><span class="line">        self.Api = api</span><br><span class="line">        self.UserName = user</span><br><span class="line">        self.PassWord = base64.b64encode(password.encode()).decode()</span><br><span class="line">        self.abc()</span><br><span class="line">        self.session = requests.session()</span><br><span class="line">        self.login()</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&#x27;登录成功，正在备份配置文件...&#x27;</span>)</span><br><span class="line">        self.usbbackup()</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">abc</span>(<span class="params">self</span>):</span></span><br><span class="line">        <span class="keyword">try</span>:</span><br><span class="line">            file_bak = glob(<span class="string">&#x27;*.cfg&#x27;</span>)[<span class="number">0</span>]</span><br><span class="line">            <span class="built_in">print</span>(<span class="string">f&#x27;配置文件也存在<span class="subst">&#123;file_bak&#125;</span>，开始破解&#x27;</span>)</span><br><span class="line">            os.system(<span class="string">f&#x27;xor.exe <span class="subst">&#123;file_bak&#125;</span>&#x27;</span>)</span><br><span class="line">        <span class="keyword">except</span>:</span><br><span class="line">            <span class="keyword">pass</span></span><br><span class="line">        <span class="keyword">with</span> <span class="built_in">open</span>(file_bak + <span class="string">&#x27;.xml&#x27;</span>, <span class="string">&#x27;rb&#x27;</span>) <span class="keyword">as</span> fp:</span><br><span class="line">            text = <span class="built_in">str</span>(fp.read())</span><br><span class="line">            exit(<span class="string">&#x27;超级管理员密码为：&#x27;</span> + re.findall(<span class="string">&#x27;&lt;Password&gt;(.*?)&lt;/Password&gt;&#x27;</span>, text)[<span class="number">0</span>] + <span class="string">&#x27; 如果不对，自己查看&#x27;</span> + file_bak + <span class="string">&#x27;.xml文件&#x27;</span>)</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">usbbackup</span>(<span class="params">self</span>):</span></span><br><span class="line">        url = self.Api + <span class="string">&#x27;/usbbackup.cmd?action=backupeble&amp;sessionKey=&#x27;</span> + self.sessionKey</span><br><span class="line">        res = self.session.get(url)</span><br><span class="line">        usb_name = <span class="string">&#x27;&#x27;</span></span><br><span class="line">        set1_sessionKey = <span class="string">&#x27;&#x27;</span></span><br><span class="line">        <span class="keyword">try</span>:</span><br><span class="line">            usb_name = re.findall(<span class="string">&quot;usblist = &#x27;(.*?)\|&#x27;;&quot;</span>, res.text)[<span class="number">0</span>]</span><br><span class="line">            set1_sessionKey = re.findall(<span class="string">&quot;(set1_sessionKey_.*?)&#x27;;&quot;</span>, res.text)[<span class="number">0</span>]</span><br><span class="line">        <span class="keyword">except</span>:</span><br><span class="line">            exit(<span class="string">&#x27;请插入U盘后重新运行，如果已经插入，建议换一个U盘&#x27;</span>)</span><br><span class="line"></span><br><span class="line">        url = self.Api + <span class="string">f&#x27;/usbbackup.cmd?action=backup&amp;subarea=<span class="subst">&#123;usb_name&#125;</span>&amp;set1_sessionKey=&#x27;</span> + set1_sessionKey</span><br><span class="line">        res = self.session.get(url)</span><br><span class="line">        <span class="keyword">if</span> res.text.find(<span class="string">&#x27;Invalid Session Key, please try again&#x27;</span>) == -<span class="number">1</span>:</span><br><span class="line">            <span class="built_in">print</span>(<span class="string">&#x27;备份成功！手动拔出U盘把文件复制到&#x27;</span> + os.getcwd() + <span class="string">&#x27;目录下后重新执行脚本&#x27;</span>)</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">login</span>(<span class="params">self</span>):</span></span><br><span class="line">        res = self.session.get(self.Api + <span class="string">&#x27;/login.html&#x27;</span>)</span><br><span class="line">        sessionKey = re.findall(<span class="string">&quot;\&quot;sessionKey\&quot; value=\&quot;&#x27;\+&#x27;(.*?)&#x27;\+&#x27;&quot;</span>, res.text)[<span class="number">0</span>]</span><br><span class="line">        data = <span class="string">f&#x27;username=<span class="subst">&#123;self.UserName&#125;</span>&amp;password=<span class="subst">&#123;self.PassWord&#125;</span>&amp;save=%B5%C7%C2%BC&amp;sessionKey=<span class="subst">&#123;sessionKey&#125;</span>&#x27;</span></span><br><span class="line">        res = self.session.post(self.Api + <span class="string">&#x27;/login.cgi&#x27;</span>, data=data)</span><br><span class="line">        <span class="keyword">try</span>:</span><br><span class="line">            self.sessionKey = re.findall(<span class="string">&quot;sessionKey=&#x27;(.*?)&#x27;;&quot;</span>, res.text)[<span class="number">0</span>]</span><br><span class="line">        <span class="keyword">except</span>:</span><br><span class="line">            exit(<span class="string">&#x27;登录失败，账号或密码错误！&#x27;</span>)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">&#x27;__main__&#x27;</span>:</span><br><span class="line">    <span class="comment"># 如果ip地址不一样，自己改一下</span></span><br><span class="line">    Api = <span class="string">&#x27;http://192.168.1.1:8080&#x27;</span></span><br><span class="line">    <span class="comment"># 自己改成路由器后面的账号密码</span></span><br><span class="line">    UserName = <span class="string">&#x27;useradmin&#x27;</span></span><br><span class="line">    PassWord = <span class="string">&#x27;mrpzm&#x27;</span></span><br><span class="line">    gm = GuanMao(Api, UserName, PassWord)</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> os</span><br><span class="line"><span class="keyword">from</span> glob <span class="keyword">import</span> glob</span><br><span class="line"><span class="keyword">import</span> requests</span><br><span class="line"><span class="keyword">import</span> re</span><br><span class="line"><span class="keyword">import</span> base64</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">GuanMao</span>:</span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">__init__</span>(<span class="params">self, api, user, password</span>):</span><br><span class="line">        self.Api = api</span><br><span class="line">        self.UserName = user</span><br><span class="line">        self.PassWord = base64.b64encode(password.encode()).decode()</span><br><span class="line">        self.abc()</span><br><span class="line">        self.session = requests.session()</span><br><span class="line">        self.login()</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&#x27;登录成功，正在备份配置文件...&#x27;</span>)</span><br><span class="line">        self.usbbackup()</span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">abc</span>(<span class="params">self</span>):</span><br><span class="line">        <span class="keyword">try</span>:</span><br><span class="line">            file_bak = glob(<span class="string">&#x27;*.cfg&#x27;</span>)[<span class="number">0</span>]</span><br><span class="line">            <span class="built_in">print</span>(<span class="string">f&#x27;配置文件也存在<span class="subst">&#123;file_bak&#125;</span>，开始破解&#x27;</span>)</span><br><span class="line">            os.system(<span class="string">f&#x27;xor.exe <span class="subst">&#123;file_bak&#125;</span>&#x27;</span>)</span><br><span class="line">        <span class="keyword">except</span>:</span><br><span class="line">            <span class="keyword">pass</span></span><br><span class="line">        <span class="keyword">with</span> <span class="built_in">open</span>(file_bak + <span class="string">&#x27;.xml&#x27;</span>, <span class="string">&#x27;rb&#x27;</span>) <span class="keyword">as</span> fp:</span><br><span class="line">            text = <span class="built_in">str</span>(fp.read())</span><br><span class="line">            exit(<span class="string">&#x27;超级管理员密码为：&#x27;</span> + re.findall(<span class="string">&#x27;&lt;Password&gt;(.*?)&lt;/Password&gt;&#x27;</span>, text)[<span class="number">0</span>] + <span class="string">&#x27; 如果不对，自己查看&#x27;</span> + file_bak + <span class="string">&#x27;.xml文件&#x27;</span>)</span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">usbbackup</span>(<span class="params">self</span>):</span><br><span class="line">        url = self.Api + <span class="string">&#x27;/usbbackup.cmd?action=backupeble&amp;sessionKey=&#x27;</span> + self.sessionKey</span><br><span class="line">        res = self.session.get(url)</span><br><span class="line">        usb_name = <span class="string">&#x27;&#x27;</span></span><br><span class="line">        set1_sessionKey = <span class="string">&#x27;&#x27;</span></span><br><span class="line">        <span class="keyword">try</span>:</span><br><span class="line">            usb_name = re.findall(<span class="string">&quot;usblist = &#x27;(.*?)\|&#x27;;&quot;</span>, res.text)[<span class="number">0</span>]</span><br><span class="line">            set1_sessionKey = re.findall(<span class="string">&quot;(set1_sessionKey_.*?)&#x27;;&quot;</span>, res.text)[<span class="number">0</span>]</span><br><span class="line">        <span class="keyword">except</span>:</span><br><span class="line">            exit(<span class="string">&#x27;请插入U盘后重新运行，如果已经插入，建议换一个U盘&#x27;</span>)</span><br><span class="line"></span><br><span class="line">        url = self.Api + <span class="string">f&#x27;/usbbackup.cmd?action=backup&amp;subarea=<span class="subst">&#123;usb_name&#125;</span>&amp;set1_sessionKey=&#x27;</span> + set1_sessionKey</span><br><span class="line">        res = self.session.get(url)</span><br><span class="line">        <span class="keyword">if</span> res.text.find(<span class="string">&#x27;Invalid Session Key, please try again&#x27;</span>) == -<span class="number">1</span>:</span><br><span class="line">            <span class="built_in">print</span>(<span class="string">&#x27;备份成功！手动拔出U盘把文件复制到&#x27;</span> + os.getcwd() + <span class="string">&#x27;目录下后重新执行脚本&#x27;</span>)</span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">login</span>(<span class="params">self</span>):</span><br><span class="line">        res = self.session.get(self.Api + <span class="string">&#x27;/login.html&#x27;</span>)</span><br><span class="line">        sessionKey = re.findall(<span class="string">&quot;\&quot;sessionKey\&quot; value=\&quot;&#x27;\+&#x27;(.*?)&#x27;\+&#x27;&quot;</span>, res.text)[<span class="number">0</span>]</span><br><span class="line">        data = <span class="string">f&#x27;username=<span class="subst">&#123;self.UserName&#125;</span>&amp;password=<span class="subst">&#123;self.PassWord&#125;</span>&amp;save=%B5%C7%C2%BC&amp;sessionKey=<span class="subst">&#123;sessionKey&#125;</span>&#x27;</span></span><br><span class="line">        res = self.session.post(self.Api + <span class="string">&#x27;/login.cgi&#x27;</span>, data=data)</span><br><span class="line">        <span class="keyword">try</span>:</span><br><span class="line">            self.sessionKey = re.findall(<span class="string">&quot;sessionKey=&#x27;(.*?)&#x27;;&quot;</span>, res.text)[<span class="number">0</span>]</span><br><span class="line">        <span class="keyword">except</span>:</span><br><span class="line">            exit(<span class="string">&#x27;登录失败，账号或密码错误！&#x27;</span>)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">&#x27;__main__&#x27;</span>:</span><br><span class="line">    <span class="comment"># 如果ip地址不一样，自己改一下</span></span><br><span class="line">    Api = <span class="string">&#x27;http://192.168.1.1:8080&#x27;</span></span><br><span class="line">    <span class="comment"># 自己改成路由器后面的账号密码</span></span><br><span class="line">    UserName = <span class="string">&#x27;useradmin&#x27;</span></span><br><span class="line">    PassWord = <span class="string">&#x27;mrpzm&#x27;</span></span><br><span class="line">    gm = GuanMao(Api, UserName, PassWord)</span><br><span class="line"></span><br></pre></td></tr></table></figure>
 
-</div><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="mailto:undefined">XiaoPu</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="https://www.xpctf.cn/posts/c480/">https://www.xpctf.cn/posts/c480/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://www.xpctf.cn" target="_blank">一只小白</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E8%B6%85%E7%BA%A7%E7%AE%A1%E7%90%86%E5%AF%86%E7%A0%81/">超级管理密码</a><a class="post-meta__tags" href="/tags/%E7%94%B5%E4%BF%A1%E5%85%89%E7%8C%AB/">电信光猫</a></div><div class="post_share"><div class="social-share" data-image="https://img.xpctf.cn/img/202204092311468.png" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css"/><script src="https://cdn.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js"></script></div></div><div class="post-reward"><a class="reward-button button--primary button--animated"> <i class="fa fa-qrcode"></i> 打赏<div class="reward-main"><ul class="reward-all"><li class="reward-item"><img class="post-qr-code__img" src="/img/wechat.jpg" alt="微信"/><div class="post-qr-code__desc">微信</div></li><li class="reward-item"><img class="post-qr-code__img" src="/img/alipay.jpg" alt="支付宝"/><div class="post-qr-code__desc">支付宝</div></li></ul></div></a></div><nav class="pagination_post" id="pagination"><div class="prev-post pull_left"><a href="/posts/c34f/"><img class="prev_cover" src="https://img.xpctf.cn/img/202109151737709.png" onerror="onerror=null;src='/img/404.jpg'"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">Node.Js运行AES RSA加密缺少window的解决方法</div></div></a></div><div class="next-post pull_right"><a href="/posts/7490/"><img class="next_cover" src="https://img.xpctf.cn/img/20201011203041.png" onerror="onerror=null;src='/img/404.jpg'"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">Django会话学习</div></div></a></div></nav><hr><div id="post-comment"><div class="comment_headling"><i class="fa fa-comments fa-fw" aria-hidden="true"></i><span> 评论</span></div><div class="vcomment" id="vcomment"></div><script src="https://cdn.jsdelivr.net/npm/valine/dist/Valine.min.js"></script><script>var requestSetting = function (from,set) {
-  var from = from
-  var setting = set.split(',').filter(function(item){
-  return from.indexOf(item) > -1
-  });
-  setting = setting.length == 0 ? from :setting;
-  return setting
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="https://www.xpctf.cn">XiaoPu</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="https://www.xpctf.cn/posts/c480/">https://www.xpctf.cn/posts/c480/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://www.xpctf.cn" target="_blank">一直小白</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E8%B6%85%E7%BA%A7%E7%AE%A1%E7%90%86%E5%AF%86%E7%A0%81/">超级管理密码</a><a class="post-meta__tags" href="/tags/%E7%94%B5%E4%BF%A1%E5%85%89%E7%8C%AB/">电信光猫</a></div><div class="post_share"><div class="social-share" data-image="https://img.xpctf.cn/img/202109021456764.png" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/posts/c34f/" title="Node.Js运行AES RSA加密缺少window的解决方法"><img class="cover" src="https://img.xpctf.cn/img/202109151737709.png" onerror="onerror=null;src='/img/404.jpg'" alt="cover of previous post"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">Node.Js运行AES RSA加密缺少window的解决方法</div></div></a></div><div class="next-post pull-right"><a href="/posts/7490/" title="Django会话学习"><img class="cover" src="https://img.xpctf.cn/img/20201011203041.png" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">Django会话学习</div></div></a></div></nav><hr class="custom-hr"/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div></div><div class="comment-wrap"><div><div class="vcomment" id="vcomment"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="/img/avatar.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">XiaoPu</div><div class="author-info__description">做自己能做的，做好自己能做好的！</div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">51</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">38</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">11</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/k23223"><i class="fab fa-github"></i><span>关注Github</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://wpa.qq.com/msgrd?v=3&amp;uin=23223856&amp;site=qq&amp;menu=yes" target="_blank" title="QQ"><i class="fab fa-qq"></i></a><a class="social-icon" href="https://wpa.qq.com/msgrd?v=3&amp;uin=23223856&amp;site=qq&amp;menu=yes" target="_blank" title="WeChat"><i class="fab fa-weixin"></i></a><a class="social-icon" href="mailto:23223856@qq.com" target="_blank" title="Email"><i class="fa fa-envelope"></i></a><a class="social-icon" href="/atom.xml" target="_blank" title="RSS"><i class="fa fa-rss"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">每个人，每件事；都值得我们去学习。</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/posts/ca3c/" title="【原创】掌上高考专业分数线js逆向"><img src="https://img.xpctf.cn/img/202204092311468.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="【原创】掌上高考专业分数线js逆向"/></a><div class="content"><a class="title" href="/posts/ca3c/" title="【原创】掌上高考专业分数线js逆向">【原创】掌上高考专业分数线js逆向</a><time datetime="2022-04-09T03:17:59.000Z" title="发表于 2022-04-09 11:17:59">2022-04-09</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/9650/" title="【原创】某查查协议头参数272a7bfd6c84f9233ae1逆向加密代码"><img src="https://img.xpctf.cn/img/202110291810672.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="【原创】某查查协议头参数272a7bfd6c84f9233ae1逆向加密代码"/></a><div class="content"><a class="title" href="/posts/9650/" title="【原创】某查查协议头参数272a7bfd6c84f9233ae1逆向加密代码">【原创】某查查协议头参数272a7bfd6c84f9233ae1逆向加密代码</a><time datetime="2021-10-29T10:09:01.000Z" title="发表于 2021-10-29 18:09:01">2021-10-29</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/17ca/" title="【原创】某易云音乐params和encSecKey参数逆向"><img src="https://img.xpctf.cn/img/202110260343574.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="【原创】某易云音乐params和encSecKey参数逆向"/></a><div class="content"><a class="title" href="/posts/17ca/" title="【原创】某易云音乐params和encSecKey参数逆向">【原创】某易云音乐params和encSecKey参数逆向</a><time datetime="2021-10-25T18:32:24.000Z" title="发表于 2021-10-26 02:32:24">2021-10-26</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/c34f/" title="Node.Js运行AES RSA加密缺少window的解决方法"><img src="https://img.xpctf.cn/img/202109151737709.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Node.Js运行AES RSA加密缺少window的解决方法"/></a><div class="content"><a class="title" href="/posts/c34f/" title="Node.Js运行AES RSA加密缺少window的解决方法">Node.Js运行AES RSA加密缺少window的解决方法</a><time datetime="2021-09-15T09:29:15.000Z" title="发表于 2021-09-15 17:29:15">2021-09-15</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/c480/" title="电信光猫TEWA-708G超级管理密码破解"><img src="https://img.xpctf.cn/img/202109021456764.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="电信光猫TEWA-708G超级管理密码破解"/></a><div class="content"><a class="title" href="/posts/c480/" title="电信光猫TEWA-708G超级管理密码破解">电信光猫TEWA-708G超级管理密码破解</a><time datetime="2021-09-02T06:52:30.000Z" title="发表于 2021-09-02 14:52:30">2021-09-02</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2023 By XiaoPu</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div><div class="footer_custom_text"><a href="/sitemap.xml"><span>Google地图</span></a><span class="footer-separator">|</span><a href="/baidusitemap.xml"><span>Baidu地图</span></a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="translateLink" type="button" title="简繁转换">繁</button><a id="to_comment" href="#post-comment" title="直达评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.umd.min.js"></script><div class="js-pjax"><script>function loadValine () {
+  function initValine () {
+    const valine = new Valine(Object.assign({
+      el: '#vcomment',
+      appId: 'adT2HesNUqwHDh4xp5GslrsX-gzGzoHsz',
+      appKey: 'Mq44asxphpP9OIUwp6gCCOA7',
+      avatar: 'monsterid',
+      serverURLs: '',
+      emojiMaps: "",
+      path: window.location.pathname,
+      visitor: false
+    }, null))
+  }
+
+  if (typeof Valine === 'function') initValine() 
+  else getScript('https://cdn.jsdelivr.net/npm/valine/dist/Valine.min.js').then(initValine)
 }
 
-var guestInfo = requestSetting(['nick','mail','link'],'nick,mail,link')
-var requiredFields = requestSetting(['nick','mail','link'],'nick,mail')
-
-window.valine = new Valine({
-  el:'#vcomment',
-  appId: 'adT2HesNUqwHDh4xp5GslrsX-gzGzoHsz',
-  appKey: 'Mq44asxphpP9OIUwp6gCCOA7',
-  notify: false,
-  verify: true,
-  placeholder: '(͒˶´⚇`˵)͒  快来留下你的小脚印吧~~',
-  avatar: 'monsterid',
-  meta: guestInfo,
-  pageSize: '10',
-  lang: 'zh-CN',
-  recordIP: true,
-  serverURLs: '',
-  emojiCDN: '',
-  emojiMaps: "",
-  enableQQ: true,
-  requiredFields: requiredFields
-});</script></div></article></main><footer id="footer" data-type="color"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2022 By XiaoPu</div><div class="framework-info"><span>驱动 </span><a target="_blank" rel="noopener" href="https://hexo.io"><span>Hexo</span></a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly"><span>Butterfly</span></a></div><div class="sitemap"><a href="/sitemap.xml"><span>Google地图</span></a><span class="footer-separator">|</span><a href="/baidusitemap.xml"><span>Baidu地图</span></a></div></div></footer></div><section class="rightside" id="rightside"><div id="rightside-config-hide"><i class="fa fa-book" id="readmode" title="阅读模式"></i><i class="fa fa-plus" id="font_plus" title="放大字体"></i><i class="fa fa-minus" id="font_minus" title="缩小字体"></i><a class="translate_chn_to_cht" id="translateLink" href="javascript:translatePage();" title="简繁转换" target="_self">繁</a><i class="darkmode fa fa-moon-o" id="darkmode" title="夜间模式"></i></div><div id="rightside-config-show"><div id="rightside_config" title="设置"><i class="fa fa-cog" aria-hidden="true"></i></div><a id="to_comment" href="#post-comment" title="直达评论"><i class="scroll_to_comment fa fa-comments">  </i></a><i class="fa fa-arrow-up" id="go-up" title="回到顶部" aria-hidden="true"></i></div></section><div class="search-dialog" id="local-search"><div class="search-dialog__title" id="local-search-title">本地搜索</div><div id="local-input-panel"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div></div><hr/><div id="local-search-results"><div id="local-hits"></div><div id="local-stats"><div class="local-search-stats__hr" id="hr"><span>由</span> <a target="_blank" rel="noopener" href="https://github.com/wzpan/hexo-generator-search" style="color:#49B1F5;">hexo-generator-search</a>
- <span>提供支持</span></div></div></div><span class="search-close-button"><i class="fa fa-times"></i></span></div><div class="search-mask"></div><script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js"></script><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page@3/instantpage.min.js" type="module"></script><script src="/js/search/local-search.js"></script><script src="/live2d-widget/autoload.js"></script></body></html>
+if ('Valine' === 'Valine' || !false) {
+  if (false) btf.loadComment(document.getElementById('vcomment'),loadValine)
+  else setTimeout(loadValine, 0)
+} else {
+  function loadOtherComment () {
+    loadValine()
+  }
+}</script></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据库加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div><hr/><div class="no-result" id="local-search-results"></div><div id="local-search-stats-wrap"></div></div></div><div id="search-mask"></div><script src="/js/search/local-search.js"></script></div></div></body></html>
